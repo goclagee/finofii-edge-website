@@ -121,7 +121,7 @@ export function LeadForm({
   }, [prefilledEntityType]);
 
   const validateCurrentStep = useCallback((): boolean => {
-    const result = validateLeadStep(currentStep, formData);
+    const result = validateLeadStep(currentStep, formData as unknown as Partial<LeadSubmission>);
     if (!result.valid) {
       setErrors(result.errors);
       return false;
