@@ -351,7 +351,7 @@ export function BookingWidget({
           </p>
         </div>
         <p className="mt-4 text-sm text-ink/60">
-          You'll receive a calendar invite shortly.
+          You&apos;ll receive a calendar invite shortly.
         </p>
       </div>
     );

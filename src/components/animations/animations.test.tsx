@@ -39,6 +39,7 @@ vi.mock('@/hooks/useParallax', () => ({
 vi.mock('framer-motion', () => ({
   AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
   motion: {
+    // eslint-disable-next-line react/display-name
     div: React.forwardRef(
       (
         {

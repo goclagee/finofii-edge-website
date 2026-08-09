@@ -112,7 +112,7 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
         Find Your Ideal Plan
       </h3>
       <p className="text-sm text-ink/60 mb-6">
-        Answer three questions and we'll recommend the right tier for your business.
+        Answer three questions and we&apos;ll recommend the right tier for your business.
       </p>
 
       <div className="space-y-5">

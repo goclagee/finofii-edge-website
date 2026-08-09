@@ -228,7 +228,7 @@ export default function PricingPage() {
             Feature Comparison
           </h2>
           <p className="mt-2 text-ink/70">
-            See exactly what's included in each plan.
+            See exactly what&apos;s included in each plan.
           </p>
         </div>
 

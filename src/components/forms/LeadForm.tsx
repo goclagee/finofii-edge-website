@@ -510,7 +510,7 @@ function StepTimezone({
         What is your timezone?
       </h3>
       <p className="text-sm text-ink/60 mb-4">
-        We'll schedule communications and deliverables around your hours.
+        We&apos;ll schedule communications and deliverables around your hours.
       </p>
       <FormField
         label="Timezone"
@@ -561,7 +561,7 @@ function StepContact({
         Almost there! How can we reach you?
       </h3>
       <p className="text-sm text-ink/60 mb-4">
-        Enter your email and we'll be in touch within 24 hours.
+        Enter your email and we&apos;ll be in touch within 24 hours.
       </p>
       <div className="space-y-4">
         <FormField
