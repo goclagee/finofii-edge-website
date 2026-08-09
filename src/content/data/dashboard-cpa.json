@@ -1,0 +1,341 @@
+{
+  "industry": "cpa",
+  "months": {
+    "1": {
+      "revenue": [
+        { "label": "Tax Prep (Individual)", "amount": 95000 },
+        { "label": "Tax Prep (Business)", "amount": 65000 },
+        { "label": "Advisory", "amount": 35000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 28000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 125000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Marketing", "amount": 10000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 68000, "outflow": 45000 },
+        { "label": "Week 2", "inflow": 65000, "outflow": 44000 },
+        { "label": "Week 3", "inflow": 70000, "outflow": 46000 },
+        { "label": "Week 4", "inflow": 62000, "outflow": 45000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 265000, "prefix": "$", "trend": "up", "trendValue": 45.6 },
+        { "label": "Billable Hours", "value": 2850, "trend": "up", "trendValue": 22.0 },
+        { "label": "Effective Rate", "value": 185, "prefix": "$", "suffix": "/hr", "trend": "up", "trendValue": 5.7 },
+        { "label": "Realization Rate", "value": 92, "suffix": "%", "trend": "up", "trendValue": 3.4 }
+      ]
+    },
+    "2": {
+      "revenue": [
+        { "label": "Tax Prep (Individual)", "amount": 120000 },
+        { "label": "Tax Prep (Business)", "amount": 85000 },
+        { "label": "Advisory", "amount": 30000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 25000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 135000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Seasonal Staff", "amount": 18000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 78000, "outflow": 50000 },
+        { "label": "Week 2", "inflow": 75000, "outflow": 49000 },
+        { "label": "Week 3", "inflow": 80000, "outflow": 50000 },
+        { "label": "Week 4", "inflow": 69000, "outflow": 49000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 302000, "prefix": "$", "trend": "up", "trendValue": 14.0 },
+        { "label": "Billable Hours", "value": 3200, "trend": "up", "trendValue": 12.3 },
+        { "label": "Effective Rate", "value": 188, "prefix": "$", "suffix": "/hr", "trend": "up", "trendValue": 1.6 },
+        { "label": "Realization Rate", "value": 94, "suffix": "%", "trend": "up", "trendValue": 2.2 }
+      ]
+    },
+    "3": {
+      "revenue": [
+        { "label": "Tax Prep (Individual)", "amount": 145000 },
+        { "label": "Tax Prep (Business)", "amount": 95000 },
+        { "label": "Advisory", "amount": 25000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Extensions", "amount": 18000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 145000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Seasonal Staff", "amount": 25000 },
+        { "label": "Overtime", "amount": 12000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 85000, "outflow": 58000 },
+        { "label": "Week 2", "inflow": 82000, "outflow": 56000 },
+        { "label": "Week 3", "inflow": 88000, "outflow": 58000 },
+        { "label": "Week 4", "inflow": 70000, "outflow": 55000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 325000, "prefix": "$", "trend": "up", "trendValue": 7.6 },
+        { "label": "Billable Hours", "value": 3600, "trend": "up", "trendValue": 12.5 },
+        { "label": "Effective Rate", "value": 190, "prefix": "$", "suffix": "/hr", "trend": "up", "trendValue": 1.1 },
+        { "label": "Realization Rate", "value": 95, "suffix": "%", "trend": "up", "trendValue": 1.1 }
+      ]
+    },
+    "4": {
+      "revenue": [
+        { "label": "Tax Prep (Individual)", "amount": 130000 },
+        { "label": "Tax Prep (Business)", "amount": 80000 },
+        { "label": "Extensions Filed", "amount": 35000 },
+        { "label": "Advisory", "amount": 28000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 140000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Seasonal Staff", "amount": 20000 },
+        { "label": "Overtime", "amount": 15000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 82000, "outflow": 55000 },
+        { "label": "Week 2", "inflow": 80000, "outflow": 56000 },
+        { "label": "Week 3", "inflow": 78000, "outflow": 55000 },
+        { "label": "Week 4", "inflow": 75000, "outflow": 54000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 315000, "prefix": "$", "trend": "down", "trendValue": -3.1 },
+        { "label": "Billable Hours", "value": 3450, "trend": "down", "trendValue": -4.2 },
+        { "label": "Effective Rate", "value": 191, "prefix": "$", "suffix": "/hr", "trend": "up", "trendValue": 0.5 },
+        { "label": "Realization Rate", "value": 93, "suffix": "%", "trend": "down", "trendValue": -2.1 }
+      ]
+    },
+    "5": {
+      "revenue": [
+        { "label": "Tax Prep (Stragglers)", "amount": 45000 },
+        { "label": "Advisory", "amount": 48000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 35000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 125000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Training", "amount": 8000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 45000, "outflow": 44000 },
+        { "label": "Week 2", "inflow": 42000, "outflow": 45000 },
+        { "label": "Week 3", "inflow": 43000, "outflow": 44000 },
+        { "label": "Week 4", "inflow": 40000, "outflow": 45000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 170000, "prefix": "$", "trend": "down", "trendValue": -46.0 },
+        { "label": "Billable Hours", "value": 2100, "trend": "down", "trendValue": -39.1 },
+        { "label": "Effective Rate", "value": 181, "prefix": "$", "suffix": "/hr", "trend": "down", "trendValue": -5.2 },
+        { "label": "Realization Rate", "value": 88, "suffix": "%", "trend": "down", "trendValue": -5.4 }
+      ]
+    },
+    "6": {
+      "revenue": [
+        { "label": "Advisory", "amount": 52000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 38000 },
+        { "label": "Consulting", "amount": 22000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 120000 },
+        { "label": "Software Licenses", "amount": 12000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Marketing", "amount": 12000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 39000, "outflow": 43000 },
+        { "label": "Week 2", "inflow": 38000, "outflow": 44000 },
+        { "label": "Week 3", "inflow": 40000, "outflow": 43000 },
+        { "label": "Week 4", "inflow": 37000, "outflow": 44000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 154000, "prefix": "$", "trend": "down", "trendValue": -9.4 },
+        { "label": "Billable Hours", "value": 1850, "trend": "down", "trendValue": -11.9 },
+        { "label": "Effective Rate", "value": 178, "prefix": "$", "suffix": "/hr", "trend": "down", "trendValue": -1.7 },
+        { "label": "Realization Rate", "value": 86, "suffix": "%", "trend": "down", "trendValue": -2.3 }
+      ]
+    },
+    "7": {
+      "revenue": [
+        { "label": "Advisory", "amount": 55000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 40000 },
+        { "label": "Consulting", "amount": 25000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 118000 },
+        { "label": "Software Licenses", "amount": 12000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Marketing", "amount": 14000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 40000, "outflow": 43000 },
+        { "label": "Week 2", "inflow": 42000, "outflow": 44000 },
+        { "label": "Week 3", "inflow": 40000, "outflow": 43000 },
+        { "label": "Week 4", "inflow": 40000, "outflow": 44000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 162000, "prefix": "$", "trend": "up", "trendValue": 5.2 },
+        { "label": "Billable Hours", "value": 1900, "trend": "up", "trendValue": 2.7 },
+        { "label": "Effective Rate", "value": 180, "prefix": "$", "suffix": "/hr", "trend": "up", "trendValue": 1.1 },
+        { "label": "Realization Rate", "value": 87, "suffix": "%", "trend": "up", "trendValue": 1.2 }
+      ]
+    },
+    "8": {
+      "revenue": [
+        { "label": "Advisory", "amount": 58000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 42000 },
+        { "label": "Consulting", "amount": 28000 },
+        { "label": "Tax Planning", "amount": 15000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 120000 },
+        { "label": "Software Licenses", "amount": 12000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Marketing", "amount": 12000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 47000, "outflow": 43000 },
+        { "label": "Week 2", "inflow": 46000, "outflow": 44000 },
+        { "label": "Week 3", "inflow": 47000, "outflow": 43000 },
+        { "label": "Week 4", "inflow": 45000, "outflow": 44000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 185000, "prefix": "$", "trend": "up", "trendValue": 14.2 },
+        { "label": "Billable Hours", "value": 2050, "trend": "up", "trendValue": 7.9 },
+        { "label": "Effective Rate", "value": 182, "prefix": "$", "suffix": "/hr", "trend": "up", "trendValue": 1.1 },
+        { "label": "Realization Rate", "value": 89, "suffix": "%", "trend": "up", "trendValue": 2.3 }
+      ]
+    },
+    "9": {
+      "revenue": [
+        { "label": "Extension Returns", "amount": 72000 },
+        { "label": "Advisory", "amount": 50000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 38000 },
+        { "label": "Tax Planning", "amount": 25000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 128000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Seasonal Staff", "amount": 12000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 58000, "outflow": 46000 },
+        { "label": "Week 2", "inflow": 56000, "outflow": 47000 },
+        { "label": "Week 3", "inflow": 60000, "outflow": 46000 },
+        { "label": "Week 4", "inflow": 53000, "outflow": 46000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 227000, "prefix": "$", "trend": "up", "trendValue": 22.7 },
+        { "label": "Billable Hours", "value": 2500, "trend": "up", "trendValue": 22.0 },
+        { "label": "Effective Rate", "value": 186, "prefix": "$", "suffix": "/hr", "trend": "up", "trendValue": 2.2 },
+        { "label": "Realization Rate", "value": 91, "suffix": "%", "trend": "up", "trendValue": 2.2 }
+      ]
+    },
+    "10": {
+      "revenue": [
+        { "label": "Extension Returns", "amount": 88000 },
+        { "label": "Advisory", "amount": 52000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 42000 },
+        { "label": "Year-End Planning", "amount": 30000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 132000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Seasonal Staff", "amount": 15000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 64000, "outflow": 48000 },
+        { "label": "Week 2", "inflow": 62000, "outflow": 48000 },
+        { "label": "Week 3", "inflow": 65000, "outflow": 48000 },
+        { "label": "Week 4", "inflow": 63000, "outflow": 48000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 254000, "prefix": "$", "trend": "up", "trendValue": 11.9 },
+        { "label": "Billable Hours", "value": 2750, "trend": "up", "trendValue": 10.0 },
+        { "label": "Effective Rate", "value": 189, "prefix": "$", "suffix": "/hr", "trend": "up", "trendValue": 1.6 },
+        { "label": "Realization Rate", "value": 93, "suffix": "%", "trend": "up", "trendValue": 2.2 }
+      ]
+    },
+    "11": {
+      "revenue": [
+        { "label": "Year-End Planning", "amount": 65000 },
+        { "label": "Advisory", "amount": 55000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 45000 },
+        { "label": "Entity Structuring", "amount": 28000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 130000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Marketing", "amount": 15000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 60000, "outflow": 47000 },
+        { "label": "Week 2", "inflow": 58000, "outflow": 48000 },
+        { "label": "Week 3", "inflow": 60000, "outflow": 47000 },
+        { "label": "Week 4", "inflow": 57000, "outflow": 48000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 235000, "prefix": "$", "trend": "down", "trendValue": -7.5 },
+        { "label": "Billable Hours", "value": 2600, "trend": "down", "trendValue": -5.5 },
+        { "label": "Effective Rate", "value": 187, "prefix": "$", "suffix": "/hr", "trend": "down", "trendValue": -1.1 },
+        { "label": "Realization Rate", "value": 91, "suffix": "%", "trend": "down", "trendValue": -2.2 }
+      ]
+    },
+    "12": {
+      "revenue": [
+        { "label": "Year-End Closings", "amount": 75000 },
+        { "label": "Advisory", "amount": 48000 },
+        { "label": "Bookkeeping Clients", "amount": 42000 },
+        { "label": "Audit & Assurance", "amount": 40000 },
+        { "label": "Entity Structuring", "amount": 20000 }
+      ],
+      "expenses": [
+        { "label": "Staff Payroll", "amount": 128000 },
+        { "label": "Software Licenses", "amount": 15000 },
+        { "label": "Office Lease", "amount": 22000 },
+        { "label": "Insurance", "amount": 8000 },
+        { "label": "Holiday Bonuses", "amount": 20000 },
+        { "label": "Marketing", "amount": 10000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 58000, "outflow": 52000 },
+        { "label": "Week 2", "inflow": 56000, "outflow": 50000 },
+        { "label": "Week 3", "inflow": 55000, "outflow": 50000 },
+        { "label": "Week 4", "inflow": 56000, "outflow": 51000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 225000, "prefix": "$", "trend": "down", "trendValue": -4.3 },
+        { "label": "Billable Hours", "value": 2400, "trend": "down", "trendValue": -7.7 },
+        { "label": "Effective Rate", "value": 185, "prefix": "$", "suffix": "/hr", "trend": "down", "trendValue": -1.1 },
+        { "label": "Realization Rate", "value": 90, "suffix": "%", "trend": "down", "trendValue": -1.1 }
+      ]
+    }
+  }
+}

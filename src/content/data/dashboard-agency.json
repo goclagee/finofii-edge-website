@@ -1,0 +1,334 @@
+{
+  "industry": "agency",
+  "months": {
+    "1": {
+      "revenue": [
+        { "label": "Project A", "amount": 120000 },
+        { "label": "Project B", "amount": 85000 },
+        { "label": "Retainers", "amount": 95000 },
+        { "label": "Consulting", "amount": 45000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 180000 },
+        { "label": "Contractors", "amount": 45000 },
+        { "label": "Software", "amount": 12000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 15000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 95000, "outflow": 68000 },
+        { "label": "Week 2", "inflow": 80000, "outflow": 72000 },
+        { "label": "Week 3", "inflow": 85000, "outflow": 65000 },
+        { "label": "Week 4", "inflow": 85000, "outflow": 65000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 345000, "prefix": "$", "trend": "up", "trendValue": 5.2 },
+        { "label": "Utilization", "value": 78, "suffix": "%", "trend": "up", "trendValue": 3.0 },
+        { "label": "Avg Project Value", "value": 102500, "prefix": "$", "trend": "up", "trendValue": 8.4 },
+        { "label": "Gross Margin", "value": 21.7, "suffix": "%", "trend": "down", "trendValue": -1.2 }
+      ]
+    },
+    "2": {
+      "revenue": [
+        { "label": "Project A", "amount": 130000 },
+        { "label": "Project C", "amount": 72000 },
+        { "label": "Retainers", "amount": 95000 },
+        { "label": "Consulting", "amount": 50000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 180000 },
+        { "label": "Contractors", "amount": 52000 },
+        { "label": "Software", "amount": 12000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 16000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 88000, "outflow": 70000 },
+        { "label": "Week 2", "inflow": 92000, "outflow": 69000 },
+        { "label": "Week 3", "inflow": 82000, "outflow": 71000 },
+        { "label": "Week 4", "inflow": 85000, "outflow": 68000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 347000, "prefix": "$", "trend": "up", "trendValue": 0.6 },
+        { "label": "Utilization", "value": 80, "suffix": "%", "trend": "up", "trendValue": 2.6 },
+        { "label": "Avg Project Value", "value": 101000, "prefix": "$", "trend": "down", "trendValue": -1.5 },
+        { "label": "Gross Margin", "value": 20.2, "suffix": "%", "trend": "down", "trendValue": -1.5 }
+      ]
+    },
+    "3": {
+      "revenue": [
+        { "label": "Project B", "amount": 110000 },
+        { "label": "Project D", "amount": 95000 },
+        { "label": "Retainers", "amount": 100000 },
+        { "label": "Consulting", "amount": 55000 },
+        { "label": "Workshops", "amount": 30000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 185000 },
+        { "label": "Contractors", "amount": 60000 },
+        { "label": "Software", "amount": 12500 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 18000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 100000, "outflow": 74000 },
+        { "label": "Week 2", "inflow": 95000, "outflow": 72000 },
+        { "label": "Week 3", "inflow": 98000, "outflow": 73000 },
+        { "label": "Week 4", "inflow": 97000, "outflow": 75000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 390000, "prefix": "$", "trend": "up", "trendValue": 12.4 },
+        { "label": "Utilization", "value": 84, "suffix": "%", "trend": "up", "trendValue": 5.0 },
+        { "label": "Avg Project Value", "value": 102500, "prefix": "$", "trend": "up", "trendValue": 1.5 },
+        { "label": "Gross Margin", "value": 24.9, "suffix": "%", "trend": "up", "trendValue": 4.7 }
+      ]
+    },
+    "4": {
+      "revenue": [
+        { "label": "Project D", "amount": 105000 },
+        { "label": "Project E", "amount": 88000 },
+        { "label": "Retainers", "amount": 105000 },
+        { "label": "Consulting", "amount": 60000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 185000 },
+        { "label": "Contractors", "amount": 55000 },
+        { "label": "Software", "amount": 13000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 20000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 92000, "outflow": 73000 },
+        { "label": "Week 2", "inflow": 88000, "outflow": 71000 },
+        { "label": "Week 3", "inflow": 95000, "outflow": 74000 },
+        { "label": "Week 4", "inflow": 83000, "outflow": 73000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 358000, "prefix": "$", "trend": "down", "trendValue": -8.2 },
+        { "label": "Utilization", "value": 81, "suffix": "%", "trend": "down", "trendValue": -3.6 },
+        { "label": "Avg Project Value", "value": 96500, "prefix": "$", "trend": "down", "trendValue": -5.9 },
+        { "label": "Gross Margin", "value": 18.7, "suffix": "%", "trend": "down", "trendValue": -6.2 }
+      ]
+    },
+    "5": {
+      "revenue": [
+        { "label": "Project E", "amount": 115000 },
+        { "label": "Project F", "amount": 92000 },
+        { "label": "Retainers", "amount": 110000 },
+        { "label": "Consulting", "amount": 65000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 190000 },
+        { "label": "Contractors", "amount": 58000 },
+        { "label": "Software", "amount": 13000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 22000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 98000, "outflow": 76000 },
+        { "label": "Week 2", "inflow": 96000, "outflow": 74000 },
+        { "label": "Week 3", "inflow": 94000, "outflow": 75000 },
+        { "label": "Week 4", "inflow": 94000, "outflow": 76000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 382000, "prefix": "$", "trend": "up", "trendValue": 6.7 },
+        { "label": "Utilization", "value": 83, "suffix": "%", "trend": "up", "trendValue": 2.5 },
+        { "label": "Avg Project Value", "value": 103500, "prefix": "$", "trend": "up", "trendValue": 7.3 },
+        { "label": "Gross Margin", "value": 21.2, "suffix": "%", "trend": "up", "trendValue": 2.5 }
+      ]
+    },
+    "6": {
+      "revenue": [
+        { "label": "Project F", "amount": 98000 },
+        { "label": "Project G", "amount": 125000 },
+        { "label": "Retainers", "amount": 115000 },
+        { "label": "Consulting", "amount": 70000 },
+        { "label": "Training", "amount": 25000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 195000 },
+        { "label": "Contractors", "amount": 65000 },
+        { "label": "Software", "amount": 14000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 24000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 110000, "outflow": 80000 },
+        { "label": "Week 2", "inflow": 108000, "outflow": 78000 },
+        { "label": "Week 3", "inflow": 105000, "outflow": 79000 },
+        { "label": "Week 4", "inflow": 110000, "outflow": 79000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 433000, "prefix": "$", "trend": "up", "trendValue": 13.4 },
+        { "label": "Utilization", "value": 87, "suffix": "%", "trend": "up", "trendValue": 4.8 },
+        { "label": "Avg Project Value", "value": 111500, "prefix": "$", "trend": "up", "trendValue": 7.7 },
+        { "label": "Gross Margin", "value": 27.0, "suffix": "%", "trend": "up", "trendValue": 5.8 }
+      ]
+    },
+    "7": {
+      "revenue": [
+        { "label": "Project G", "amount": 130000 },
+        { "label": "Project H", "amount": 78000 },
+        { "label": "Retainers", "amount": 110000 },
+        { "label": "Consulting", "amount": 55000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 190000 },
+        { "label": "Contractors", "amount": 48000 },
+        { "label": "Software", "amount": 14000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 20000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 95000, "outflow": 72000 },
+        { "label": "Week 2", "inflow": 92000, "outflow": 73000 },
+        { "label": "Week 3", "inflow": 93000, "outflow": 72000 },
+        { "label": "Week 4", "inflow": 93000, "outflow": 73000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 373000, "prefix": "$", "trend": "down", "trendValue": -13.9 },
+        { "label": "Utilization", "value": 76, "suffix": "%", "trend": "down", "trendValue": -12.6 },
+        { "label": "Avg Project Value", "value": 104000, "prefix": "$", "trend": "down", "trendValue": -6.7 },
+        { "label": "Gross Margin", "value": 22.3, "suffix": "%", "trend": "down", "trendValue": -4.7 }
+      ]
+    },
+    "8": {
+      "revenue": [
+        { "label": "Project H", "amount": 95000 },
+        { "label": "Project I", "amount": 110000 },
+        { "label": "Retainers", "amount": 115000 },
+        { "label": "Consulting", "amount": 62000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 192000 },
+        { "label": "Contractors", "amount": 55000 },
+        { "label": "Software", "amount": 14000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 22000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 98000, "outflow": 76000 },
+        { "label": "Week 2", "inflow": 96000, "outflow": 74000 },
+        { "label": "Week 3", "inflow": 94000, "outflow": 76000 },
+        { "label": "Week 4", "inflow": 94000, "outflow": 75000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 382000, "prefix": "$", "trend": "up", "trendValue": 2.4 },
+        { "label": "Utilization", "value": 80, "suffix": "%", "trend": "up", "trendValue": 5.3 },
+        { "label": "Avg Project Value", "value": 102500, "prefix": "$", "trend": "down", "trendValue": -1.4 },
+        { "label": "Gross Margin", "value": 21.2, "suffix": "%", "trend": "down", "trendValue": -1.1 }
+      ]
+    },
+    "9": {
+      "revenue": [
+        { "label": "Project I", "amount": 120000 },
+        { "label": "Project J", "amount": 135000 },
+        { "label": "Retainers", "amount": 120000 },
+        { "label": "Consulting", "amount": 70000 },
+        { "label": "Workshops", "amount": 35000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 198000 },
+        { "label": "Contractors", "amount": 68000 },
+        { "label": "Software", "amount": 15000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 25000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 122000, "outflow": 82000 },
+        { "label": "Week 2", "inflow": 118000, "outflow": 80000 },
+        { "label": "Week 3", "inflow": 120000, "outflow": 81000 },
+        { "label": "Week 4", "inflow": 120000, "outflow": 81000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 480000, "prefix": "$", "trend": "up", "trendValue": 25.7 },
+        { "label": "Utilization", "value": 89, "suffix": "%", "trend": "up", "trendValue": 11.3 },
+        { "label": "Avg Project Value", "value": 127500, "prefix": "$", "trend": "up", "trendValue": 24.4 },
+        { "label": "Gross Margin", "value": 32.5, "suffix": "%", "trend": "up", "trendValue": 11.3 }
+      ]
+    },
+    "10": {
+      "revenue": [
+        { "label": "Project J", "amount": 140000 },
+        { "label": "Project K", "amount": 105000 },
+        { "label": "Retainers", "amount": 125000 },
+        { "label": "Consulting", "amount": 75000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 200000 },
+        { "label": "Contractors", "amount": 62000 },
+        { "label": "Software", "amount": 15000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 26000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 112000, "outflow": 80000 },
+        { "label": "Week 2", "inflow": 115000, "outflow": 82000 },
+        { "label": "Week 3", "inflow": 109000, "outflow": 80000 },
+        { "label": "Week 4", "inflow": 109000, "outflow": 79000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 445000, "prefix": "$", "trend": "down", "trendValue": -7.3 },
+        { "label": "Utilization", "value": 85, "suffix": "%", "trend": "down", "trendValue": -4.5 },
+        { "label": "Avg Project Value", "value": 122500, "prefix": "$", "trend": "down", "trendValue": -3.9 },
+        { "label": "Gross Margin", "value": 27.9, "suffix": "%", "trend": "down", "trendValue": -4.6 }
+      ]
+    },
+    "11": {
+      "revenue": [
+        { "label": "Project K", "amount": 118000 },
+        { "label": "Project L", "amount": 145000 },
+        { "label": "Retainers", "amount": 130000 },
+        { "label": "Consulting", "amount": 80000 },
+        { "label": "Year-End Planning", "amount": 45000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 205000 },
+        { "label": "Contractors", "amount": 72000 },
+        { "label": "Software", "amount": 15000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 28000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 130000, "outflow": 85000 },
+        { "label": "Week 2", "inflow": 128000, "outflow": 84000 },
+        { "label": "Week 3", "inflow": 132000, "outflow": 85000 },
+        { "label": "Week 4", "inflow": 128000, "outflow": 84000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 518000, "prefix": "$", "trend": "up", "trendValue": 16.4 },
+        { "label": "Utilization", "value": 91, "suffix": "%", "trend": "up", "trendValue": 7.1 },
+        { "label": "Avg Project Value", "value": 131500, "prefix": "$", "trend": "up", "trendValue": 7.3 },
+        { "label": "Gross Margin", "value": 34.7, "suffix": "%", "trend": "up", "trendValue": 6.8 }
+      ]
+    },
+    "12": {
+      "revenue": [
+        { "label": "Project L", "amount": 125000 },
+        { "label": "Project M", "amount": 98000 },
+        { "label": "Retainers", "amount": 125000 },
+        { "label": "Consulting", "amount": 60000 }
+      ],
+      "expenses": [
+        { "label": "Payroll", "amount": 200000 },
+        { "label": "Contractors", "amount": 55000 },
+        { "label": "Software", "amount": 15000 },
+        { "label": "Office", "amount": 18000 },
+        { "label": "Marketing", "amount": 20000 },
+        { "label": "Holiday Bonuses", "amount": 30000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 105000, "outflow": 88000 },
+        { "label": "Week 2", "inflow": 100000, "outflow": 85000 },
+        { "label": "Week 3", "inflow": 98000, "outflow": 82000 },
+        { "label": "Week 4", "inflow": 105000, "outflow": 83000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Revenue", "value": 408000, "prefix": "$", "trend": "down", "trendValue": -21.2 },
+        { "label": "Utilization", "value": 74, "suffix": "%", "trend": "down", "trendValue": -18.7 },
+        { "label": "Avg Project Value", "value": 111500, "prefix": "$", "trend": "down", "trendValue": -15.2 },
+        { "label": "Gross Margin", "value": 17.2, "suffix": "%", "trend": "down", "trendValue": -17.5 }
+      ]
+    }
+  }
+}

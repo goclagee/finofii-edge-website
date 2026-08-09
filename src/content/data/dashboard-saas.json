@@ -1,0 +1,331 @@
+{
+  "industry": "saas",
+  "months": {
+    "1": {
+      "revenue": [
+        { "label": "MRR", "amount": 32000 },
+        { "label": "Annual Prepay", "amount": 18000 },
+        { "label": "Expansion", "amount": 4500 },
+        { "label": "Professional Services", "amount": 8000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 28000 },
+        { "label": "Infrastructure", "amount": 8500 },
+        { "label": "Sales & Marketing", "amount": 12000 },
+        { "label": "G&A", "amount": 6000 },
+        { "label": "Support", "amount": 5000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 16000, "outflow": 14500 },
+        { "label": "Week 2", "inflow": 15500, "outflow": 15000 },
+        { "label": "Week 3", "inflow": 16000, "outflow": 14800 },
+        { "label": "Week 4", "inflow": 15000, "outflow": 15200 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 32000, "prefix": "$", "trend": "up", "trendValue": 4.6 },
+        { "label": "Churn Rate", "value": 3.2, "suffix": "%", "trend": "down", "trendValue": -0.3 },
+        { "label": "LTV/CAC", "value": 3.8, "suffix": "x", "trend": "up", "trendValue": 0.2 },
+        { "label": "ARR", "value": 384000, "prefix": "$", "trend": "up", "trendValue": 4.6 }
+      ]
+    },
+    "2": {
+      "revenue": [
+        { "label": "MRR", "amount": 34000 },
+        { "label": "Annual Prepay", "amount": 12000 },
+        { "label": "Expansion", "amount": 5200 },
+        { "label": "Professional Services", "amount": 6000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 28500 },
+        { "label": "Infrastructure", "amount": 9000 },
+        { "label": "Sales & Marketing", "amount": 13000 },
+        { "label": "G&A", "amount": 6000 },
+        { "label": "Support", "amount": 5200 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 14500, "outflow": 15000 },
+        { "label": "Week 2", "inflow": 14000, "outflow": 15500 },
+        { "label": "Week 3", "inflow": 15000, "outflow": 15200 },
+        { "label": "Week 4", "inflow": 13700, "outflow": 16000 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 34000, "prefix": "$", "trend": "up", "trendValue": 6.3 },
+        { "label": "Churn Rate", "value": 2.9, "suffix": "%", "trend": "down", "trendValue": -0.3 },
+        { "label": "LTV/CAC", "value": 3.9, "suffix": "x", "trend": "up", "trendValue": 0.1 },
+        { "label": "ARR", "value": 408000, "prefix": "$", "trend": "up", "trendValue": 6.3 }
+      ]
+    },
+    "3": {
+      "revenue": [
+        { "label": "MRR", "amount": 37000 },
+        { "label": "Annual Prepay", "amount": 22000 },
+        { "label": "Expansion", "amount": 6800 },
+        { "label": "Professional Services", "amount": 9000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 30000 },
+        { "label": "Infrastructure", "amount": 9500 },
+        { "label": "Sales & Marketing", "amount": 15000 },
+        { "label": "G&A", "amount": 6500 },
+        { "label": "Support", "amount": 5500 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 19000, "outflow": 16500 },
+        { "label": "Week 2", "inflow": 18500, "outflow": 16000 },
+        { "label": "Week 3", "inflow": 19500, "outflow": 17000 },
+        { "label": "Week 4", "inflow": 17800, "outflow": 17000 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 37000, "prefix": "$", "trend": "up", "trendValue": 8.8 },
+        { "label": "Churn Rate", "value": 2.7, "suffix": "%", "trend": "down", "trendValue": -0.2 },
+        { "label": "LTV/CAC", "value": 4.1, "suffix": "x", "trend": "up", "trendValue": 0.2 },
+        { "label": "ARR", "value": 444000, "prefix": "$", "trend": "up", "trendValue": 8.8 }
+      ]
+    },
+    "4": {
+      "revenue": [
+        { "label": "MRR", "amount": 40000 },
+        { "label": "Annual Prepay", "amount": 15000 },
+        { "label": "Expansion", "amount": 7500 },
+        { "label": "Professional Services", "amount": 7000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 31000 },
+        { "label": "Infrastructure", "amount": 10000 },
+        { "label": "Sales & Marketing", "amount": 16000 },
+        { "label": "G&A", "amount": 6500 },
+        { "label": "Support", "amount": 5800 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 17500, "outflow": 17000 },
+        { "label": "Week 2", "inflow": 17000, "outflow": 17500 },
+        { "label": "Week 3", "inflow": 17800, "outflow": 17200 },
+        { "label": "Week 4", "inflow": 17200, "outflow": 17600 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 40000, "prefix": "$", "trend": "up", "trendValue": 8.1 },
+        { "label": "Churn Rate", "value": 2.5, "suffix": "%", "trend": "down", "trendValue": -0.2 },
+        { "label": "LTV/CAC", "value": 4.3, "suffix": "x", "trend": "up", "trendValue": 0.2 },
+        { "label": "ARR", "value": 480000, "prefix": "$", "trend": "up", "trendValue": 8.1 }
+      ]
+    },
+    "5": {
+      "revenue": [
+        { "label": "MRR", "amount": 44000 },
+        { "label": "Annual Prepay", "amount": 20000 },
+        { "label": "Expansion", "amount": 8200 },
+        { "label": "Professional Services", "amount": 10000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 33000 },
+        { "label": "Infrastructure", "amount": 11000 },
+        { "label": "Sales & Marketing", "amount": 18000 },
+        { "label": "G&A", "amount": 7000 },
+        { "label": "Support", "amount": 6200 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 20500, "outflow": 18500 },
+        { "label": "Week 2", "inflow": 20000, "outflow": 19000 },
+        { "label": "Week 3", "inflow": 21000, "outflow": 18800 },
+        { "label": "Week 4", "inflow": 20700, "outflow": 18900 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 44000, "prefix": "$", "trend": "up", "trendValue": 10.0 },
+        { "label": "Churn Rate", "value": 2.3, "suffix": "%", "trend": "down", "trendValue": -0.2 },
+        { "label": "LTV/CAC", "value": 4.5, "suffix": "x", "trend": "up", "trendValue": 0.2 },
+        { "label": "ARR", "value": 528000, "prefix": "$", "trend": "up", "trendValue": 10.0 }
+      ]
+    },
+    "6": {
+      "revenue": [
+        { "label": "MRR", "amount": 48000 },
+        { "label": "Annual Prepay", "amount": 35000 },
+        { "label": "Expansion", "amount": 9500 },
+        { "label": "Professional Services", "amount": 12000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 35000 },
+        { "label": "Infrastructure", "amount": 12000 },
+        { "label": "Sales & Marketing", "amount": 20000 },
+        { "label": "G&A", "amount": 7500 },
+        { "label": "Support", "amount": 6500 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 26000, "outflow": 20000 },
+        { "label": "Week 2", "inflow": 26500, "outflow": 20500 },
+        { "label": "Week 3", "inflow": 25000, "outflow": 20000 },
+        { "label": "Week 4", "inflow": 27000, "outflow": 20500 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 48000, "prefix": "$", "trend": "up", "trendValue": 9.1 },
+        { "label": "Churn Rate", "value": 2.1, "suffix": "%", "trend": "down", "trendValue": -0.2 },
+        { "label": "LTV/CAC", "value": 4.8, "suffix": "x", "trend": "up", "trendValue": 0.3 },
+        { "label": "ARR", "value": 576000, "prefix": "$", "trend": "up", "trendValue": 9.1 }
+      ]
+    },
+    "7": {
+      "revenue": [
+        { "label": "MRR", "amount": 52000 },
+        { "label": "Annual Prepay", "amount": 18000 },
+        { "label": "Expansion", "amount": 10200 },
+        { "label": "Professional Services", "amount": 8000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 36000 },
+        { "label": "Infrastructure", "amount": 12500 },
+        { "label": "Sales & Marketing", "amount": 18000 },
+        { "label": "G&A", "amount": 7500 },
+        { "label": "Support", "amount": 7000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 22000, "outflow": 20000 },
+        { "label": "Week 2", "inflow": 22500, "outflow": 20500 },
+        { "label": "Week 3", "inflow": 21500, "outflow": 20200 },
+        { "label": "Week 4", "inflow": 22200, "outflow": 20300 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 52000, "prefix": "$", "trend": "up", "trendValue": 8.3 },
+        { "label": "Churn Rate", "value": 2.0, "suffix": "%", "trend": "down", "trendValue": -0.1 },
+        { "label": "LTV/CAC", "value": 5.0, "suffix": "x", "trend": "up", "trendValue": 0.2 },
+        { "label": "ARR", "value": 624000, "prefix": "$", "trend": "up", "trendValue": 8.3 }
+      ]
+    },
+    "8": {
+      "revenue": [
+        { "label": "MRR", "amount": 56000 },
+        { "label": "Annual Prepay", "amount": 25000 },
+        { "label": "Expansion", "amount": 11500 },
+        { "label": "Professional Services", "amount": 9500 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 38000 },
+        { "label": "Infrastructure", "amount": 13000 },
+        { "label": "Sales & Marketing", "amount": 20000 },
+        { "label": "G&A", "amount": 8000 },
+        { "label": "Support", "amount": 7200 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 25500, "outflow": 21500 },
+        { "label": "Week 2", "inflow": 25000, "outflow": 21000 },
+        { "label": "Week 3", "inflow": 26000, "outflow": 22000 },
+        { "label": "Week 4", "inflow": 25500, "outflow": 21700 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 56000, "prefix": "$", "trend": "up", "trendValue": 7.7 },
+        { "label": "Churn Rate", "value": 1.8, "suffix": "%", "trend": "down", "trendValue": -0.2 },
+        { "label": "LTV/CAC", "value": 5.2, "suffix": "x", "trend": "up", "trendValue": 0.2 },
+        { "label": "ARR", "value": 672000, "prefix": "$", "trend": "up", "trendValue": 7.7 }
+      ]
+    },
+    "9": {
+      "revenue": [
+        { "label": "MRR", "amount": 61000 },
+        { "label": "Annual Prepay", "amount": 30000 },
+        { "label": "Expansion", "amount": 13000 },
+        { "label": "Professional Services", "amount": 11000 },
+        { "label": "Marketplace", "amount": 5000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 40000 },
+        { "label": "Infrastructure", "amount": 14000 },
+        { "label": "Sales & Marketing", "amount": 22000 },
+        { "label": "G&A", "amount": 8500 },
+        { "label": "Support", "amount": 7500 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 30000, "outflow": 23000 },
+        { "label": "Week 2", "inflow": 30500, "outflow": 23000 },
+        { "label": "Week 3", "inflow": 30000, "outflow": 23000 },
+        { "label": "Week 4", "inflow": 29500, "outflow": 23000 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 61000, "prefix": "$", "trend": "up", "trendValue": 8.9 },
+        { "label": "Churn Rate", "value": 1.7, "suffix": "%", "trend": "down", "trendValue": -0.1 },
+        { "label": "LTV/CAC", "value": 5.5, "suffix": "x", "trend": "up", "trendValue": 0.3 },
+        { "label": "ARR", "value": 732000, "prefix": "$", "trend": "up", "trendValue": 8.9 }
+      ]
+    },
+    "10": {
+      "revenue": [
+        { "label": "MRR", "amount": 66000 },
+        { "label": "Annual Prepay", "amount": 40000 },
+        { "label": "Expansion", "amount": 14500 },
+        { "label": "Professional Services", "amount": 12000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 42000 },
+        { "label": "Infrastructure", "amount": 15000 },
+        { "label": "Sales & Marketing", "amount": 24000 },
+        { "label": "G&A", "amount": 9000 },
+        { "label": "Support", "amount": 8000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 33000, "outflow": 24500 },
+        { "label": "Week 2", "inflow": 33500, "outflow": 24500 },
+        { "label": "Week 3", "inflow": 33000, "outflow": 24500 },
+        { "label": "Week 4", "inflow": 33000, "outflow": 24500 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 66000, "prefix": "$", "trend": "up", "trendValue": 8.2 },
+        { "label": "Churn Rate", "value": 1.6, "suffix": "%", "trend": "down", "trendValue": -0.1 },
+        { "label": "LTV/CAC", "value": 5.7, "suffix": "x", "trend": "up", "trendValue": 0.2 },
+        { "label": "ARR", "value": 792000, "prefix": "$", "trend": "up", "trendValue": 8.2 }
+      ]
+    },
+    "11": {
+      "revenue": [
+        { "label": "MRR", "amount": 72000 },
+        { "label": "Annual Prepay", "amount": 55000 },
+        { "label": "Expansion", "amount": 16000 },
+        { "label": "Professional Services", "amount": 14000 },
+        { "label": "Enterprise Deal", "amount": 25000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 44000 },
+        { "label": "Infrastructure", "amount": 16000 },
+        { "label": "Sales & Marketing", "amount": 28000 },
+        { "label": "G&A", "amount": 9500 },
+        { "label": "Support", "amount": 8500 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 46000, "outflow": 26500 },
+        { "label": "Week 2", "inflow": 45000, "outflow": 26500 },
+        { "label": "Week 3", "inflow": 45500, "outflow": 26500 },
+        { "label": "Week 4", "inflow": 45500, "outflow": 26500 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 72000, "prefix": "$", "trend": "up", "trendValue": 9.1 },
+        { "label": "Churn Rate", "value": 1.4, "suffix": "%", "trend": "down", "trendValue": -0.2 },
+        { "label": "LTV/CAC", "value": 6.0, "suffix": "x", "trend": "up", "trendValue": 0.3 },
+        { "label": "ARR", "value": 864000, "prefix": "$", "trend": "up", "trendValue": 9.1 }
+      ]
+    },
+    "12": {
+      "revenue": [
+        { "label": "MRR", "amount": 78000 },
+        { "label": "Annual Prepay", "amount": 62000 },
+        { "label": "Expansion", "amount": 17500 },
+        { "label": "Professional Services", "amount": 12000 }
+      ],
+      "expenses": [
+        { "label": "Engineering", "amount": 45000 },
+        { "label": "Infrastructure", "amount": 16500 },
+        { "label": "Sales & Marketing", "amount": 25000 },
+        { "label": "G&A", "amount": 10000 },
+        { "label": "Support", "amount": 9000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 42000, "outflow": 26500 },
+        { "label": "Week 2", "inflow": 43000, "outflow": 26000 },
+        { "label": "Week 3", "inflow": 42500, "outflow": 26500 },
+        { "label": "Week 4", "inflow": 42000, "outflow": 26500 }
+      ],
+      "summaryMetrics": [
+        { "label": "MRR", "value": 78000, "prefix": "$", "trend": "up", "trendValue": 8.3 },
+        { "label": "Churn Rate", "value": 1.3, "suffix": "%", "trend": "down", "trendValue": -0.1 },
+        { "label": "LTV/CAC", "value": 6.2, "suffix": "x", "trend": "up", "trendValue": 0.2 },
+        { "label": "ARR", "value": 936000, "prefix": "$", "trend": "up", "trendValue": 8.3 }
+      ]
+    }
+  }
+}

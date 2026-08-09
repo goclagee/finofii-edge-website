@@ -1,0 +1,28 @@
+import type { Metadata } from 'next';
+import { generatePageSEO } from '@/lib/seo';
+import { ServicesContent } from './ServicesContent';
+
+const seo = generatePageSEO({
+  title: 'Services — Finofii Edge',
+  description:
+    'Explore our four core capabilities: Bookkeeping & Close, Visual MIS & Dashboards, Virtual CFO & Advisory, and Entity & Compliance.',
+  path: '/services',
+});
+
+export const metadata: Metadata = {
+  title: seo.title,
+  description: seo.description,
+  openGraph: {
+    title: seo.ogTitle,
+    description: seo.ogDescription,
+    images: [seo.ogImage],
+    url: seo.ogUrl,
+  },
+  alternates: {
+    canonical: seo.canonical,
+  },
+};
+
+export default function ServicesPage() {
+  return <ServicesContent />;
+}

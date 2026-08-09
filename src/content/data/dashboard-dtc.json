@@ -1,0 +1,331 @@
+{
+  "industry": "dtc",
+  "months": {
+    "1": {
+      "revenue": [
+        { "label": "Week 1", "amount": 52000 },
+        { "label": "Week 2", "amount": 48000 },
+        { "label": "Week 3", "amount": 55000 },
+        { "label": "Week 4", "amount": 61000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 64800 },
+        { "label": "Shipping", "amount": 12960 },
+        { "label": "Ad Spend", "amount": 43200 },
+        { "label": "Platform Fees", "amount": 6480 },
+        { "label": "Payroll", "amount": 28000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 52000, "outflow": 38000 },
+        { "label": "Week 2", "inflow": 48000, "outflow": 35000 },
+        { "label": "Week 3", "inflow": 55000, "outflow": 41000 },
+        { "label": "Week 4", "inflow": 61000, "outflow": 42000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 216000, "prefix": "$", "trend": "up", "trendValue": 8.2 },
+        { "label": "Net Margin", "value": 28.1, "suffix": "%", "trend": "up", "trendValue": 2.4 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "up", "trendValue": 0.3 },
+        { "label": "AOV", "value": 67, "prefix": "$", "trend": "flat", "trendValue": 0.0 }
+      ]
+    },
+    "2": {
+      "revenue": [
+        { "label": "Week 1", "amount": 49000 },
+        { "label": "Week 2", "amount": 51000 },
+        { "label": "Week 3", "amount": 53000 },
+        { "label": "Week 4", "amount": 58000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 63300 },
+        { "label": "Shipping", "amount": 12660 },
+        { "label": "Ad Spend", "amount": 42200 },
+        { "label": "Platform Fees", "amount": 6330 },
+        { "label": "Payroll", "amount": 28000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 49000, "outflow": 36000 },
+        { "label": "Week 2", "inflow": 51000, "outflow": 37500 },
+        { "label": "Week 3", "inflow": 53000, "outflow": 39000 },
+        { "label": "Week 4", "inflow": 58000, "outflow": 40000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 211000, "prefix": "$", "trend": "down", "trendValue": -2.3 },
+        { "label": "Net Margin", "value": 27.6, "suffix": "%", "trend": "down", "trendValue": -0.5 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 69, "prefix": "$", "trend": "up", "trendValue": 3.0 }
+      ]
+    },
+    "3": {
+      "revenue": [
+        { "label": "Week 1", "amount": 54000 },
+        { "label": "Week 2", "amount": 57000 },
+        { "label": "Week 3", "amount": 62000 },
+        { "label": "Week 4", "amount": 65000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 71400 },
+        { "label": "Shipping", "amount": 14280 },
+        { "label": "Ad Spend", "amount": 47600 },
+        { "label": "Platform Fees", "amount": 7140 },
+        { "label": "Payroll", "amount": 28000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 54000, "outflow": 40000 },
+        { "label": "Week 2", "inflow": 57000, "outflow": 42000 },
+        { "label": "Week 3", "inflow": 62000, "outflow": 44000 },
+        { "label": "Week 4", "inflow": 65000, "outflow": 43000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 238000, "prefix": "$", "trend": "up", "trendValue": 12.8 },
+        { "label": "Net Margin", "value": 29.2, "suffix": "%", "trend": "up", "trendValue": 1.6 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 72, "prefix": "$", "trend": "up", "trendValue": 4.3 }
+      ]
+    },
+    "4": {
+      "revenue": [
+        { "label": "Week 1", "amount": 58000 },
+        { "label": "Week 2", "amount": 61000 },
+        { "label": "Week 3", "amount": 64000 },
+        { "label": "Week 4", "amount": 69000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 75600 },
+        { "label": "Shipping", "amount": 15120 },
+        { "label": "Ad Spend", "amount": 50400 },
+        { "label": "Platform Fees", "amount": 7560 },
+        { "label": "Payroll", "amount": 30000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 58000, "outflow": 43000 },
+        { "label": "Week 2", "inflow": 61000, "outflow": 45000 },
+        { "label": "Week 3", "inflow": 64000, "outflow": 44000 },
+        { "label": "Week 4", "inflow": 69000, "outflow": 47000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 252000, "prefix": "$", "trend": "up", "trendValue": 5.9 },
+        { "label": "Net Margin", "value": 29.0, "suffix": "%", "trend": "down", "trendValue": -0.2 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 74, "prefix": "$", "trend": "up", "trendValue": 2.8 }
+      ]
+    },
+    "5": {
+      "revenue": [
+        { "label": "Week 1", "amount": 63000 },
+        { "label": "Week 2", "amount": 66000 },
+        { "label": "Week 3", "amount": 70000 },
+        { "label": "Week 4", "amount": 72000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 81300 },
+        { "label": "Shipping", "amount": 16260 },
+        { "label": "Ad Spend", "amount": 54200 },
+        { "label": "Platform Fees", "amount": 8130 },
+        { "label": "Payroll", "amount": 30000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 63000, "outflow": 46000 },
+        { "label": "Week 2", "inflow": 66000, "outflow": 48000 },
+        { "label": "Week 3", "inflow": 70000, "outflow": 49000 },
+        { "label": "Week 4", "inflow": 72000, "outflow": 47000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 271000, "prefix": "$", "trend": "up", "trendValue": 7.5 },
+        { "label": "Net Margin", "value": 30.0, "suffix": "%", "trend": "up", "trendValue": 1.0 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 76, "prefix": "$", "trend": "up", "trendValue": 2.7 }
+      ]
+    },
+    "6": {
+      "revenue": [
+        { "label": "Week 1", "amount": 59000 },
+        { "label": "Week 2", "amount": 62000 },
+        { "label": "Week 3", "amount": 58000 },
+        { "label": "Week 4", "amount": 64000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 72900 },
+        { "label": "Shipping", "amount": 14580 },
+        { "label": "Ad Spend", "amount": 48600 },
+        { "label": "Platform Fees", "amount": 7290 },
+        { "label": "Payroll", "amount": 30000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 59000, "outflow": 43000 },
+        { "label": "Week 2", "inflow": 62000, "outflow": 44000 },
+        { "label": "Week 3", "inflow": 58000, "outflow": 42000 },
+        { "label": "Week 4", "inflow": 64000, "outflow": 45000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 243000, "prefix": "$", "trend": "down", "trendValue": -10.3 },
+        { "label": "Net Margin", "value": 28.6, "suffix": "%", "trend": "down", "trendValue": -1.4 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 71, "prefix": "$", "trend": "down", "trendValue": -6.6 }
+      ]
+    },
+    "7": {
+      "revenue": [
+        { "label": "Week 1", "amount": 55000 },
+        { "label": "Week 2", "amount": 58000 },
+        { "label": "Week 3", "amount": 60000 },
+        { "label": "Week 4", "amount": 62000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 70500 },
+        { "label": "Shipping", "amount": 14100 },
+        { "label": "Ad Spend", "amount": 47000 },
+        { "label": "Platform Fees", "amount": 7050 },
+        { "label": "Payroll", "amount": 30000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 55000, "outflow": 41000 },
+        { "label": "Week 2", "inflow": 58000, "outflow": 42000 },
+        { "label": "Week 3", "inflow": 60000, "outflow": 43000 },
+        { "label": "Week 4", "inflow": 62000, "outflow": 43000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 235000, "prefix": "$", "trend": "down", "trendValue": -3.3 },
+        { "label": "Net Margin", "value": 28.2, "suffix": "%", "trend": "down", "trendValue": -0.4 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 70, "prefix": "$", "trend": "down", "trendValue": -1.4 }
+      ]
+    },
+    "8": {
+      "revenue": [
+        { "label": "Week 1", "amount": 60000 },
+        { "label": "Week 2", "amount": 64000 },
+        { "label": "Week 3", "amount": 68000 },
+        { "label": "Week 4", "amount": 71000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 78900 },
+        { "label": "Shipping", "amount": 15780 },
+        { "label": "Ad Spend", "amount": 52600 },
+        { "label": "Platform Fees", "amount": 7890 },
+        { "label": "Payroll", "amount": 30000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 60000, "outflow": 44000 },
+        { "label": "Week 2", "inflow": 64000, "outflow": 46000 },
+        { "label": "Week 3", "inflow": 68000, "outflow": 48000 },
+        { "label": "Week 4", "inflow": 71000, "outflow": 47000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 263000, "prefix": "$", "trend": "up", "trendValue": 11.9 },
+        { "label": "Net Margin", "value": 29.6, "suffix": "%", "trend": "up", "trendValue": 1.4 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 73, "prefix": "$", "trend": "up", "trendValue": 4.3 }
+      ]
+    },
+    "9": {
+      "revenue": [
+        { "label": "Week 1", "amount": 66000 },
+        { "label": "Week 2", "amount": 70000 },
+        { "label": "Week 3", "amount": 74000 },
+        { "label": "Week 4", "amount": 78000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 86400 },
+        { "label": "Shipping", "amount": 17280 },
+        { "label": "Ad Spend", "amount": 57600 },
+        { "label": "Platform Fees", "amount": 8640 },
+        { "label": "Payroll", "amount": 32000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 66000, "outflow": 49000 },
+        { "label": "Week 2", "inflow": 70000, "outflow": 51000 },
+        { "label": "Week 3", "inflow": 74000, "outflow": 52000 },
+        { "label": "Week 4", "inflow": 78000, "outflow": 50000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 288000, "prefix": "$", "trend": "up", "trendValue": 9.5 },
+        { "label": "Net Margin", "value": 29.8, "suffix": "%", "trend": "up", "trendValue": 0.2 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 75, "prefix": "$", "trend": "up", "trendValue": 2.7 }
+      ]
+    },
+    "10": {
+      "revenue": [
+        { "label": "Week 1", "amount": 72000 },
+        { "label": "Week 2", "amount": 76000 },
+        { "label": "Week 3", "amount": 80000 },
+        { "label": "Week 4", "amount": 85000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 93900 },
+        { "label": "Shipping", "amount": 18780 },
+        { "label": "Ad Spend", "amount": 62600 },
+        { "label": "Platform Fees", "amount": 9390 },
+        { "label": "Payroll", "amount": 32000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 72000, "outflow": 52000 },
+        { "label": "Week 2", "inflow": 76000, "outflow": 54000 },
+        { "label": "Week 3", "inflow": 80000, "outflow": 56000 },
+        { "label": "Week 4", "inflow": 85000, "outflow": 55000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 313000, "prefix": "$", "trend": "up", "trendValue": 8.7 },
+        { "label": "Net Margin", "value": 30.8, "suffix": "%", "trend": "up", "trendValue": 1.0 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "up", "trendValue": 0.0 },
+        { "label": "AOV", "value": 78, "prefix": "$", "trend": "up", "trendValue": 4.0 }
+      ]
+    },
+    "11": {
+      "revenue": [
+        { "label": "Week 1", "amount": 88000 },
+        { "label": "Week 2", "amount": 95000 },
+        { "label": "Week 3", "amount": 102000 },
+        { "label": "Week 4", "amount": 110000 },
+        { "label": "Black Friday", "amount": 45000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 132000 },
+        { "label": "Shipping", "amount": 26400 },
+        { "label": "Ad Spend", "amount": 88000 },
+        { "label": "Platform Fees", "amount": 13200 },
+        { "label": "Payroll", "amount": 35000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 88000, "outflow": 62000 },
+        { "label": "Week 2", "inflow": 95000, "outflow": 68000 },
+        { "label": "Week 3", "inflow": 102000, "outflow": 72000 },
+        { "label": "Week 4", "inflow": 155000, "outflow": 95000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 440000, "prefix": "$", "trend": "up", "trendValue": 40.6 },
+        { "label": "Net Margin", "value": 32.9, "suffix": "%", "trend": "up", "trendValue": 2.1 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 85, "prefix": "$", "trend": "up", "trendValue": 9.0 }
+      ]
+    },
+    "12": {
+      "revenue": [
+        { "label": "Week 1", "amount": 95000 },
+        { "label": "Week 2", "amount": 105000 },
+        { "label": "Week 3", "amount": 88000 },
+        { "label": "Week 4", "amount": 72000 },
+        { "label": "Holiday Rush", "amount": 40000 }
+      ],
+      "expenses": [
+        { "label": "COGS", "amount": 120000 },
+        { "label": "Shipping", "amount": 28000 },
+        { "label": "Ad Spend", "amount": 80000 },
+        { "label": "Platform Fees", "amount": 12000 },
+        { "label": "Payroll", "amount": 35000 }
+      ],
+      "cashFlow": [
+        { "label": "Week 1", "inflow": 95000, "outflow": 68000 },
+        { "label": "Week 2", "inflow": 105000, "outflow": 75000 },
+        { "label": "Week 3", "inflow": 88000, "outflow": 65000 },
+        { "label": "Week 4", "inflow": 112000, "outflow": 70000 }
+      ],
+      "summaryMetrics": [
+        { "label": "Gross Revenue", "value": 400000, "prefix": "$", "trend": "down", "trendValue": -9.1 },
+        { "label": "Net Margin", "value": 31.3, "suffix": "%", "trend": "down", "trendValue": -1.6 },
+        { "label": "ROAS", "value": 5.0, "suffix": "x", "trend": "flat", "trendValue": 0.0 },
+        { "label": "AOV", "value": 82, "prefix": "$", "trend": "down", "trendValue": -3.5 }
+      ]
+    }
+  }
+}
