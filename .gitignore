@@ -29,6 +29,14 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Original logos folder (images already in public/images/logos/)
+/logos/
+
+# Loose images at root
+*.png
+*.jpg
+!public/**
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
