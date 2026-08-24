@@ -35,9 +35,9 @@ export function Footer({ year }: FooterProps) {
   return (
     <footer className="bg-ink text-paper mt-auto" role="contentinfo">
       <div className="container-content py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12">
           {/* Brand & Newsletter */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-4">
             <Link href="/" className="inline-block mb-4" aria-label="Finofii Edge home">
               <span className="font-display text-xl font-bold text-paper">
                 Finofii<span className="text-accent">Edge</span>
@@ -48,11 +48,13 @@ export function Footer({ year }: FooterProps) {
             </p>
 
             {/* Newsletter signup form */}
-            <NewsletterSignup />
+            <div className="max-w-[260px]">
+              <NewsletterSignup />
+            </div>
           </div>
 
           {/* Sitemap Links */}
-          <div>
+          <div className="lg:col-span-3">
             <h3 className="text-sm font-semibold text-paper mb-4 uppercase tracking-wider">
               Pages
             </h3>
@@ -71,7 +73,7 @@ export function Footer({ year }: FooterProps) {
           </div>
 
           {/* Legal Links */}
-          <div>
+          <div className="lg:col-span-3">
             <h3 className="text-sm font-semibold text-paper mb-4 uppercase tracking-wider">
               Legal
             </h3>
@@ -90,7 +92,7 @@ export function Footer({ year }: FooterProps) {
           </div>
 
           {/* Social Media Icons */}
-          <div>
+          <div className="lg:col-span-2">
             <h3 className="text-sm font-semibold text-paper mb-4 uppercase tracking-wider">
               Connect
             </h3>
