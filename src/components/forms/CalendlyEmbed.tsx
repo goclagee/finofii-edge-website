@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 export interface CalendlyEmbedProps {
   /** Calendly scheduling URL, e.g. https://calendly.com/gjfinofii/30min */
@@ -13,46 +13,105 @@ export interface CalendlyEmbedProps {
 
 const CALENDLY_SCRIPT_SRC = 'https://assets.calendly.com/assets/external/widget.js';
 
+interface CalendlyGlobal {
+  initInlineWidget: (options: { url: string; parentElement: HTMLElement }) => void;
+}
+
+function getCalendly(): CalendlyGlobal | undefined {
+  return (window as unknown as { Calendly?: CalendlyGlobal }).Calendly;
+}
+
 /**
- * Inline Calendly scheduling widget.
- *
- * Loads the official Calendly widget script once (dedupes across mounts) and
- * renders the inline embed. Calendly's script scans the DOM for elements with
- * the `calendly-inline-widget` class and initializes them automatically.
+ * Loads the Calendly widget script once and resolves when it's ready.
+ * Subsequent calls reuse the same in-flight/resolved promise so the script is
+ * never injected more than once across mounts or client-side navigations.
  */
-export function CalendlyEmbed({
-  url = 'https://calendly.com/gjfinofii/30min',
-  minWidth = 320,
-  height = 700,
-}: CalendlyEmbedProps) {
-  useEffect(() => {
-    // Avoid injecting the script more than once.
+let calendlyScriptPromise: Promise<void> | null = null;
+
+function loadCalendlyScript(): Promise<void> {
+  if (typeof window === 'undefined') return Promise.resolve();
+
+  // Already loaded and initialized.
+  if (getCalendly()) return Promise.resolve();
+
+  if (calendlyScriptPromise) return calendlyScriptPromise;
+
+  calendlyScriptPromise = new Promise<void>((resolve, reject) => {
     const existing = document.querySelector<HTMLScriptElement>(
       `script[src="${CALENDLY_SCRIPT_SRC}"]`
     );
 
     if (existing) {
-      // Script already present. If Calendly has finished loading, re-init any
-      // widgets that haven't been initialized yet (e.g. on client navigation).
-      const calendly = (window as unknown as { Calendly?: { initInlineWidgets: () => void } })
-        .Calendly;
-      calendly?.initInlineWidgets?.();
+      if (getCalendly()) {
+        resolve();
+      } else {
+        existing.addEventListener('load', () => resolve(), { once: true });
+        existing.addEventListener('error', () => reject(new Error('Calendly failed to load')), {
+          once: true,
+        });
+      }
       return;
     }
 
     const script = document.createElement('script');
     script.src = CALENDLY_SCRIPT_SRC;
     script.async = true;
+    script.addEventListener('load', () => resolve(), { once: true });
+    script.addEventListener('error', () => {
+      // Allow a future retry if it failed.
+      calendlyScriptPromise = null;
+      reject(new Error('Calendly failed to load'));
+    }, { once: true });
     document.body.appendChild(script);
+  });
 
-    // Intentionally leave the script in the DOM so it stays cached and available
-    // for subsequent navigations.
-  }, []);
+  return calendlyScriptPromise;
+}
+
+/**
+ * Inline Calendly scheduling widget.
+ *
+ * Explicitly initializes the widget into this component's own container via
+ * `Calendly.initInlineWidget`, so it renders reliably on both a fresh page load
+ * and client-side (SPA) navigation — no manual refresh required.
+ */
+export function CalendlyEmbed({
+  url = 'https://calendly.com/gjfinofii/30min',
+  minWidth = 320,
+  height = 700,
+}: CalendlyEmbedProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    const container = containerRef.current;
+    if (!container) return;
+
+    loadCalendlyScript()
+      .then(() => {
+        if (cancelled) return;
+        const calendly = getCalendly();
+        const el = containerRef.current;
+        if (!calendly || !el) return;
+
+        // Clear any prior render (e.g. re-mount) before initializing.
+        el.innerHTML = '';
+        calendly.initInlineWidget({ url, parentElement: el });
+      })
+      .catch(() => {
+        // Silently ignore — the container simply stays empty if Calendly can't load.
+      });
+
+    return () => {
+      cancelled = true;
+      // Tear down the injected iframe so a fresh init happens on next mount.
+      if (container) container.innerHTML = '';
+    };
+  }, [url]);
 
   return (
     <div
-      className="calendly-inline-widget"
-      data-url={url}
+      ref={containerRef}
       style={{ minWidth: `${minWidth}px`, height: `${height}px` }}
     />
   );

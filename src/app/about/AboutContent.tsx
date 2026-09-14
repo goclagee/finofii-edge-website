@@ -150,7 +150,7 @@ export function AboutContent() {
           <ScrollReveal animation="scale">
             <div className="relative rounded-[14px] overflow-hidden shadow-lg">
               <img
-                src="/images/about-team.jpg"
+                src="/images/about-team.png"
                 alt="The Finofii Edge team collaborating on financial strategies"
                 className="w-full h-auto object-cover aspect-[4/3]"
                 loading="lazy"
