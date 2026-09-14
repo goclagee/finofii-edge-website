@@ -3,6 +3,7 @@ import { Fraunces, Inter, IBM_Plex_Mono } from 'next/font/google';
 import '../styles/globals.css';
 import { CompactHeader } from '@/components/layout/CompactHeader';
 import { Footer } from '@/components/design-system/Footer';
+import { FloatingActions } from '@/components/layout/FloatingActions';
 import { PageTransitionWrapper } from './PageTransitionWrapper';
 
 const fraunces = Fraunces({
@@ -52,6 +53,7 @@ export default function RootLayout({
           <PageTransitionWrapper>{children}</PageTransitionWrapper>
         </main>
         <Footer />
+        <FloatingActions />
       </body>
     </html>
   );
