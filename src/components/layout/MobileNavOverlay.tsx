@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import { Button } from '../design-system/Button';
 
@@ -47,9 +48,16 @@ export function MobileNavOverlay({
     >
       {/* Header with close button */}
       <div className="container-content flex items-center justify-between h-18">
-        <span className="font-display text-xl font-bold text-ink">
-          Finofii<span className="text-accent">Edge</span>
-        </span>
+        <Link href="/" aria-label="Finofii Edge home (menu)" onClick={onClose}>
+          <Image
+            src="/images/logos/finofii-edge-navy.svg"
+            alt="Finofii Edge"
+            width={140}
+            height={40}
+            unoptimized
+            className="h-9 w-auto"
+          />
+        </Link>
         <button
           ref={closeButtonRef}
           type="button"
