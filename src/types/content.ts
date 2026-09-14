@@ -26,7 +26,7 @@ export interface TeamMember {
   id: string;
   name: string;
   role: string;
-  photoUrl: string;
-  bio: string;           // Max 150 chars
+  photoUrl?: string;     // Optional — falls back to an initials avatar
+  bio?: string;          // Optional — max 150 chars
   order: number;
 }

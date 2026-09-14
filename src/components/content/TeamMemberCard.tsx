@@ -27,10 +27,17 @@ export function TeamMemberCard({
   const [isRevealed, setIsRevealed] = useState(false);
 
   // Truncate bio to max 150 characters
-  const displayBio =
-    member.bio.length > 150
-      ? member.bio.slice(0, 147) + '...'
-      : member.bio;
+  const bio = member.bio ?? '';
+  const displayBio = bio.length > 150 ? bio.slice(0, 147) + '...' : bio;
+  const hasBio = displayBio.length > 0;
+
+  // Derive initials from the member name for the photo-less avatar fallback
+  const initials = member.name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part.charAt(0).toUpperCase())
+    .join('');
 
   const handleMouseEnter = useCallback(() => {
     setIsRevealed(true);
@@ -64,29 +71,42 @@ export function TeamMemberCard({
       aria-label={`${member.name}, ${member.role}`}
       tabIndex={0}
     >
-      {/* Photo */}
+      {/* Photo (or initials avatar fallback when no photo is provided) */}
       <div className="relative aspect-[3/4] w-full overflow-hidden bg-ink/5">
-        <img
-          src={member.photoUrl}
-          alt={`Photo of ${member.name}`}
-          className="w-full h-full object-cover"
-          loading="lazy"
-        />
+        {member.photoUrl ? (
+          <img
+            src={member.photoUrl}
+            alt={`Photo of ${member.name}`}
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
+        ) : (
+          <div
+            className="flex h-full w-full items-center justify-center bg-gradient-to-br from-accent/15 to-accent/5"
+            aria-hidden="true"
+          >
+            <span className="font-display text-5xl font-bold text-accent">
+              {initials}
+            </span>
+          </div>
+        )}
 
         {/* Bio overlay - reveals on hover/focus/tap */}
-        <div
-          className={[
-            'absolute inset-0 flex items-end',
-            'bg-gradient-to-t from-ink/80 via-ink/40 to-transparent',
-            'transition-opacity duration-300',
-            isRevealed ? 'opacity-100' : 'opacity-0',
-          ].join(' ')}
-          aria-hidden={!isRevealed}
-        >
-          <p className="text-sm text-white/90 p-4 m-0 leading-relaxed">
-            {displayBio}
-          </p>
-        </div>
+        {hasBio && (
+          <div
+            className={[
+              'absolute inset-0 flex items-end',
+              'bg-gradient-to-t from-ink/80 via-ink/40 to-transparent',
+              'transition-opacity duration-300',
+              isRevealed ? 'opacity-100' : 'opacity-0',
+            ].join(' ')}
+            aria-hidden={!isRevealed}
+          >
+            <p className="text-sm text-white/90 p-4 m-0 leading-relaxed">
+              {displayBio}
+            </p>
+          </div>
+        )}
       </div>
 
       {/* Name and Role */}
@@ -100,9 +120,11 @@ export function TeamMemberCard({
       </div>
 
       {/* Visually hidden bio for screen readers (always accessible) */}
-      <span className="sr-only">
-        Bio: {displayBio}
-      </span>
+      {hasBio && (
+        <span className="sr-only">
+          Bio: {displayBio}
+        </span>
+      )}
     </div>
   );
 }

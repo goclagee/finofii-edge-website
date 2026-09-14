@@ -15,35 +15,9 @@ import type { TeamMember } from '@/types/content';
 const teamMembers: TeamMember[] = [
   {
     id: 'team-1',
-    name: 'Arjun Mehta',
-    role: 'Founder & CEO',
-    photoUrl: '/images/team/arjun-mehta.jpg',
-    bio: 'Former Big 4 auditor turned fintech founder. Built Finofii Edge to bring clarity and precision to modern business finances.',
+    name: 'Vasu Grover',
+    role: 'Head of Operations - Finofiii Edge',
     order: 1,
-  },
-  {
-    id: 'team-2',
-    name: 'Sarah Lin',
-    role: 'Head of Operations',
-    photoUrl: '/images/team/sarah-lin.jpg',
-    bio: 'Operational strategist with 10+ years scaling accounting teams. Ensures every client gets white-glove service on time.',
-    order: 2,
-  },
-  {
-    id: 'team-3',
-    name: 'David Okafor',
-    role: 'Lead Financial Analyst',
-    photoUrl: '/images/team/david-okafor.jpg',
-    bio: 'CPA and data visualization expert. Transforms complex financial data into dashboards that drive real business decisions.',
-    order: 3,
-  },
-  {
-    id: 'team-4',
-    name: 'Priya Sharma',
-    role: 'VP of Client Success',
-    photoUrl: '/images/team/priya-sharma.jpg',
-    bio: 'Passionate about client outcomes. Leads onboarding and ensures every engagement delivers measurable financial clarity.',
-    order: 4,
   },
 ];
 
@@ -206,7 +180,7 @@ export function AboutContent() {
           </ScrollReveal>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {teamMembers
             .sort((a, b) => a.order - b.order)
             .map((member, index) => (
@@ -215,7 +189,7 @@ export function AboutContent() {
                 animation="fade-up"
                 delay={index * 100}
               >
-                <TeamMemberCard member={member} />
+                <TeamMemberCard member={member} className="w-full sm:w-64" />
               </ScrollReveal>
             ))}
         </div>
