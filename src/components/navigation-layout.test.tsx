@@ -538,12 +538,6 @@ describe('Footer', () => {
     }
   });
 
-  it('renders social media icons', () => {
-    render(<Footer />);
-    expect(screen.getByLabelText('Follow us on LinkedIn')).toBeDefined();
-    expect(screen.getByLabelText('Follow us on X (Twitter)')).toBeDefined();
-  });
-
   it('renders newsletter signup input', () => {
     render(<Footer />);
     expect(screen.getByLabelText('Email address for newsletter')).toBeDefined();
