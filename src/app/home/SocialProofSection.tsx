@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const clientLogos = [
   { name: 'ADR Foodstuff Trading L.L.C', src: '/images/logos/client-adr.png' },
-  { name: 'DOCS Medical', src: '/images/logos/client-docs-medical.jpeg' },
+  { name: 'DOCS Medical', src: '/images/logos/client-docs-medical.svg' },
 ];
 
 const metrics = [
@@ -72,6 +72,7 @@ export function SocialProofSection() {
                 alt={logo.name}
                 width={220}
                 height={100}
+                unoptimized
                 className="object-contain h-16 md:h-20 w-auto"
               />
             </div>
