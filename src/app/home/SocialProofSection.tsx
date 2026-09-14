@@ -7,6 +7,11 @@ import { ScrollReveal } from '@/components/animations/ScrollReveal';
 import { StaggeredList } from '@/components/animations/StaggeredList';
 import Image from 'next/image';
 
+const clientLogos = [
+  { name: 'ADR Foodstuff Trading L.L.C', src: '/images/logos/client-adr.png' },
+  { name: 'DOCS Medical', src: '/images/logos/client-docs-medical.jpeg' },
+];
+
 const metrics = [
   { end: 500, suffix: '+', label: 'Monthly Closes Delivered' },
   { end: 98, suffix: '%', label: 'Client Retention Rate' },
@@ -48,19 +53,29 @@ const testimonials = [
 export function SocialProofSection() {
   return (
     <Section padding="lg" ariaLabel="Social proof and client results">
-      {/* Client logo */}
+      {/* Client logos */}
       <ScrollReveal animation="fade-in">
         <p className="text-center text-sm font-medium text-ink/50 uppercase tracking-wider mb-8">
           Trusted by leading brands and agencies
         </p>
-        <div className="flex items-center justify-center mb-16" aria-label="Client logo">
-          <Image
-            src="/images/logos/client-adr.png"
-            alt="ADR Foodstuff Trading L.L.C"
-            width={220}
-            height={100}
-            className="object-contain h-20 md:h-24 w-auto"
-          />
+        <div
+          className="flex flex-wrap items-center justify-center gap-8 md:gap-12 mb-16"
+          aria-label="Client logos"
+        >
+          {clientLogos.map((logo) => (
+            <div
+              key={logo.src}
+              className="flex items-center justify-center rounded-2xl bg-white border border-ink/10 shadow-sm px-6 py-4 h-24 md:h-28"
+            >
+              <Image
+                src={logo.src}
+                alt={logo.name}
+                width={220}
+                height={100}
+                className="object-contain h-16 md:h-20 w-auto"
+              />
+            </div>
+          ))}
         </div>
       </ScrollReveal>
 
