@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { MobileNavOverlay } from '../layout/MobileNavOverlay';
@@ -87,12 +88,21 @@ export function Navbar({ links = defaultLinks, compact = false, scrollProgress =
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 font-bold text-ink shrink-0"
+            className="flex items-center shrink-0"
             aria-label="Finofii Edge home"
           >
-            <span className="font-display text-xl font-bold">
-              Finofii<span className="text-accent">Edge</span>
-            </span>
+            <Image
+              src="/images/logos/finofii-edge-navy.svg"
+              alt="Finofii Edge"
+              width={140}
+              height={40}
+              priority
+              unoptimized
+              className={[
+                'w-auto transition-all duration-200 ease-out',
+                compact ? 'h-7' : 'h-9',
+              ].join(' ')}
+            />
           </Link>
 
           {/* Desktop Navigation Links */}

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { NewsletterSignup } from '../forms/NewsletterSignup';
 
 export interface FooterProps {
@@ -39,9 +40,14 @@ export function Footer({ year }: FooterProps) {
           {/* Brand & Newsletter */}
           <div className="lg:col-span-4">
             <Link href="/" className="inline-block mb-4" aria-label="Finofii Edge home">
-              <span className="font-display text-xl font-bold text-paper">
-                Finofii<span className="text-accent">Edge</span>
-              </span>
+              <Image
+                src="/images/logos/finofii-edge-white.svg"
+                alt="Finofii Edge"
+                width={160}
+                height={46}
+                unoptimized
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-paper/70 text-sm mb-6">
               Premium accounting &amp; bookkeeping for modern businesses.
