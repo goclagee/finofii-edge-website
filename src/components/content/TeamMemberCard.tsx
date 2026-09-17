@@ -77,7 +77,7 @@ export function TeamMemberCard({
           <img
             src={member.photoUrl}
             alt={`Photo of ${member.name}`}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
             loading="lazy"
           />
         ) : (
