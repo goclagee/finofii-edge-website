@@ -17,6 +17,8 @@ const teamMembers: TeamMember[] = [
     id: 'team-1',
     name: 'Vasu Grover',
     role: 'Head of Operations - Finofiii Edge',
+    photoUrl: '/images/team/vasu-grover.jpg',
+    linkedInUrl: 'https://www.linkedin.com/in/vasu-grover-69a08615b',
     order: 1,
   },
 ];

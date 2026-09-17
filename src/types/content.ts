@@ -28,5 +28,6 @@ export interface TeamMember {
   role: string;
   photoUrl?: string;     // Optional — falls back to an initials avatar
   bio?: string;          // Optional — max 150 chars
+  linkedInUrl?: string;  // Optional — LinkedIn profile URL
   order: number;
 }
