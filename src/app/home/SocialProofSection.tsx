@@ -10,6 +10,7 @@ import Image from 'next/image';
 const clientLogos = [
   { name: 'ADR Foodstuff Trading L.L.C', src: '/images/logos/client-adr.png' },
   { name: 'DOCS Medical', src: '/images/logos/client-docs-medical.svg' },
+  { name: 'Tech HQ', src: '/images/logos/client-tech-hq.jpeg' },
 ];
 
 const metrics = [
