@@ -5,9 +5,9 @@ import { OptimizedImage } from '@/components/OptimizedImage';
 import { Section } from '@/components/design-system/Section';
 import { Card } from '@/components/design-system/Card';
 import { Badge } from '@/components/design-system/Badge';
-import { Button } from '@/components/design-system/Button';
 import { AnimatedHeadline } from '@/components/design-system/AnimatedHeadline';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
+import { CtaSection } from '@/components/design-system/CtaSection';
 import { CounterAnimation } from '@/components/animations/CounterAnimation';
 import { Lightbox } from '@/components/content/Lightbox';
 
@@ -311,25 +311,10 @@ export function DashboardsContent() {
       </Section>
 
       {/* CTA Section */}
-      <Section padding="lg" ariaLabel="Call to action">
-        <ScrollReveal animation="fade-up">
-          <div className="text-center max-w-2xl mx-auto">
-            <AnimatedHeadline
-              text="Get Your Custom Dashboard"
-              as="h2"
-              animation="fade-up"
-              className="text-2xl md:text-3xl font-bold font-display text-ink mb-4"
-            />
-            <p className="text-ink/70 font-interface mb-8">
-              Book a free audit to see how our visual MIS can transform your
-              financial reporting workflow.
-            </p>
-            <Button variant="accent" size="lg" href="/book" magnetic>
-              Book a Free Audit
-            </Button>
-          </div>
-        </ScrollReveal>
-      </Section>
+      <CtaSection
+        headline="Get Your Custom Dashboard"
+        description="Book a free audit to see how our visual MIS can transform your financial reporting workflow."
+      />
 
       {/* Lightbox */}
       {activeScreenshot && (

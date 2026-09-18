@@ -3,8 +3,8 @@
 import { Suspense } from 'react';
 import dynamic from 'next/dynamic';
 import { Section } from '@/components/design-system/Section';
+import { CtaSection } from '@/components/design-system/CtaSection';
 import { AnimatedHeadline } from '@/components/design-system/AnimatedHeadline';
-import { Button } from '@/components/design-system/Button';
 import { ChartContainer } from '@/components/charts/ChartContainer';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
 import { useDashboardState } from '@/hooks/useDashboardState';
@@ -250,20 +250,10 @@ function DashboardContent() {
       </Section>
 
       {/* CTA Section */}
-      <Section padding="lg" className="text-center">
-        <ScrollReveal animation="fade-up">
-          <h2 className="text-3xl font-display font-bold text-ink mb-4">
-            Want This for Your Business?
-          </h2>
-          <p className="text-lg text-ink/70 mb-8 max-w-xl mx-auto">
-            Get a custom dashboard tailored to your industry and financial stack.
-            Book a free audit to see what&apos;s possible.
-          </p>
-          <Button variant="accent" size="lg" href="/book" magnetic>
-            Book a Free Audit
-          </Button>
-        </ScrollReveal>
-      </Section>
+      <CtaSection
+        headline="Want This for Your Business?"
+        description="Get a custom dashboard tailored to your industry and financial stack. Book a free audit to see what's possible."
+      />
     </main>
   );
 }

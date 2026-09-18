@@ -84,7 +84,7 @@ function StaggeredItem({
 }) {
   const style = getStaggerStyle(animation ?? 'fade-up', isVisible, duration, delay);
 
-  return <div style={style}>{children}</div>;
+  return <div className="h-full" style={style}>{children}</div>;
 }
 
 function getStaggerStyle(

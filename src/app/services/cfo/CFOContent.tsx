@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import { Section } from '@/components/design-system/Section';
-import { Button } from '@/components/design-system/Button';
 import { AnimatedHeadline } from '@/components/design-system/AnimatedHeadline';
 import { Card } from '@/components/design-system/Card';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
+import { CtaSection } from '@/components/design-system/CtaSection';
 
 /**
  * Advisory deliverables — 8 core offerings of the Virtual CFO service.
@@ -382,36 +382,10 @@ export function CFOContent() {
       </Section>
 
       {/* CTA Section */}
-      <Section padding="lg" ariaLabel="Call to action">
-        <div className="max-w-2xl mx-auto text-center">
-          <ScrollReveal animation="fade-up">
-            <AnimatedHeadline
-              text="Ready for strategic financial leadership?"
-              as="h2"
-              animation="fade-up"
-              className="text-2xl md:text-3xl font-bold font-display text-ink"
-            />
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={150}>
-            <p className="mt-4 text-ink/70 font-interface">
-              Book a free consultation to discuss how a Virtual CFO can accelerate
-              your business growth and bring clarity to every financial decision.
-            </p>
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={300}>
-            <div className="mt-8">
-              <Button
-                variant="accent"
-                size="lg"
-                href="/book"
-                magnetic
-              >
-                Book a Free Audit
-              </Button>
-            </div>
-          </ScrollReveal>
-        </div>
-      </Section>
+      <CtaSection
+        headline="Ready for strategic financial leadership?"
+        description="Book a free consultation to discuss how a Virtual CFO can accelerate your business growth and bring clarity to every financial decision."
+      />
     </>
   );
 }

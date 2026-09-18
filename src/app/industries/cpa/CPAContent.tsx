@@ -7,6 +7,7 @@ import { Badge } from '@/components/design-system/Badge';
 import { Card } from '@/components/design-system/Card';
 import { AnimatedHeadline } from '@/components/design-system/AnimatedHeadline';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
+import { CtaSection } from '@/components/design-system/CtaSection';
 import { ChartContainer } from '@/components/charts/ChartContainer';
 import type { SummaryMetric, ChartDataPoint } from '@/types/dashboard';
 
@@ -212,36 +213,11 @@ export function CPAContent() {
       </Section>
 
       {/* CTA Section */}
-      <Section padding="lg" ariaLabel="Call to action">
-        <div className="max-w-2xl mx-auto text-center">
-          <ScrollReveal animation="fade-up">
-            <AnimatedHeadline
-              text="Ready to grow your practice?"
-              as="h2"
-              animation="fade-up"
-              className="text-2xl md:text-3xl font-bold font-display text-ink"
-            />
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={150}>
-            <p className="mt-4 text-ink/70 font-interface">
-              Get a free assessment of your back-office operations. We&apos;ll show you
-              how to free up partner time and add clients without adding headcount.
-            </p>
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={300}>
-            <div className="mt-8">
-              <Button
-                variant="accent"
-                size="lg"
-                href="/book?industry=cpa"
-                magnetic
-              >
-                Book a Free Audit
-              </Button>
-            </div>
-          </ScrollReveal>
-        </div>
-      </Section>
+      <CtaSection
+        headline="Ready to grow your practice?"
+        description="Get a free assessment of your back-office operations. We'll show you how to free up partner time and add clients without adding headcount."
+        buttonHref="/book?industry=cpa"
+      />
     </>
   );
 }

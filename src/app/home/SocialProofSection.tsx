@@ -118,6 +118,7 @@ export function SocialProofSection() {
             role={testimonial.role}
             company={testimonial.company}
             rating={testimonial.rating}
+            className="h-full"
           />
         ))}
       </StaggeredList>

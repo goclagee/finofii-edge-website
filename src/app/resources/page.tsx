@@ -2,10 +2,10 @@
 
 import { useState, useCallback, useMemo } from 'react';
 import { Section } from '@/components/design-system/Section';
+import { CtaSection } from '@/components/design-system/CtaSection';
 import { Badge } from '@/components/design-system/Badge';
 import { Card } from '@/components/design-system/Card';
 import { AnimatedHeadline } from '@/components/design-system/AnimatedHeadline';
-import { Button } from '@/components/design-system/Button';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
 import { FilterBar } from '@/components/content/FilterBar';
 import { TaxCalendar } from '@/components/content/TaxCalendar';
@@ -420,20 +420,10 @@ export default function ResourcesPage() {
       )}
 
       {/* CTA Section */}
-      <Section padding="lg" className="text-center">
-        <ScrollReveal animation="fade-up">
-          <h2 className="text-3xl font-display font-bold text-ink mb-4">
-            Need Expert Help?
-          </h2>
-          <p className="text-lg text-ink/70 mb-8 max-w-xl mx-auto">
-            Our team can handle your bookkeeping, reporting, and compliance
-            so you can focus on growing your business.
-          </p>
-          <Button variant="accent" size="lg" href="/book" magnetic>
-            Book a Free Audit
-          </Button>
-        </ScrollReveal>
-      </Section>
+      <CtaSection
+        headline="Need Expert Help?"
+        description="Our team can handle your bookkeeping, reporting, and compliance so you can focus on growing your business."
+      />
     </main>
   );
 }

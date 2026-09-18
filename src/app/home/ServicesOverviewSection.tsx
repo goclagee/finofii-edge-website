@@ -77,7 +77,7 @@ export function ServicesOverviewSection() {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
       >
         {services.map((service) => (
-          <Link key={service.title} href={service.href} className="group block no-underline">
+          <Link key={service.title} href={service.href} className="group block h-full no-underline">
             <Card variant="interactive" className="h-full flex flex-col gap-4">
               <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-accent/10 group-hover:bg-accent/20 transition-colors">
                 {service.icon}

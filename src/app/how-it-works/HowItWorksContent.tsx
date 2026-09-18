@@ -1,10 +1,10 @@
 'use client';
 
 import { Section } from '@/components/design-system/Section';
-import { Button } from '@/components/design-system/Button';
 import { AnimatedHeadline } from '@/components/design-system/AnimatedHeadline';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
 import { Timeline, type TimelinePhase } from '@/components/content/Timeline';
+import { CtaSection } from '@/components/design-system/CtaSection';
 
 /**
  * 14-day onboarding timeline divided into 4 sequential phases.
@@ -221,36 +221,10 @@ export function HowItWorksContent() {
       </Section>
 
       {/* CTA Section */}
-      <Section padding="lg" ariaLabel="Call to action">
-        <div className="max-w-2xl mx-auto text-center">
-          <ScrollReveal animation="fade-up">
-            <AnimatedHeadline
-              text="Ready to get started?"
-              as="h2"
-              animation="fade-up"
-              className="text-2xl md:text-3xl font-bold font-display text-ink"
-            />
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={150}>
-            <p className="mt-4 text-ink/70 font-interface">
-              Book a free audit call and we&apos;ll walk you through the entire onboarding
-              process. In just 14 days, you&apos;ll have complete financial visibility.
-            </p>
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={300}>
-            <div className="mt-8">
-              <Button
-                variant="accent"
-                size="lg"
-                href="/book"
-                magnetic
-              >
-                Book a Free Audit
-              </Button>
-            </div>
-          </ScrollReveal>
-        </div>
-      </Section>
+      <CtaSection
+        headline="Ready to get started?"
+        description="Book a free audit call and we'll walk you through the entire onboarding process. In just 14 days, you'll have complete financial visibility."
+      />
     </>
   );
 }
