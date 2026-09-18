@@ -79,7 +79,7 @@ export function NewsletterSignup({
     return (
       <div className={className} role="status" aria-live="polite">
         <p className="text-accent font-medium text-sm">
-          Thanks for subscribing! Check your inbox for confirmation.
+          Thanks For Subscribing! Check Your Inbox For Confirmation.
         </p>
       </div>
     );
@@ -97,7 +97,7 @@ export function NewsletterSignup({
           htmlFor="newsletter-email"
           className="text-sm font-medium"
         >
-          Stay updated
+          Stay Updated
         </label>
         <div className="flex gap-2">
           <input

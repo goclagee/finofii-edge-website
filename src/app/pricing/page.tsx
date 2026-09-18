@@ -31,18 +31,18 @@ const tiers: TierData[] = [
     name: 'Essentials',
     price: '$499',
     period: '/mo',
-    description: 'Core bookkeeping and compliance for early-stage businesses.',
+    description: 'Core Bookkeeping And Compliance For Early-Stage Businesses.',
     features: [
-      { name: 'Monthly bookkeeping', included: true },
-      { name: 'Bank reconciliation', included: true },
-      { name: 'Monthly financial statements', included: true },
-      { name: 'Expense categorization', included: true },
-      { name: '1099 contractor management', included: true },
-      { name: 'Dedicated bookkeeper', included: true },
-      { name: 'Visual MIS dashboards', included: false },
-      { name: 'Custom reporting', included: false },
-      { name: 'CFO advisory calls', included: false },
-      { name: 'Strategic tax planning', included: false },
+      { name: 'Monthly Bookkeeping', included: true },
+      { name: 'Bank Reconciliation', included: true },
+      { name: 'Monthly Financial Statements', included: true },
+      { name: 'Expense Categorization', included: true },
+      { name: '1099 Contractor Management', included: true },
+      { name: 'Dedicated Bookkeeper', included: true },
+      { name: 'Visual MIS Dashboards', included: false },
+      { name: 'Custom Reporting', included: false },
+      { name: 'CFO Advisory Calls', included: false },
+      { name: 'Strategic Tax Planning', included: false },
     ],
   },
   {
@@ -50,19 +50,19 @@ const tiers: TierData[] = [
     name: 'Growth',
     price: '$999',
     period: '/mo',
-    description: 'Full-service accounting with dashboards and advisory check-ins.',
+    description: 'Full-Service Accounting With Dashboards And Advisory Check-Ins.',
     badge: 'Most Popular',
     features: [
-      { name: 'Monthly bookkeeping', included: true },
-      { name: 'Bank reconciliation', included: true },
-      { name: 'Monthly financial statements', included: true },
-      { name: 'Expense categorization', included: true },
-      { name: '1099 contractor management', included: true },
-      { name: 'Dedicated bookkeeper', included: true },
-      { name: 'Visual MIS dashboards', included: true },
-      { name: 'Custom reporting', included: true },
-      { name: 'CFO advisory calls', included: false },
-      { name: 'Strategic tax planning', included: false },
+      { name: 'Monthly Bookkeeping', included: true },
+      { name: 'Bank Reconciliation', included: true },
+      { name: 'Monthly Financial Statements', included: true },
+      { name: 'Expense Categorization', included: true },
+      { name: '1099 Contractor Management', included: true },
+      { name: 'Dedicated Bookkeeper', included: true },
+      { name: 'Visual MIS Dashboards', included: true },
+      { name: 'Custom Reporting', included: true },
+      { name: 'CFO Advisory Calls', included: false },
+      { name: 'Strategic Tax Planning', included: false },
     ],
   },
   {
@@ -70,18 +70,18 @@ const tiers: TierData[] = [
     name: 'Scale',
     price: '$1999',
     period: '/mo',
-    description: 'Enterprise-grade CFO services, custom reporting and strategic planning.',
+    description: 'Enterprise-Grade CFO Services, Custom Reporting And Strategic Planning.',
     features: [
-      { name: 'Monthly bookkeeping', included: true },
-      { name: 'Bank reconciliation', included: true },
-      { name: 'Monthly financial statements', included: true },
-      { name: 'Expense categorization', included: true },
-      { name: '1099 contractor management', included: true },
-      { name: 'Dedicated bookkeeper', included: true },
-      { name: 'Visual MIS dashboards', included: true },
-      { name: 'Custom reporting', included: true },
-      { name: 'CFO advisory calls', included: true },
-      { name: 'Strategic tax planning', included: true },
+      { name: 'Monthly Bookkeeping', included: true },
+      { name: 'Bank Reconciliation', included: true },
+      { name: 'Monthly Financial Statements', included: true },
+      { name: 'Expense Categorization', included: true },
+      { name: '1099 Contractor Management', included: true },
+      { name: 'Dedicated Bookkeeper', included: true },
+      { name: 'Visual MIS Dashboards', included: true },
+      { name: 'Custom Reporting', included: true },
+      { name: 'CFO Advisory Calls', included: true },
+      { name: 'Strategic Tax Planning', included: true },
     ],
   },
 ];
@@ -96,21 +96,21 @@ interface ComparisonFeature {
 }
 
 const comparisonFeatures: ComparisonFeature[] = [
-  { name: 'Monthly bookkeeping & accounting', essentials: true, growth: true, scale: true },
-  { name: 'Bank & credit card reconciliation', essentials: true, growth: true, scale: true },
+  { name: 'Monthly Bookkeeping & Accounting', essentials: true, growth: true, scale: true },
+  { name: 'Bank & Credit Card Reconciliation', essentials: true, growth: true, scale: true },
   { name: 'Monthly P&L, Balance Sheet, Cash Flow', essentials: true, growth: true, scale: true },
-  { name: 'Accounts payable & receivable', essentials: true, growth: true, scale: true },
-  { name: '1099 contractor management', essentials: true, growth: true, scale: true },
-  { name: 'Dedicated bookkeeper', essentials: true, growth: true, scale: true },
-  { name: 'Visual MIS dashboards', essentials: false, growth: true, scale: true },
-  { name: 'Custom KPI reporting', essentials: false, growth: true, scale: true },
-  { name: 'Revenue recognition', essentials: false, growth: true, scale: true },
-  { name: 'Multi-entity consolidation', essentials: false, growth: false, scale: true },
-  { name: 'Monthly CFO advisory calls', essentials: false, growth: false, scale: true },
-  { name: 'Board deck preparation', essentials: false, growth: false, scale: true },
-  { name: 'Strategic tax planning', essentials: false, growth: false, scale: true },
-  { name: 'Fundraising financial support', essentials: false, growth: false, scale: true },
-  { name: 'Budgets & forecasting', essentials: false, growth: false, scale: true },
+  { name: 'Accounts Payable & Receivable', essentials: true, growth: true, scale: true },
+  { name: '1099 Contractor Management', essentials: true, growth: true, scale: true },
+  { name: 'Dedicated Bookkeeper', essentials: true, growth: true, scale: true },
+  { name: 'Visual MIS Dashboards', essentials: false, growth: true, scale: true },
+  { name: 'Custom KPI Reporting', essentials: false, growth: true, scale: true },
+  { name: 'Revenue Recognition', essentials: false, growth: true, scale: true },
+  { name: 'Multi-Entity Consolidation', essentials: false, growth: false, scale: true },
+  { name: 'Monthly CFO Advisory Calls', essentials: false, growth: false, scale: true },
+  { name: 'Board Deck Preparation', essentials: false, growth: false, scale: true },
+  { name: 'Strategic Tax Planning', essentials: false, growth: false, scale: true },
+  { name: 'Fundraising Financial Support', essentials: false, growth: false, scale: true },
+  { name: 'Budgets & Forecasting', essentials: false, growth: false, scale: true },
 ];
 
 // --- FAQ Data ---
@@ -118,39 +118,39 @@ const comparisonFeatures: ComparisonFeature[] = [
 const faqItems: AccordionItem[] = [
   {
     id: 'faq-1',
-    title: 'Can I switch tiers later?',
+    title: 'Can I Switch Tiers Later?',
     content:
-      "Absolutely. You can upgrade or downgrade your plan at any time. Changes take effect at the start of your next billing cycle, and we'll handle the transition seamlessly.",
+      "Absolutely. You Can Upgrade Or Downgrade Your Plan At Any Time. Changes Take Effect At The Start Of Your Next Billing Cycle, And We'll Handle The Transition Seamlessly.",
   },
   {
     id: 'faq-2',
-    title: 'What accounting tools do you integrate with?',
+    title: 'What Accounting Tools Do You Integrate With?',
     content:
-      "We support QuickBooks Online, Xero, Ramp, Brex, Mercury, Stripe and many more. Our team will handle the setup and ongoing reconciliation across all your connected platforms.",
+      "We Support QuickBooks Online, Xero, Ramp, Brex, Mercury, Stripe And Many More. Our Team Will Handle The Setup And Ongoing Reconciliation Across All Your Connected Platforms.",
   },
   {
     id: 'faq-3',
-    title: 'Is there a minimum commitment?',
+    title: 'Is There A Minimum Commitment?',
     content:
-      "No long-term contracts required. All plans are month-to-month. We earn your business every month through quality work and timely delivery.",
+      "No Long-Term Contracts Required. All Plans Are Month-To-Month. We Earn Your Business Every Month Through Quality Work And Timely Delivery.",
   },
   {
     id: 'faq-4',
-    title: 'How quickly can I get started?',
+    title: 'How Quickly Can I Get Started?',
     content:
-      "Our onboarding process takes 14 days from sign-up to full operation. We handle all the setup, tool connections and historical data migration during this period.",
+      "Our Onboarding Process Takes 14 Days From Sign-Up To Full Operation. We Handle All The Setup, Tool Connections And Historical Data Migration During This Period.",
   },
   {
     id: 'faq-5',
-    title: 'What happens if my transaction volume increases?',
+    title: 'What Happens If My Transaction Volume Increases?',
     content:
-      "If your business grows beyond the typical range for your current tier, we'll reach out to discuss upgrading. We'll never surprise you with overage fees.",
+      "If Your Business Grows Beyond The Typical Range For Your Current Tier, We'll Reach Out To Discuss Upgrading. We'll Never Surprise You With Overage Fees.",
   },
   {
     id: 'faq-6',
-    title: 'Do you handle sales tax and state filings?',
+    title: 'Do You Handle Sales Tax And State Filings?',
     content:
-      "Sales tax compliance and state filings are included in the Growth and Scale tiers. For Essentials, this can be added as a supplemental service.",
+      "Sales Tax Compliance And State Filings Are Included In The Growth And Scale Tiers. For Essentials, This Can Be Added As A Supplemental Service.",
   },
 ];
 
@@ -177,8 +177,8 @@ export default function PricingPage() {
           animation="fade-up"
         />
         <p className="mt-4 text-lg text-ink/70 max-w-2xl mx-auto">
-          Choose the plan that fits your business stage. All plans include a
-          dedicated team and month-to-month flexibility.
+          Choose The Plan That Fits Your Business Stage. All Plans Include A
+          Dedicated Team And Month-To-Month Flexibility.
         </p>
       </Section>
 
@@ -228,7 +228,7 @@ export default function PricingPage() {
             Feature Comparison
           </h2>
           <p className="mt-2 text-ink/70">
-            See exactly what&apos;s included in each plan.
+            See Exactly What&apos;s Included In Each Plan.
           </p>
         </div>
 
@@ -268,7 +268,7 @@ export default function PricingPage() {
             Frequently Asked Questions
           </h2>
           <p className="mt-2 text-ink/70">
-            Everything you need to know about our pricing and services.
+            Everything You Need To Know About Our Pricing And Services.
           </p>
         </div>
 
@@ -281,8 +281,8 @@ export default function PricingPage() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Ready to Get Started?"
-        description="Book a free audit and discover which plan will transform your financial operations."
+        headline="Ready To Get Started?"
+        description="Book A Free Audit And Discover Which Plan Will Transform Your Financial Operations."
       />
     </main>
   );

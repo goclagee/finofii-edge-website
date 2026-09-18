@@ -49,20 +49,20 @@ const metrics: SummaryMetric[] = [
  */
 const painPoints = [
   {
-    title: 'Revenue recognition under ASC 606',
-    description: 'Annual contracts, usage-based billing and multi-element arrangements require careful revenue recognition that most basic bookkeeping misses entirely.',
+    title: 'Revenue Recognition Under ASC 606',
+    description: 'Annual Contracts, Usage-Based Billing And Multi-Element Arrangements Require Careful Revenue Recognition That Most Basic Bookkeeping Misses Entirely.',
   },
   {
-    title: 'Deferred revenue and contract liability tracking',
-    description: 'Prepaid annual subscriptions create deferred revenue obligations. Getting this wrong means misstated financials that scare off investors.',
+    title: 'Deferred Revenue And Contract Liability Tracking',
+    description: 'Prepaid Annual Subscriptions Create Deferred Revenue Obligations. Getting This Wrong Means Misstated Financials That Scare Off Investors.',
   },
   {
-    title: 'SaaS metrics for investor reporting',
-    description: 'VCs expect MRR, ARR, NRR, CAC payback and LTV/CAC ratios. These require clean financial data tied to subscription analytics — not spreadsheet estimates.',
+    title: 'SaaS Metrics For Investor Reporting',
+    description: 'VCs Expect MRR, ARR, NRR, CAC Payback And LTV/CAC Ratios. These Require Clean Financial Data Tied To Subscription Analytics — Not Spreadsheet Estimates.',
   },
   {
-    title: 'R&D capitalization and tax credits',
-    description: 'Properly capitalizing development costs and claiming R&D tax credits can save hundreds of thousands annually, but requires meticulous time and cost tracking.',
+    title: 'R&D Capitalization And Tax Credits',
+    description: 'Properly Capitalizing Development Costs And Claiming R&D Tax Credits Can Save Hundreds Of Thousands Annually, But Requires Meticulous Time And Cost Tracking.',
   },
 ];
 
@@ -71,8 +71,8 @@ const painPoints = [
  */
 const caseStudy = {
   industry: 'SaaS',
-  headline: 'Series A startup saves $340K in R&D tax credits',
-  excerpt: 'A B2B SaaS company at $1.5M ARR had never claimed R&D credits. Finofii Edge implemented proper cost capitalization and retroactively filed for three years of credits, funding an entire engineering hire.',
+  headline: 'Series A Startup Saves $340K In R&D Tax Credits',
+  excerpt: 'A B2B SaaS Company At $1.5M ARR Had Never Claimed R&D Credits. Finofii Edge Implemented Proper Cost Capitalization And Retroactively Filed For Three Years Of Credits, Funding An Entire Engineering Hire.',
   metrics: [
     { label: 'R&D Credits Recovered', before: '$0', after: '$340K' },
     { label: 'Investor-Ready Close', before: '35 days', after: '7 days' },
@@ -90,7 +90,7 @@ export function SaaSContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={100}>
             <AnimatedHeadline
-              text="Investor-grade financials for SaaS companies"
+              text="Investor-Grade Financials For SaaS Companies"
               as="h1"
               animation="fade-up"
               className="text-4xl md:text-5xl font-bold font-display text-ink"
@@ -98,9 +98,9 @@ export function SaaSContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Revenue recognition, deferred revenue and SaaS metrics are table stakes
-              for fundraising. We deliver audit-ready books and investor reporting
-              packages that close rounds faster.
+              Revenue Recognition, Deferred Revenue And SaaS Metrics Are Table Stakes
+              For Fundraising. We Deliver Audit-Ready Books And Investor Reporting
+              Packages That Close Rounds Faster.
             </p>
           </ScrollReveal>
         </div>
@@ -141,7 +141,7 @@ export function SaaSContent() {
         <div className="max-w-4xl mx-auto">
           <ScrollReveal animation="fade-up">
             <h2 className="text-2xl md:text-3xl font-bold font-display text-ink text-center mb-10">
-              Key Metrics We Track for SaaS
+              Key Metrics We Track For SaaS
             </h2>
           </ScrollReveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -159,8 +159,8 @@ export function SaaSContent() {
         <div className="max-w-4xl mx-auto">
           <ScrollReveal animation="fade-up">
             <ChartContainer
-              title="MRR Growth vs. Churn"
-              description="6-month trend of monthly recurring revenue against churn for a SaaS startup."
+              title="MRR Growth Vs. Churn"
+              description="6-Month Trend Of Monthly Recurring Revenue Against Churn For A SaaS Startup."
               data={mrrData}
               accessibleTableData={mrrData.map((d) => ({
                 Month: d.label as string,
@@ -205,7 +205,7 @@ export function SaaSContent() {
                 ))}
               </div>
               <Button variant="ghost" size="sm" href="/case-studies">
-                Read full case study →
+                Read Full Case Study →
               </Button>
             </Card>
           </ScrollReveal>
@@ -214,8 +214,8 @@ export function SaaSContent() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Ready for investor-grade financials?"
-        description="Get a free audit of your SaaS financials. We'll review your revenue recognition, identify unclaimed R&D credits and get your books VC-ready."
+        headline="Ready For Investor-Grade Financials?"
+        description="Get A Free Audit Of Your SaaS Financials. We'll Review Your Revenue Recognition, Identify Unclaimed R&D Credits And Get Your Books VC-Ready."
         buttonHref="/book?industry=saas"
       />
     </>

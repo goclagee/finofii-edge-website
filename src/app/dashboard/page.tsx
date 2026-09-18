@@ -9,7 +9,7 @@ export function generateMetadata(): Metadata {
   const seo = generatePageSEO({
     title: 'Sample Dashboard – Finofii Edge',
     description:
-      'Explore interactive financial dashboards with live charts, month toggles and industry presets.',
+      'Explore Interactive Financial Dashboards With Live Charts, Month Toggles And Industry Presets.',
     path: '/dashboard',
   });
 

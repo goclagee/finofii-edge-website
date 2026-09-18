@@ -10,7 +10,7 @@ const services = [
   {
     title: 'Bookkeeping & Accounting',
     description:
-      'Monthly books closed by Day 5. Categorization, reconciliation and reporting on autopilot.',
+      'Monthly Books Closed By Day 5. Categorization, Reconciliation And Reporting On Autopilot.',
     href: '/services/bookkeeping',
     icon: (
       <svg className="w-8 h-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
@@ -21,7 +21,7 @@ const services = [
   {
     title: 'Visual MIS & Dashboards',
     description:
-      'Real-time financial dashboards delivered within 5 business days of month-end. Revenue, expenses, cash flow — all at a glance.',
+      'Real-Time Financial Dashboards Delivered Within 5 Business Days Of Month-End. Revenue, Expenses, Cash Flow — All At A Glance.',
     href: '/services/dashboards',
     icon: (
       <svg className="w-8 h-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
@@ -32,7 +32,7 @@ const services = [
   {
     title: 'Virtual CFO & Advisory',
     description:
-      'Strategic financial guidance from experienced CFOs. Forecasting, fundraising support and board-ready reports.',
+      'Strategic Financial Guidance From Experienced CFOs. Forecasting, Fundraising Support And Board-Ready Reports.',
     href: '/services/cfo',
     icon: (
       <svg className="w-8 h-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
@@ -43,7 +43,7 @@ const services = [
   {
     title: 'Entity & Compliance',
     description:
-      'Entity formation, registered agent services, annual filings and state compliance — handled end to end.',
+      'Entity Formation, Registered Agent Services, Annual Filings And State Compliance — Handled End To End.',
     href: '/services/entity',
     icon: (
       <svg className="w-8 h-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
@@ -61,13 +61,13 @@ export function ServicesOverviewSection() {
     <Section padding="lg" ariaLabel="Our services" className="bg-ink/[0.02]">
       <div className="text-center mb-12">
         <AnimatedHeadline
-          text="Everything your finance team needs"
+          text="Everything Your Finance Team Needs"
           as="h2"
           animation="fade-up"
           className="font-display text-3xl md:text-4xl font-bold text-ink"
         />
         <p className="mt-4 text-ink/60 text-lg max-w-2xl mx-auto">
-          From daily bookkeeping to strategic CFO advisory — we handle the full spectrum so you can focus on growth.
+          From Daily Bookkeeping To Strategic CFO Advisory — We Handle The Full Spectrum So You Can Focus On Growth.
         </p>
       </div>
 
@@ -89,7 +89,7 @@ export function ServicesOverviewSection() {
                 {service.description}
               </p>
               <span className="inline-flex items-center gap-1 text-sm font-medium text-accent group-hover:gap-2 transition-all">
-                Learn more
+                Learn More
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>

@@ -23,7 +23,7 @@ const advisoryDeliverables = [
     ),
     title: 'Cash Flow Forecasting',
     detail:
-      'Rolling 13-week and 12-month cash flow projections updated weekly. Scenario modeling for best, base and worst case outcomes to inform capital decisions.',
+      'Rolling 13-Week And 12-Month Cash Flow Projections Updated Weekly. Scenario Modeling For Best, Base And Worst Case Outcomes To Inform Capital Decisions.',
   },
   {
     id: 'budgeting',
@@ -36,7 +36,7 @@ const advisoryDeliverables = [
     ),
     title: 'Annual Budgeting & Variance Analysis',
     detail:
-      'Bottom-up annual budgets aligned to growth goals. Monthly variance reports highlighting deviations with root-cause commentary and corrective recommendations.',
+      'Bottom-Up Annual Budgets Aligned To Growth Goals. Monthly Variance Reports Highlighting Deviations With Root-Cause Commentary And Corrective Recommendations.',
   },
   {
     id: 'fundraising',
@@ -49,7 +49,7 @@ const advisoryDeliverables = [
     ),
     title: 'Fundraising & Investor Readiness',
     detail:
-      'Financial model preparation, data room organization and due diligence support. Cap table management and investor reporting packages delivered monthly.',
+      'Financial Model Preparation, Data Room Organization And Due Diligence Support. Cap Table Management And Investor Reporting Packages Delivered Monthly.',
   },
   {
     id: 'kpi',
@@ -62,7 +62,7 @@ const advisoryDeliverables = [
     ),
     title: 'KPI Dashboards & Board Reporting',
     detail:
-      'Custom executive dashboards tracking unit economics, burn rate, LTV/CAC and gross margin. Board-ready slide decks with financial narrative and forward guidance.',
+      'Custom Executive Dashboards Tracking Unit Economics, Burn Rate, LTV/CAC And Gross Margin. Board-Ready Slide Decks With Financial Narrative And Forward Guidance.',
   },
   {
     id: 'strategic',
@@ -75,7 +75,7 @@ const advisoryDeliverables = [
     ),
     title: 'Strategic Financial Planning',
     detail:
-      'Long-range financial planning tied to business milestones. Pricing strategy analysis, headcount planning and expansion cost modeling for informed decision-making.',
+      'Long-Range Financial Planning Tied To Business Milestones. Pricing Strategy Analysis, Headcount Planning And Expansion Cost Modeling For Informed Decision-Making.',
   },
   {
     id: 'tax-strategy',
@@ -88,7 +88,7 @@ const advisoryDeliverables = [
     ),
     title: 'Tax Strategy & Optimization',
     detail:
-      'Proactive tax planning including R&D credits, entity structure optimization, state tax nexus analysis and estimated tax payment scheduling to minimize liability.',
+      'Proactive Tax Planning Including R&D Credits, Entity Structure Optimization, State Tax Nexus Analysis And Estimated Tax Payment Scheduling To Minimize Liability.',
   },
   {
     id: 'ma-support',
@@ -99,9 +99,9 @@ const advisoryDeliverables = [
         d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
       />
     ),
-    title: 'M&A and Exit Planning',
+    title: 'M&A And Exit Planning',
     detail:
-      'Financial due diligence support for acquisitions, quality of earnings analysis and exit readiness assessments including valuation benchmarking and deal structure advisory.',
+      'Financial Due Diligence Support For Acquisitions, Quality Of Earnings Analysis And Exit Readiness Assessments Including Valuation Benchmarking And Deal Structure Advisory.',
   },
   {
     id: 'systems',
@@ -114,7 +114,7 @@ const advisoryDeliverables = [
     ),
     title: 'Financial Systems & Process Design',
     detail:
-      'Design and implementation of financial workflows, approval hierarchies and reporting automation. ERP and tool stack optimization for operational efficiency.',
+      'Design And Implementation Of Financial Workflows, Approval Hierarchies And Reporting Automation. ERP And Tool Stack Optimization For Operational Efficiency.',
   },
 ];
 
@@ -127,7 +127,7 @@ const meetingCadence = [
     frequency: 'Weekly',
     format: '30-minute video call',
     description:
-      'Ideal for high-growth companies navigating fundraising, rapid hiring or market expansion. Real-time guidance on financial decisions as they arise.',
+      'Ideal For High-Growth Companies Navigating Fundraising, Rapid Hiring Or Market Expansion. Real-Time Guidance On Financial Decisions As They Arise.',
     includes: [
       'Cash flow review and weekly burn update',
       'Action item follow-up from prior week',
@@ -140,7 +140,7 @@ const meetingCadence = [
     frequency: 'Biweekly',
     format: '45-minute video call',
     description:
-      'Best for stable-growth businesses seeking consistent strategic oversight without the intensity of weekly cadence.',
+      'Best For Stable-Growth Businesses Seeking Consistent Strategic Oversight Without The Intensity Of Weekly Cadence.',
     includes: [
       'Financial performance review (P&L, balance sheet)',
       'KPI trend analysis and commentary',
@@ -158,25 +158,25 @@ const idealClientProfile = [
     id: 'revenue',
     label: 'Annual Revenue',
     value: '$500K+',
-    description: 'Businesses generating $500K or more in annual revenue with growing complexity.',
+    description: 'Businesses Generating $500K Or More In Annual Revenue With Growing Complexity.',
   },
   {
     id: 'tier',
     label: 'Pricing Tier',
     value: 'Growth or Scale',
-    description: 'Clients on our Growth or Scale plans who need strategic financial leadership.',
+    description: 'Clients On Our Growth Or Scale Plans Who Need Strategic Financial Leadership.',
   },
   {
     id: 'stage',
     label: 'Business Stage',
     value: 'Series A+ or Profitable',
-    description: 'Post-seed companies with institutional backing or profitable businesses scaling operations.',
+    description: 'Post-Seed Companies With Institutional Backing Or Profitable Businesses Scaling Operations.',
   },
   {
     id: 'complexity',
     label: 'Financial Complexity',
     value: 'Multi-entity or Multi-product',
-    description: 'Organizations with intercompany transactions, multiple revenue streams or multi-state presence.',
+    description: 'Organizations With Intercompany Transactions, Multiple Revenue Streams Or Multi-State Presence.',
   },
 ];
 
@@ -211,9 +211,9 @@ export function CFOContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Strategic financial leadership without the full-time overhead. Our Virtual
-              CFO service delivers executive-level guidance on cash flow, fundraising,
-              tax strategy and growth planning — tailored to your stage and goals.
+              Strategic Financial Leadership Without The Full-Time Overhead. Our Virtual
+              CFO Service Delivers Executive-Level Guidance On Cash Flow, Fundraising,
+              Tax Strategy And Growth Planning — Tailored To Your Stage And Goals.
             </p>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={300}>
@@ -234,7 +234,7 @@ export function CFOContent() {
                 <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                Weekly or Biweekly
+                Weekly Or Biweekly
               </span>
             </div>
           </ScrollReveal>
@@ -249,8 +249,8 @@ export function CFOContent() {
               What Your Virtual CFO Delivers
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              Eight core advisory services designed to drive financial clarity and
-              strategic confidence at every stage of growth.
+              Eight Core Advisory Services Designed To Drive Financial Clarity And
+              Strategic Confidence At Every Stage Of Growth.
             </p>
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -279,8 +279,8 @@ export function CFOContent() {
               Meeting Cadence
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              Choose the rhythm that fits your pace. Both formats include async
-              support via Slack and email between sessions.
+              Choose The Rhythm That Fits Your Pace. Both Formats Include Async
+              Support Via Slack And Email Between Sessions.
             </p>
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -344,8 +344,8 @@ export function CFOContent() {
               Ideal Client Profile
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              Our Virtual CFO Services are designed for businesses with the scale and
-              complexity that demand strategic financial leadership.
+              Our Virtual CFO Services Are Designed For Businesses With The Scale And
+              Complexity That Demand Strategic Financial Leadership.
             </p>
           </ScrollReveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -383,8 +383,8 @@ export function CFOContent() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Ready for strategic financial leadership?"
-        description="Book a free consultation to discuss how a Virtual CFO can accelerate your business growth and bring clarity to every financial decision."
+        headline="Ready For Strategic Financial Leadership?"
+        description="Book A Free Consultation To Discuss How A Virtual CFO Can Accelerate Your Business Growth And Bring Clarity To Every Financial Decision."
       />
     </>
   );

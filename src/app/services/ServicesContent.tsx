@@ -27,7 +27,7 @@ const services: ServiceCapability[] = [
       </svg>
     ),
     scope:
-      'Full-cycle monthly bookkeeping, bank reconciliation and month-end close delivered within 5 business days. Your books stay audit-ready year-round.',
+      'Full-Cycle Monthly Bookkeeping, Bank Reconciliation And Month-End Close Delivered Within 5 Business Days. Your Books Stay Audit-Ready Year-Round.',
   },
   {
     id: 'dashboards',
@@ -40,7 +40,7 @@ const services: ServiceCapability[] = [
       </svg>
     ),
     scope:
-      'Custom financial dashboards with real-time KPIs, margin analysis and cash-flow visualizations delivered monthly.',
+      'Custom Financial Dashboards With Real-Time KPIs, Margin Analysis And Cash-Flow Visualizations Delivered Monthly.',
   },
   {
     id: 'cfo',
@@ -54,7 +54,7 @@ const services: ServiceCapability[] = [
       </svg>
     ),
     scope:
-      'Strategic financial guidance including budgeting, forecasting, fundraise prep and board-ready reporting from a dedicated CFO.',
+      'Strategic Financial Guidance Including Budgeting, Forecasting, Fundraise Prep And Board-Ready Reporting From A Dedicated CFO.',
   },
   {
     id: 'entity',
@@ -67,7 +67,7 @@ const services: ServiceCapability[] = [
       </svg>
     ),
     scope:
-      'End-to-end entity formation, registered agent services, annual compliance filings and multi-state jurisdiction management.',
+      'End-To-End Entity Formation, Registered Agent Services, Annual Compliance Filings And Multi-State Jurisdiction Management.',
   },
 ];
 
@@ -155,7 +155,7 @@ function ServiceCard({ service }: { service: ServiceCapability }) {
               {service.scope}
             </p>
             <div className="mt-3 flex items-center gap-1 text-sm font-medium text-accent">
-              <span>Learn more</span>
+              <span>Learn More</span>
               <DirectionalArrow />
             </div>
           </div>
@@ -178,8 +178,8 @@ export function ServicesContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-4 text-lg text-ink/70 font-interface">
-              Four integrated capabilities to keep your finances accurate, visible,
-              strategic and compliant — from day-one bookkeeping to board-ready advisory.
+              Four Integrated Capabilities To Keep Your Finances Accurate, Visible,
+              Strategic And Compliant — From Day-One Bookkeeping To Board-Ready Advisory.
             </p>
           </ScrollReveal>
         </div>
@@ -247,7 +247,7 @@ export function ServicesContent() {
                       ) : (
                         <span className="inline-flex justify-center">
                           <CrossIcon />
-                          <span className="sr-only">Not included</span>
+                          <span className="sr-only">Not Included</span>
                         </span>
                       )}
                     </td>
@@ -260,7 +260,7 @@ export function ServicesContent() {
                       ) : (
                         <span className="inline-flex justify-center">
                           <CrossIcon />
-                          <span className="sr-only">Not included</span>
+                          <span className="sr-only">Not Included</span>
                         </span>
                       )}
                     </td>
@@ -273,7 +273,7 @@ export function ServicesContent() {
                       ) : (
                         <span className="inline-flex justify-center">
                           <CrossIcon />
-                          <span className="sr-only">Not included</span>
+                          <span className="sr-only">Not Included</span>
                         </span>
                       )}
                     </td>
@@ -286,7 +286,7 @@ export function ServicesContent() {
                       ) : (
                         <span className="inline-flex justify-center">
                           <CrossIcon />
-                          <span className="sr-only">Not included</span>
+                          <span className="sr-only">Not Included</span>
                         </span>
                       )}
                     </td>

@@ -26,52 +26,52 @@ const securityControls: SecurityControl[] = [
   {
     id: 'soc2',
     icon: '🛡️',
-    description: 'SOC 2 Type II certified with annual audits by independent third-party assessors.',
+    description: 'SOC 2 Type II Certified With Annual Audits By Independent Third-Party Assessors.',
   },
   {
     id: 'encryption-transit',
     icon: '🔒',
-    description: 'All data encrypted in transit using TLS 1.3 with forward secrecy enabled.',
+    description: 'All Data Encrypted In Transit Using TLS 1.3 With Forward Secrecy Enabled.',
   },
   {
     id: 'encryption-rest',
     icon: '🗄️',
-    description: 'Data at rest encrypted with AES-256 across all storage systems and backups.',
+    description: 'Data At Rest Encrypted With AES-256 Across All Storage Systems And Backups.',
   },
   {
     id: 'mfa',
     icon: '🔑',
-    description: 'Multi-factor authentication enforced for all team members and admin access.',
+    description: 'Multi-Factor Authentication Enforced For All Team Members And Admin Access.',
   },
   {
     id: 'access-control',
     icon: '👤',
-    description: 'Role-based access control with principle of least privilege across all systems.',
+    description: 'Role-Based Access Control With Principle Of Least Privilege Across All Systems.',
   },
   {
     id: 'monitoring',
     icon: '📊',
-    description: 'Real-time security monitoring with automated alerting on anomalous activity.',
+    description: 'Real-Time Security Monitoring With Automated Alerting On Anomalous Activity.',
   },
   {
     id: 'incident-response',
     icon: '🚨',
-    description: 'Documented incident response plan with 24-hour notification SLA for breaches.',
+    description: 'Documented Incident Response Plan With 24-Hour Notification SLA For Breaches.',
   },
   {
     id: 'vendor-assessment',
     icon: '✅',
-    description: 'All third-party vendors undergo security assessment before onboarding.',
+    description: 'All Third-Party Vendors Undergo Security Assessment Before Onboarding.',
   },
   {
     id: 'backup',
     icon: '💾',
-    description: 'Daily encrypted backups with geo-redundant storage and tested recovery procedures.',
+    description: 'Daily Encrypted Backups With Geo-Redundant Storage And Tested Recovery Procedures.',
   },
   {
     id: 'pen-testing',
     icon: '🔍',
-    description: 'Annual penetration testing performed by certified external security firms.',
+    description: 'Annual Penetration Testing Performed By Certified External Security Firms.',
   },
 ];
 
@@ -89,42 +89,42 @@ const dataPolicies: DataPolicy[] = [
   {
     id: 'collection',
     title: 'Data Collection & Minimization',
-    summary: 'We collect only data necessary for service delivery. Personal and financial data is categorized and retention limits are enforced per category.',
+    summary: 'We Collect Only Data Necessary For Service Delivery. Personal And Financial Data Is Categorized And Retention Limits Are Enforced Per Category.',
     category: 'Personal Data',
     categoryVariant: 'accent',
   },
   {
     id: 'retention',
     title: 'Data Retention & Deletion',
-    summary: 'Financial records retained for 7 years per regulatory requirements. Personal data deleted within 30 days of account closure upon request.',
+    summary: 'Financial Records Retained For 7 Years Per Regulatory Requirements. Personal Data Deleted Within 30 Days Of Account Closure Upon Request.',
     category: 'Financial Data',
     categoryVariant: 'brass',
   },
   {
     id: 'access',
     title: 'Data Access & Portability',
-    summary: 'Clients can request full data export in standard formats at any time. Access requests fulfilled within 5 business days.',
+    summary: 'Clients Can Request Full Data Export In Standard Formats At Any Time. Access Requests Fulfilled Within 5 Business Days.',
     category: 'Client Data',
     categoryVariant: 'flag',
   },
   {
     id: 'processing',
     title: 'Data Processing Locations',
-    summary: 'All client financial data processed and stored within the United States. No cross-border transfers without explicit consent.',
+    summary: 'All Client Financial Data Processed And Stored Within The United States. No Cross-Border Transfers Without Explicit Consent.',
     category: 'Financial Data',
     categoryVariant: 'brass',
   },
   {
     id: 'sharing',
     title: 'Third-Party Data Sharing',
-    summary: 'Data shared only with vetted sub-processors listed below. No data sold to third parties. Contractual safeguards in place for all sharing.',
+    summary: 'Data Shared Only With Vetted Sub-Processors Listed Below. No Data Sold To Third Parties. Contractual Safeguards In Place For All Sharing.',
     category: 'Personal Data',
     categoryVariant: 'accent',
   },
   {
     id: 'breach-notification',
     title: 'Breach Notification Policy',
-    summary: 'Affected clients notified within 72 hours of confirmed breach. Full incident report provided within 10 business days.',
+    summary: 'Affected Clients Notified Within 72 Hours Of Confirmed Breach. Full Incident Report Provided Within 10 Business Days.',
     category: 'Operational Data',
     categoryVariant: 'default',
   },
@@ -243,9 +243,9 @@ export function SecurityContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-4 text-lg text-ink/70 font-interface leading-relaxed">
-              Your financial data deserves the highest level of protection. We maintain
-              rigorous security controls, transparent data handling and vetted
-              sub-processor relationships.
+              Your Financial Data Deserves The Highest Level Of Protection. We Maintain
+              Rigorous Security Controls, Transparent Data Handling And Vetted
+              Sub-Processor Relationships.
             </p>
           </ScrollReveal>
         </div>
@@ -259,7 +259,7 @@ export function SecurityContent() {
             <StickyTOCSidebar
               items={tocItems}
               topOffset={100}
-              title="On this page"
+              title="On This Page"
             />
           </aside>
 
@@ -356,8 +356,8 @@ export function SecurityContent() {
                   Sub-Processors
                 </h2>
                 <p className="text-ink/60 font-interface mb-6">
-                  The following third-party services process data on our behalf. Click
-                  column headers to sort.
+                  The Following Third-Party Services Process Data On Our Behalf. Click
+                  Column Headers To Sort.
                 </p>
               </ScrollReveal>
 

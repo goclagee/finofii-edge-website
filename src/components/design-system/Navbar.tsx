@@ -131,7 +131,7 @@ export function Navbar({ links = defaultLinks, compact = false, scrollProgress =
                 size={compact ? 'sm' : 'md'}
                 href="/book"
               >
-                Book a Free Audit
+                Book A Free Audit
               </Button>
             </div>
 

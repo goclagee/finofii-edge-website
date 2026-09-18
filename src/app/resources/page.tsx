@@ -19,50 +19,50 @@ const SAMPLE_CONTENT: ContentItem[] = [
   {
     id: 'blog-1',
     slug: 'revenue-recognition-saas',
-    title: 'Revenue Recognition for SaaS: ASC 606 Simplified',
+    title: 'Revenue Recognition For SaaS: ASC 606 Simplified',
     type: 'blog',
     publishDate: '2024-12-15',
-    excerpt: 'A practical breakdown of ASC 606 revenue recognition standards for subscription-based businesses, with examples.',
+    excerpt: 'A Practical Breakdown Of ASC 606 Revenue Recognition Standards For Subscription-Based Businesses, With Examples.',
     category: 'Accounting Standards',
     tags: ['saas', 'revenue', 'asc-606'],
   },
   {
     id: 'blog-2',
     slug: 'year-end-close-checklist',
-    title: 'The Ultimate Year-End Close Checklist for Small Businesses',
+    title: 'The Ultimate Year-End Close Checklist For Small Businesses',
     type: 'blog',
     publishDate: '2024-11-20',
-    excerpt: 'Everything you need to wrap up your books cleanly before year-end, from reconciliations to accruals.',
+    excerpt: 'Everything You Need To Wrap Up Your Books Cleanly Before Year-End, From Reconciliations To Accruals.',
     category: 'Bookkeeping',
     tags: ['year-end', 'checklist', 'small-business'],
   },
   {
     id: 'blog-3',
     slug: 'dtc-cogs-tracking',
-    title: 'How DTC Brands Should Track Cost of Goods Sold',
+    title: 'How DTC Brands Should Track Cost Of Goods Sold',
     type: 'blog',
     publishDate: '2024-10-08',
-    excerpt: 'COGS tracking best practices for e-commerce brands handling inventory, shipping and fulfillment costs.',
+    excerpt: 'COGS Tracking Best Practices For E-Commerce Brands Handling Inventory, Shipping And Fulfillment Costs.',
     category: 'DTC Finance',
     tags: ['dtc', 'cogs', 'inventory'],
   },
   {
     id: 'guide-1',
     slug: 'monthly-close-process',
-    title: 'Complete Guide to Monthly Close Process',
+    title: 'Complete Guide To Monthly Close Process',
     type: 'guide',
     publishDate: '2024-11-01',
-    excerpt: 'Step-by-step guide to implementing a reliable monthly close process that keeps your books audit-ready.',
+    excerpt: 'Step-By-Step Guide To Implementing A Reliable Monthly Close Process That Keeps Your Books Audit-Ready.',
     category: 'Bookkeeping',
     tags: ['monthly-close', 'process', 'guide'],
   },
   {
     id: 'guide-2',
     slug: 'choosing-accounting-software',
-    title: 'How to Choose the Right Accounting Software in 2024',
+    title: 'How To Choose The Right Accounting Software In 2024',
     type: 'guide',
     publishDate: '2024-09-15',
-    excerpt: 'Compare QuickBooks, Xero and Ramp for your business size and industry with our decision framework.',
+    excerpt: 'Compare QuickBooks, Xero And Ramp For Your Business Size And Industry With Our Decision Framework.',
     category: 'Tools',
     tags: ['software', 'quickbooks', 'xero'],
   },
@@ -72,7 +72,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'Building Your First Startup Financial Model',
     type: 'guide',
     publishDate: '2024-08-22',
-    excerpt: 'A founder-friendly guide to building a three-statement financial model for fundraising and planning.',
+    excerpt: 'A Founder-Friendly Guide To Building A Three-Statement Financial Model For Fundraising And Planning.',
     category: 'CFO Advisory',
     tags: ['startup', 'financial-model', 'fundraising'],
   },
@@ -82,7 +82,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'Cash Flow Forecast Template',
     type: 'template',
     publishDate: '2024-10-01',
-    excerpt: '13-week cash flow forecast spreadsheet with automated formulas. Perfect for startups managing runway.',
+    excerpt: '13-Week Cash Flow Forecast Spreadsheet With Automated Formulas. Perfect For Startups Managing Runway.',
     category: 'Templates',
     tags: ['cash-flow', 'forecast', 'template'],
   },
@@ -92,17 +92,17 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'Monthly Close Checklist Template',
     type: 'template',
     publishDate: '2024-09-01',
-    excerpt: 'Standardized checklist covering reconciliation, accruals and review steps for a clean monthly close.',
+    excerpt: 'Standardized Checklist Covering Reconciliation, Accruals And Review Steps For A Clean Monthly Close.',
     category: 'Templates',
     tags: ['checklist', 'monthly-close', 'template'],
   },
   {
     id: 'template-3',
     slug: 'budget-vs-actual-template',
-    title: 'Budget vs. Actual Variance Report Template',
+    title: 'Budget Vs. Actual Variance Report Template',
     type: 'template',
     publishDate: '2024-07-15',
-    excerpt: 'Track spending against budget with automatic variance calculations and visual trend indicators.',
+    excerpt: 'Track Spending Against Budget With Automatic Variance Calculations And Visual Trend Indicators.',
     category: 'Templates',
     tags: ['budget', 'variance', 'reporting'],
   },
@@ -112,17 +112,17 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'Multi-Entity Accounting: Consolidation Made Simple',
     type: 'blog',
     publishDate: '2024-08-10',
-    excerpt: 'How to manage and consolidate financials across multiple LLCs, subsidiaries and holding companies.',
+    excerpt: 'How To Manage And Consolidate Financials Across Multiple LLCs, Subsidiaries And Holding Companies.',
     category: 'Accounting Standards',
     tags: ['multi-entity', 'consolidation'],
   },
   {
     id: 'guide-4',
     slug: 'agency-profitability',
-    title: 'Measuring Project Profitability for Agencies',
+    title: 'Measuring Project Profitability For Agencies',
     type: 'guide',
     publishDate: '2024-07-01',
-    excerpt: 'Track utilization rates, project margins and overhead allocation to understand true profitability.',
+    excerpt: 'Track Utilization Rates, Project Margins And Overhead Allocation To Understand True Profitability.',
     category: 'Agency Finance',
     tags: ['agency', 'profitability', 'utilization'],
   },
@@ -132,7 +132,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: '5 Bookkeeping Tasks You Should Automate Today',
     type: 'blog',
     publishDate: '2024-06-20',
-    excerpt: 'Reduce manual work and errors by automating bank feeds, categorization, invoicing and reconciliation.',
+    excerpt: 'Reduce Manual Work And Errors By Automating Bank Feeds, Categorization, Invoicing And Reconciliation.',
     category: 'Bookkeeping',
     tags: ['automation', 'efficiency'],
   },
@@ -142,17 +142,17 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'Profit & Loss Statement Template',
     type: 'template',
     publishDate: '2024-06-01',
-    excerpt: 'Clean P&L template with month-over-month comparison and category breakdowns for board reporting.',
+    excerpt: 'Clean P&L Template With Month-Over-Month Comparison And Category Breakdowns For Board Reporting.',
     category: 'Templates',
     tags: ['p&l', 'financial-statements'],
   },
   {
     id: 'blog-6',
     slug: 'sales-tax-nexus',
-    title: 'Understanding Sales Tax Nexus for E-commerce',
+    title: 'Understanding Sales Tax Nexus For E-Commerce',
     type: 'blog',
     publishDate: '2024-05-15',
-    excerpt: 'Navigate economic nexus thresholds and registration requirements across all 50 states.',
+    excerpt: 'Navigate Economic Nexus Thresholds And Registration Requirements Across All 50 States.',
     category: 'Compliance',
     tags: ['sales-tax', 'nexus', 'ecommerce'],
   },
@@ -161,16 +161,16 @@ const SAMPLE_CONTENT: ContentItem[] = [
 // --- Sample Filing Deadlines ---
 
 const SAMPLE_DEADLINES: FilingDeadline[] = [
-  { month: 1 as MonthIndex, name: 'Form W-2 & 1099-NEC', dueDate: '01/31', description: 'Furnish W-2s to employees and 1099-NEC to contractors.', entityTypes: ['llc', 'scorp', 'ccorp'] },
-  { month: 1 as MonthIndex, name: 'Q4 Estimated Tax', dueDate: '01/15', description: 'Fourth quarter estimated tax payment due.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
-  { month: 3 as MonthIndex, name: 'S-Corp / Partnership Return', dueDate: '03/15', description: 'Form 1120-S and 1065 filing deadline.', entityTypes: ['scorp', 'llc'] },
-  { month: 4 as MonthIndex, name: 'Individual & C-Corp Returns', dueDate: '04/15', description: 'Form 1040 and 1120 filing deadline.', entityTypes: ['sole_prop', 'ccorp'] },
-  { month: 4 as MonthIndex, name: 'Q1 Estimated Tax', dueDate: '04/15', description: 'First quarter estimated tax payment due.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
-  { month: 6 as MonthIndex, name: 'Q2 Estimated Tax', dueDate: '06/15', description: 'Second quarter estimated tax payment due.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
-  { month: 9 as MonthIndex, name: 'Q3 Estimated Tax', dueDate: '09/15', description: 'Third quarter estimated tax payment due.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
-  { month: 9 as MonthIndex, name: 'Extended S-Corp / Partnership', dueDate: '09/15', description: 'Extended Form 1120-S and 1065 due date.', entityTypes: ['scorp', 'llc'] },
-  { month: 10 as MonthIndex, name: 'Extended Individual & C-Corp', dueDate: '10/15', description: 'Extended Form 1040 and 1120 due date.', entityTypes: ['sole_prop', 'ccorp'] },
-  { month: 12 as MonthIndex, name: 'Year-End Planning Deadline', dueDate: '12/31', description: 'Last day for tax-loss harvesting and retirement contributions.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
+  { month: 1 as MonthIndex, name: 'Form W-2 & 1099-NEC', dueDate: '01/31', description: 'Furnish W-2S To Employees And 1099-NEC To Contractors.', entityTypes: ['llc', 'scorp', 'ccorp'] },
+  { month: 1 as MonthIndex, name: 'Q4 Estimated Tax', dueDate: '01/15', description: 'Fourth Quarter Estimated Tax Payment Due.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
+  { month: 3 as MonthIndex, name: 'S-Corp / Partnership Return', dueDate: '03/15', description: 'Form 1120-S And 1065 Filing Deadline.', entityTypes: ['scorp', 'llc'] },
+  { month: 4 as MonthIndex, name: 'Individual & C-Corp Returns', dueDate: '04/15', description: 'Form 1040 And 1120 Filing Deadline.', entityTypes: ['sole_prop', 'ccorp'] },
+  { month: 4 as MonthIndex, name: 'Q1 Estimated Tax', dueDate: '04/15', description: 'First Quarter Estimated Tax Payment Due.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
+  { month: 6 as MonthIndex, name: 'Q2 Estimated Tax', dueDate: '06/15', description: 'Second Quarter Estimated Tax Payment Due.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
+  { month: 9 as MonthIndex, name: 'Q3 Estimated Tax', dueDate: '09/15', description: 'Third Quarter Estimated Tax Payment Due.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
+  { month: 9 as MonthIndex, name: 'Extended S-Corp / Partnership', dueDate: '09/15', description: 'Extended Form 1120-S And 1065 Due Date.', entityTypes: ['scorp', 'llc'] },
+  { month: 10 as MonthIndex, name: 'Extended Individual & C-Corp', dueDate: '10/15', description: 'Extended Form 1040 And 1120 Due Date.', entityTypes: ['sole_prop', 'ccorp'] },
+  { month: 12 as MonthIndex, name: 'Year-End Planning Deadline', dueDate: '12/31', description: 'Last Day For Tax-Loss Harvesting And Retirement Contributions.', entityTypes: ['llc', 'scorp', 'ccorp', 'sole_prop'] },
 ];
 
 // --- Filter Configuration ---
@@ -279,8 +279,8 @@ export default function ResourcesPage() {
           animation="fade-up"
         />
         <p className="mt-4 text-lg text-ink/70 max-w-2xl mx-auto">
-          Guides, blog posts, templates and tax deadlines to keep your business
-          finances on track.
+          Guides, Blog Posts, Templates And Tax Deadlines To Keep Your Business
+          Finances On Track.
         </p>
       </Section>
 
@@ -305,7 +305,7 @@ export default function ResourcesPage() {
                 Tax Calendar
               </h2>
               <p className="text-ink/70">
-                Key filing deadlines and compliance dates for the year ahead.
+                Key Filing Deadlines And Compliance Dates For The Year Ahead.
               </p>
             </div>
             <Card variant="default" className="p-6">
@@ -392,7 +392,7 @@ export default function ResourcesPage() {
               )}
 
               <p className="text-center text-sm text-ink/50 mt-4">
-                Showing {paginatedItems.length} of {total} items
+                Showing {paginatedItems.length} Of {total} Items
               </p>
             </>
           ) : (
@@ -422,7 +422,7 @@ export default function ResourcesPage() {
       {/* CTA Section */}
       <CtaSection
         headline="Need Expert Help?"
-        description="Our team can handle your bookkeeping, reporting and compliance so you can focus on growing your business."
+        description="Our Team Can Handle Your Bookkeeping, Reporting And Compliance So You Can Focus On Growing Your Business."
       />
     </main>
   );
@@ -497,11 +497,11 @@ function EmptyFilterState({ onReset }: { onReset: () => void }) {
         </svg>
       </div>
       <h3 className="text-lg font-semibold text-ink mb-2">
-        No results found
+        No Results Found
       </h3>
       <p className="text-ink/70 mb-6 max-w-md mx-auto">
-        No content matches your current filter selection. Try adjusting your
-        filters or reset them to see all available resources.
+        No Content Matches Your Current Filter Selection. Try Adjusting Your
+        Filters Or Reset Them To See All Available Resources.
       </p>
       <button
         type="button"
@@ -610,7 +610,7 @@ function TemplateDetailView({
             <span className="text-sm font-medium text-ink/60">Preview</span>
           </div>
           <p className="text-sm text-ink/50 italic">
-            Template preview available after download.
+            Template Preview Available After Download.
           </p>
         </div>
 

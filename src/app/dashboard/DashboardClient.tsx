@@ -81,8 +81,8 @@ function DashboardContent() {
           animation="fade-up"
         />
         <p className="mt-4 text-lg text-ink/70 max-w-2xl mx-auto">
-          Explore live financial data across industries. Toggle months and presets
-          to see how Finofii Edge delivers clarity to your numbers.
+          Explore Live Financial Data Across Industries. Toggle Months And Presets
+          To See How Finofii Edge Delivers Clarity To Your Numbers.
         </p>
       </Section>
 
@@ -165,7 +165,7 @@ function DashboardContent() {
               d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
             />
           </svg>
-          <span>This URL is shareable — your current view is saved in the address bar.</span>
+          <span>This URL Is Shareable — Your Current View Is Saved In The Address Bar.</span>
         </div>
       </Section>
 
@@ -251,8 +251,8 @@ function DashboardContent() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Want This for Your Business?"
-        description="Get a custom dashboard tailored to your industry and financial stack. Book a free audit to see what's possible."
+        headline="Want This For Your Business?"
+        description="Get A Custom Dashboard Tailored To Your Industry And Financial Stack. Book A Free Audit To See What's Possible."
       />
     </main>
   );

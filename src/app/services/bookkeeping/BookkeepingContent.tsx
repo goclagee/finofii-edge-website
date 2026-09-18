@@ -20,17 +20,17 @@ const monthlyCloseCadence: TimelinePhase[] = [
     items: [
       {
         id: 'p1-1',
-        label: 'Import bank and credit card feeds from connected accounts',
+        label: 'Import Bank And Credit Card Feeds From Connected Accounts',
         type: 'deliverable',
       },
       {
         id: 'p1-2',
-        label: 'Categorize transactions using rule-based engine',
+        label: 'Categorize Transactions Using Rule-Based Engine',
         type: 'deliverable',
       },
       {
         id: 'p1-3',
-        label: 'Flag unrecognized transactions for review',
+        label: 'Flag Unrecognized Transactions For Review',
         type: 'milestone',
       },
     ],
@@ -42,17 +42,17 @@ const monthlyCloseCadence: TimelinePhase[] = [
     items: [
       {
         id: 'p2-1',
-        label: 'Reconcile all bank accounts to statement balances',
+        label: 'Reconcile All Bank Accounts To Statement Balances',
         type: 'deliverable',
       },
       {
         id: 'p2-2',
-        label: 'Reconcile credit card and payment processor accounts',
+        label: 'Reconcile Credit Card And Payment Processor Accounts',
         type: 'deliverable',
       },
       {
         id: 'p2-3',
-        label: 'Resolve discrepancies and outstanding items',
+        label: 'Resolve Discrepancies And Outstanding Items',
         type: 'milestone',
       },
     ],
@@ -64,17 +64,17 @@ const monthlyCloseCadence: TimelinePhase[] = [
     items: [
       {
         id: 'p3-1',
-        label: 'Record revenue per ASC 606 or cash basis',
+        label: 'Record Revenue Per ASC 606 Or Cash Basis',
         type: 'deliverable',
       },
       {
         id: 'p3-2',
-        label: 'Update accounts receivable aging schedule',
+        label: 'Update Accounts Receivable Aging Schedule',
         type: 'deliverable',
       },
       {
         id: 'p3-3',
-        label: 'Process accounts payable and vendor payments',
+        label: 'Process Accounts Payable And Vendor Payments',
         type: 'deliverable',
       },
     ],
@@ -86,17 +86,17 @@ const monthlyCloseCadence: TimelinePhase[] = [
     items: [
       {
         id: 'p4-1',
-        label: 'Book accrued expenses and prepaid amortization',
+        label: 'Book Accrued Expenses And Prepaid Amortization',
         type: 'deliverable',
       },
       {
         id: 'p4-2',
-        label: 'Record depreciation and amortization entries',
+        label: 'Record Depreciation And Amortization Entries',
         type: 'deliverable',
       },
       {
         id: 'p4-3',
-        label: 'Post intercompany and payroll journal entries',
+        label: 'Post Intercompany And Payroll Journal Entries',
         type: 'deliverable',
       },
     ],
@@ -108,17 +108,17 @@ const monthlyCloseCadence: TimelinePhase[] = [
     items: [
       {
         id: 'p5-1',
-        label: 'Generate trial balance and resolve variances',
+        label: 'Generate Trial Balance And Resolve Variances',
         type: 'deliverable',
       },
       {
         id: 'p5-2',
-        label: 'Prepare income statement, balance sheet and cash flow statement',
+        label: 'Prepare Income Statement, Balance Sheet And Cash Flow Statement',
         type: 'deliverable',
       },
       {
         id: 'p5-3',
-        label: 'Produce management commentary on key movements',
+        label: 'Produce Management Commentary On Key Movements',
         type: 'milestone',
       },
     ],
@@ -130,17 +130,17 @@ const monthlyCloseCadence: TimelinePhase[] = [
     items: [
       {
         id: 'p6-1',
-        label: 'Senior accountant review and sign-off',
+        label: 'Senior Accountant Review And Sign-Off',
         type: 'deliverable',
       },
       {
         id: 'p6-2',
-        label: 'Lock the period in the general ledger',
+        label: 'Lock The Period In The General Ledger',
         type: 'milestone',
       },
       {
         id: 'p6-3',
-        label: 'Deliver close package via dashboard and email',
+        label: 'Deliver Close Package Via Dashboard And Email',
         type: 'deliverable',
       },
     ],
@@ -170,37 +170,37 @@ const toolStack = [
   {
     id: 'quickbooks',
     name: 'QuickBooks',
-    tooltip: 'Full two-way sync with QuickBooks Online for real-time GL updates',
+    tooltip: 'Full Two-Way Sync With QuickBooks Online For Real-Time GL Updates',
     color: '#2CA01C',
   },
   {
     id: 'xero',
     name: 'Xero',
-    tooltip: 'Native Xero integration for bank feeds, invoicing and reporting',
+    tooltip: 'Native Xero Integration For Bank Feeds, Invoicing And Reporting',
     color: '#13B5EA',
   },
   {
     id: 'ramp',
     name: 'Ramp',
-    tooltip: 'Automated expense categorization and receipt matching from Ramp',
+    tooltip: 'Automated Expense Categorization And Receipt Matching From Ramp',
     color: '#1A1A1A',
   },
   {
     id: 'brex',
     name: 'Brex',
-    tooltip: 'Direct Brex feed integration for corporate card transactions',
+    tooltip: 'Direct Brex Feed Integration For Corporate Card Transactions',
     color: '#F46036',
   },
   {
     id: 'mercury',
     name: 'Mercury',
-    tooltip: 'Mercury banking data sync for startup-friendly reconciliation',
+    tooltip: 'Mercury Banking Data Sync For Startup-Friendly Reconciliation',
     color: '#5B41FF',
   },
   {
     id: 'stripe',
     name: 'Stripe',
-    tooltip: 'Stripe revenue and payout reconciliation with fee breakdowns',
+    tooltip: 'Stripe Revenue And Payout Reconciliation With Fee Breakdowns',
     color: '#635BFF',
   },
 ];
@@ -254,10 +254,10 @@ export function BookkeepingContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Full-cycle monthly bookkeeping designed for growing businesses. We handle
-              transaction categorization, reconciliation, accruals and month-end close
-              so your books are audit-ready every single month — delivered within 14
-              business days of period end.
+              Full-Cycle Monthly Bookkeeping Designed For Growing Businesses. We Handle
+              Transaction Categorization, Reconciliation, Accruals And Month-End Close
+              So Your Books Are Audit-Ready Every Single Month — Delivered Within 14
+              Business Days Of Period End.
             </p>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={300}>
@@ -293,7 +293,7 @@ export function BookkeepingContent() {
               Monthly Close Cadence
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              Our structured 6-phase process ensures accuracy and consistency every month.
+              Our Structured 6-Phase Process Ensures Accuracy And Consistency Every Month.
             </p>
           </ScrollReveal>
           <Timeline
@@ -351,7 +351,7 @@ export function BookkeepingContent() {
               Our Tool Stack
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              We integrate with the platforms you already use — no migration required.
+              We Integrate With The Platforms You Already Use — No Migration Required.
             </p>
           </ScrollReveal>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -370,8 +370,8 @@ export function BookkeepingContent() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Ready to close your books on time?"
-        description="Get a free audit of your current bookkeeping process. We'll show you exactly how to cut your close time and keep your books audit-ready."
+        headline="Ready To Close Your Books On Time?"
+        description="Get A Free Audit Of Your Current Bookkeeping Process. We'll Show You Exactly How To Cut Your Close Time And Keep Your Books Audit-Ready."
       />
     </>
   );

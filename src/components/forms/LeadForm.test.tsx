@@ -21,7 +21,7 @@ describe('LeadForm', () => {
   describe('Multi-step navigation and progress', () => {
     it('renders step 1 initially with progress bar', () => {
       render(<LeadForm />);
-      expect(screen.getByText('Step 1 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 1 Of 5')).toBeInTheDocument();
       expect(screen.getByText(/what type of entity/i)).toBeInTheDocument();
       expect(screen.getByRole('progressbar')).toHaveAttribute('aria-valuenow', '1');
     });
@@ -41,7 +41,7 @@ describe('LeadForm', () => {
       render(<LeadForm />);
       fireEvent.click(screen.getByRole('radio', { name: /LLC/i }));
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
-      expect(screen.getByText('Step 2 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 2 Of 5')).toBeInTheDocument();
       expect(screen.getByText(/annual revenue band/i)).toBeInTheDocument();
     });
 
@@ -53,24 +53,24 @@ describe('LeadForm', () => {
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
 
       // Step 2: Revenue band
-      expect(screen.getByText('Step 2 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 2 Of 5')).toBeInTheDocument();
       fireEvent.click(screen.getByRole('radio', { name: /\$0 – \$100K/i }));
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
 
       // Step 3: Accounting tool
-      expect(screen.getByText('Step 3 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 3 Of 5')).toBeInTheDocument();
       fireEvent.click(screen.getByRole('radio', { name: /QuickBooks/i }));
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
 
       // Step 4: Timezone
-      expect(screen.getByText('Step 4 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 4 Of 5')).toBeInTheDocument();
       fireEvent.change(screen.getByLabelText(/timezone/i), {
         target: { value: 'America/New_York' },
       });
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
 
       // Step 5: Email/Company
-      expect(screen.getByText('Step 5 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 5 Of 5')).toBeInTheDocument();
       expect(screen.getByText(/how can we reach you/i)).toBeInTheDocument();
     });
 
@@ -78,10 +78,10 @@ describe('LeadForm', () => {
       render(<LeadForm />);
       fireEvent.click(screen.getByRole('radio', { name: /LLC/i }));
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
-      expect(screen.getByText('Step 2 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 2 Of 5')).toBeInTheDocument();
 
       fireEvent.click(screen.getByRole('button', { name: /back/i }));
-      expect(screen.getByText('Step 1 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 1 Of 5')).toBeInTheDocument();
     });
 
     it('does not show Back button on step 1', () => {
@@ -114,7 +114,7 @@ describe('LeadForm', () => {
       render(<LeadForm />);
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
       expect(screen.getByRole('alert')).toBeInTheDocument();
-      expect(screen.getByText('Step 1 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 1 Of 5')).toBeInTheDocument();
     });
 
     it('shows error when trying to advance step 4 without timezone', () => {
@@ -130,7 +130,7 @@ describe('LeadForm', () => {
 
       // Try to advance without selecting timezone
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
-      expect(screen.getByText('Step 4 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 4 Of 5')).toBeInTheDocument();
     });
 
     it('clears error when user makes a valid selection', () => {
@@ -148,18 +148,18 @@ describe('LeadForm', () => {
   describe('Prefilled entity type', () => {
     it('auto-advances past step 1 when prefilledEntityType is provided', () => {
       render(<LeadForm prefilledEntityType="dtc" />);
-      expect(screen.getByText('Step 2 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 2 Of 5')).toBeInTheDocument();
     });
 
     it('maps saas industry to ccorp entity type', () => {
       render(<LeadForm prefilledEntityType="saas" />);
       // Should be on step 2 since entity was prefilled
-      expect(screen.getByText('Step 2 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 2 Of 5')).toBeInTheDocument();
     });
 
     it('maps cpa industry to partnership entity type', () => {
       render(<LeadForm prefilledEntityType="cpa" />);
-      expect(screen.getByText('Step 2 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 2 Of 5')).toBeInTheDocument();
     });
   });
 
@@ -240,7 +240,7 @@ describe('LeadForm', () => {
       expect(screen.getByText(/network error/i)).toBeInTheDocument();
 
       // Data is retained — still on step 5 with email value
-      expect(screen.getByText('Step 5 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 5 Of 5')).toBeInTheDocument();
       expect(screen.getByPlaceholderText(/you@company.com/i)).toHaveValue('test@example.com');
 
       // Error callback was called
@@ -324,7 +324,7 @@ describe('LeadForm', () => {
       fireEvent.click(screen.getByRole('button', { name: /continue/i }));
 
       // Step 2 content should be available with interactive elements
-      expect(screen.getByText('Step 2 of 5')).toBeInTheDocument();
+      expect(screen.getByText('Step 2 Of 5')).toBeInTheDocument();
       const radios = screen.getAllByRole('radio');
       expect(radios.length).toBeGreaterThan(0);
 

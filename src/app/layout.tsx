@@ -29,11 +29,11 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Finofii Edge — Accounting & Bookkeeping for Modern Businesses',
+    default: 'Finofii Edge — Accounting & Bookkeeping For Modern Businesses',
     template: '%s',
   },
   description:
-    'Premium accounting, bookkeeping and financial advisory services for DTC brands, agencies, SaaS startups and CPA firms.',
+    'Premium Accounting, Bookkeeping And Financial Advisory Services For DTC Brands, Agencies, SaaS Startups And CPA Firms.',
   metadataBase: new URL('https://finofii.com'),
 };
 

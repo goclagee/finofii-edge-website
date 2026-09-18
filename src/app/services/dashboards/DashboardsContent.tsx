@@ -26,7 +26,7 @@ const reports: ReportCard[] = [
     id: 'pnl',
     name: 'Profit & Loss Statement',
     description:
-      'Monthly income statement with revenue breakdowns, COGS and operating expense categorization.',
+      'Monthly Income Statement With Revenue Breakdowns, COGS And Operating Expense Categorization.',
     category: 'Financial Statements',
     categoryVariant: 'accent',
   },
@@ -34,7 +34,7 @@ const reports: ReportCard[] = [
     id: 'cashflow',
     name: 'Cash Flow Forecast',
     description:
-      '13-week rolling cash flow projection with scenario modeling for best, base and worst cases.',
+      '13-Week Rolling Cash Flow Projection With Scenario Modeling For Best, Base And Worst Cases.',
     category: 'Cash Management',
     categoryVariant: 'brass',
   },
@@ -42,7 +42,7 @@ const reports: ReportCard[] = [
     id: 'ar-aging',
     name: 'AR Aging Report',
     description:
-      'Accounts receivable aging buckets (0–30, 31–60, 61–90, 90+ days) with collection probability scoring.',
+      'Accounts Receivable Aging Buckets (0–30, 31–60, 61–90, 90+ Days) With Collection Probability Scoring.',
     category: 'Receivables',
     categoryVariant: 'flag',
   },
@@ -50,7 +50,7 @@ const reports: ReportCard[] = [
     id: 'burn-rate',
     name: 'Burn Rate Dashboard',
     description:
-      'Monthly burn analysis with runway projection, headcount cost allocation and trend indicators.',
+      'Monthly Burn Analysis With Runway Projection, Headcount Cost Allocation And Trend Indicators.',
     category: 'Cash Management',
     categoryVariant: 'brass',
   },
@@ -58,7 +58,7 @@ const reports: ReportCard[] = [
     id: 'revenue-cohort',
     name: 'Revenue Cohort Analysis',
     description:
-      'Customer cohort retention and expansion revenue tracking with MoM and YoY comparison views.',
+      'Customer Cohort Retention And Expansion Revenue Tracking With MoM And YoY Comparison Views.',
     category: 'Revenue Analytics',
     categoryVariant: 'accent',
   },
@@ -66,7 +66,7 @@ const reports: ReportCard[] = [
     id: 'vendor-spend',
     name: 'Vendor Spend Summary',
     description:
-      'Top vendor analysis by category, payment terms compliance and month-over-month variance alerts.',
+      'Top Vendor Analysis By Category, Payment Terms Compliance And Month-Over-Month Variance Alerts.',
     category: 'Expense Management',
     categoryVariant: 'default',
   },
@@ -74,7 +74,7 @@ const reports: ReportCard[] = [
     id: 'margin-analysis',
     name: 'Gross Margin Analysis',
     description:
-      'Product and service-level margin breakdown with contribution analysis and trend visualization.',
+      'Product And Service-Level Margin Breakdown With Contribution Analysis And Trend Visualization.',
     category: 'Financial Statements',
     categoryVariant: 'accent',
   },
@@ -82,7 +82,7 @@ const reports: ReportCard[] = [
     id: 'kpi-scorecard',
     name: 'Executive KPI Scorecard',
     description:
-      'Board-ready summary of key performance indicators with traffic-light status and target tracking.',
+      'Board-Ready Summary Of Key Performance Indicators With Traffic-Light Status And Target Tracking.',
     category: 'Revenue Analytics',
     categoryVariant: 'accent',
   },
@@ -134,21 +134,21 @@ const slaCommitments: SLACommitment[] = [
     metric: 5,
     suffix: ' days',
     label: 'Report Delivery',
-    description: 'Reports delivered within 5 business days of month-end close',
+    description: 'Reports Delivered Within 5 Business Days Of Month-End Close',
   },
   {
     id: 'accuracy',
     metric: 99,
     suffix: '%',
     label: 'Data Accuracy',
-    description: 'Guaranteed data accuracy with multi-point reconciliation checks',
+    description: 'Guaranteed Data Accuracy With Multi-Point Reconciliation Checks',
   },
   {
     id: 'uptime',
     metric: 99.9,
     suffix: '%',
     label: 'Dashboard Uptime',
-    description: 'Live dashboards available with 99.9% uptime SLA',
+    description: 'Live Dashboards Available With 99.9% Uptime SLA',
   },
 ];
 
@@ -183,9 +183,9 @@ export function DashboardsContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-4 text-lg text-ink/70 font-interface leading-relaxed">
-              Custom financial dashboards and report catalogues that transform your
-              raw accounting data into clear, actionable insights — delivered within
-              days of month-end.
+              Custom Financial Dashboards And Report Catalogues That Transform Your
+              Raw Accounting Data Into Clear, Actionable Insights — Delivered Within
+              Days Of Month-End.
             </p>
           </ScrollReveal>
         </div>
@@ -234,7 +234,7 @@ export function DashboardsContent() {
             Sample Output Previews
           </h2>
           <p className="text-center text-ink/60 font-interface mb-8">
-            Click any screenshot to view at full resolution
+            Click Any Screenshot To View At Full Resolution
           </p>
         </ScrollReveal>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -313,7 +313,7 @@ export function DashboardsContent() {
       {/* CTA Section */}
       <CtaSection
         headline="Get Your Custom Dashboard"
-        description="Book a free audit to see how our visual MIS can transform your financial reporting workflow."
+        description="Book A Free Audit To See How Our Visual MIS Can Transform Your Financial Reporting Workflow."
       />
 
       {/* Lightbox */}

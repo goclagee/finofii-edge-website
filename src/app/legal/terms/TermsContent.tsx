@@ -5,13 +5,13 @@ import { LegalPageLayout } from '../LegalPageLayout';
 import type { TOCItem } from '@/components/layout/StickyTOCSidebar';
 
 const tocItems: TOCItem[] = [
-  { id: 'acceptance', label: 'Acceptance of Terms' },
-  { id: 'services-description', label: 'Description of Services' },
+  { id: 'acceptance', label: 'Acceptance Of Terms' },
+  { id: 'services-description', label: 'Description Of Services' },
   { id: 'account-obligations', label: 'Account Obligations' },
   { id: 'service-fees', label: 'Service Fees & Payment' },
   { id: 'intellectual-property', label: 'Intellectual Property' },
   { id: 'confidentiality', label: 'Confidentiality' },
-  { id: 'limitation-liability', label: 'Limitation of Liability' },
+  { id: 'limitation-liability', label: 'Limitation Of Liability' },
   { id: 'termination', label: 'Termination' },
   { id: 'governing-law', label: 'Governing Law' },
   { id: 'contact-terms', label: 'Contact' },
@@ -20,70 +20,70 @@ const tocItems: TOCItem[] = [
 export function TermsContent() {
   return (
     <LegalPageLayout
-      title="Terms of Service"
+      title="Terms Of Service"
       lastUpdated="June 15, 2025"
       tocItems={tocItems}
     >
       <section>
-        <h2 id="acceptance">Acceptance of Terms</h2>
+        <h2 id="acceptance">Acceptance Of Terms</h2>
         <p>
-          By accessing or using Finofii Edge services (&ldquo;Services&rdquo;), you agree to be bound
-          by these Terms of Service (&ldquo;Terms&rdquo;). These Terms constitute a legally binding
-          agreement between you and Finofii Edge LLC (&ldquo;Company&rdquo;). If you do not agree
-          to these Terms, you must not use our Services.
+          By Accessing Or Using Finofii Edge Services (&ldquo;Services&rdquo;), You Agree To Be Bound
+          By These Terms Of Service (&ldquo;Terms&rdquo;). These Terms Constitute A Legally Binding
+          Agreement Between You And Finofii Edge LLC (&ldquo;Company&rdquo;). If You Do Not Agree
+          To These Terms, You Must Not Use Our Services.
         </p>
         <p>
-          We reserve the right to update these Terms at any time. Continued use of the Services
-          after changes constitutes acceptance of the revised Terms.
+          We Reserve The Right To Update These Terms At Any Time. Continued Use Of The Services
+          After Changes Constitutes Acceptance Of The Revised Terms.
         </p>
       </section>
 
       <section>
-        <h2 id="services-description">Description of Services</h2>
+        <h2 id="services-description">Description Of Services</h2>
         <p>
-          Finofii Edge provides accounting, bookkeeping, virtual CFO advisory, entity formation,
-          compliance management and financial dashboard services. Our offerings include:
+          Finofii Edge Provides Accounting, Bookkeeping, Virtual CFO Advisory, Entity Formation,
+          Compliance Management And Financial Dashboard Services. Our Offerings Include:
         </p>
         <ul>
-          <li>Monthly bookkeeping and close services with reconciliation.</li>
-          <li>Visual MIS dashboards and financial reporting.</li>
-          <li>Virtual CFO advisory sessions and strategic planning.</li>
-          <li>Entity formation and ongoing compliance filings.</li>
-          <li>Interactive sample dashboard access for prospective clients.</li>
+          <li>Monthly Bookkeeping And Close Services With Reconciliation.</li>
+          <li>Visual MIS Dashboards And Financial Reporting.</li>
+          <li>Virtual CFO Advisory Sessions And Strategic Planning.</li>
+          <li>Entity Formation And Ongoing Compliance Filings.</li>
+          <li>Interactive Sample Dashboard Access For Prospective Clients.</li>
         </ul>
         <p>
-          Service scope, deliverables and cadence vary by subscription tier (Essentials, Growth, Scale)
-          as described on our Pricing page.
+          Service Scope, Deliverables And Cadence Vary By Subscription Tier (Essentials, Growth, Scale)
+          As Described On Our Pricing Page.
         </p>
       </section>
 
       <section>
         <h2 id="account-obligations">Account Obligations</h2>
-        <p>When using our Services, you agree to:</p>
+        <p>When Using Our Services, You Agree To:</p>
         <ol>
-          <li>Provide accurate and complete information during registration and intake.</li>
-          <li>Maintain the security of your account credentials.</li>
-          <li>Provide timely access to financial records and systems required for service delivery.</li>
-          <li>Notify us promptly of any unauthorized access to your account.</li>
-          <li>Comply with all applicable laws and regulations related to your business activities.</li>
+          <li>Provide Accurate And Complete Information During Registration And Intake.</li>
+          <li>Maintain The Security Of Your Account Credentials.</li>
+          <li>Provide Timely Access To Financial Records And Systems Required For Service Delivery.</li>
+          <li>Notify Us Promptly Of Any Unauthorized Access To Your Account.</li>
+          <li>Comply With All Applicable Laws And Regulations Related To Your Business Activities.</li>
         </ol>
         <p>
-          You are responsible for all activities conducted under your account. Failure to meet these
-          obligations may result in service delays or suspension.
+          You Are Responsible For All Activities Conducted Under Your Account. Failure To Meet These
+          Obligations May Result In Service Delays Or Suspension.
         </p>
       </section>
 
       <section>
         <h2 id="service-fees">Service Fees &amp; Payment</h2>
         <p>
-          Fees for our Services are based on your selected subscription tier and are billed monthly in
-          advance. Payment terms include:
+          Fees For Our Services Are Based On Your Selected Subscription Tier And Are Billed Monthly In
+          Advance. Payment Terms Include:
         </p>
         <ul>
-          <li>Payment is due within 7 days of invoice date.</li>
-          <li>Late payments may incur a fee of 1.5% per month on the outstanding balance.</li>
-          <li>We accept payment via ACH, wire transfer and major credit cards.</li>
-          <li>Tier upgrades take effect immediately; downgrades take effect at the next billing cycle.</li>
+          <li>Payment Is Due Within 7 Days Of Invoice Date.</li>
+          <li>Late Payments May Incur A Fee Of 1.5% Per Month On The Outstanding Balance.</li>
+          <li>We Accept Payment Via ACH, Wire Transfer And Major Credit Cards.</li>
+          <li>Tier Upgrades Take Effect Immediately; Downgrades Take Effect At The Next Billing Cycle.</li>
         </ul>
         <table>
           <thead>
@@ -116,79 +116,79 @@ export function TermsContent() {
       <section>
         <h2 id="intellectual-property">Intellectual Property</h2>
         <p>
-          All deliverables produced for your business (reports, dashboards, filings) are your property
-          upon payment. However, the following remain our intellectual property:
+          All Deliverables Produced For Your Business (Reports, Dashboards, Filings) Are Your Property
+          Upon Payment. However, The Following Remain Our Intellectual Property:
         </p>
         <ul>
-          <li>Our proprietary methodologies, templates and processes.</li>
-          <li>The Finofii Edge platform, software and interface designs.</li>
-          <li>Aggregate, anonymized insights derived from service delivery.</li>
+          <li>Our Proprietary Methodologies, Templates And Processes.</li>
+          <li>The Finofii Edge Platform, Software And Interface Designs.</li>
+          <li>Aggregate, Anonymized Insights Derived From Service Delivery.</li>
         </ul>
         <p>
-          You grant us a limited license to use your data solely for the purpose of delivering the
-          contracted Services.
+          You Grant Us A Limited License To Use Your Data Solely For The Purpose Of Delivering The
+          Contracted Services.
         </p>
       </section>
 
       <section>
         <h2 id="confidentiality">Confidentiality</h2>
         <p>
-          Both parties agree to maintain the confidentiality of proprietary information shared during
-          the service relationship. Confidential information includes financial data, business strategies,
-          client lists and any information marked as confidential.
+          Both Parties Agree To Maintain The Confidentiality Of Proprietary Information Shared During
+          The Service Relationship. Confidential Information Includes Financial Data, Business Strategies,
+          Client Lists And Any Information Marked As Confidential.
         </p>
         <p>
-          Confidentiality obligations survive termination of these Terms for a period of 3 years.
+          Confidentiality Obligations Survive Termination Of These Terms For A Period Of 3 Years.
         </p>
       </section>
 
       <section>
-        <h2 id="limitation-liability">Limitation of Liability</h2>
+        <h2 id="limitation-liability">Limitation Of Liability</h2>
         <p>
-          To the maximum extent permitted by law, Finofii Edge shall not be liable for indirect,
-          incidental, consequential or punitive damages arising from your use of our Services.
-          Our total liability shall not exceed the fees paid by you in the 12 months preceding
-          the claim.
+          To The Maximum Extent Permitted By Law, Finofii Edge Shall Not Be Liable For Indirect,
+          Incidental, Consequential Or Punitive Damages Arising From Your Use Of Our Services.
+          Our Total Liability Shall Not Exceed The Fees Paid By You In The 12 Months Preceding
+          The Claim.
         </p>
         <p>
-          This limitation does not apply to liability arising from gross negligence, fraud, or
-          willful misconduct.
+          This Limitation Does Not Apply To Liability Arising From Gross Negligence, Fraud, Or
+          Willful Misconduct.
         </p>
       </section>
 
       <section>
         <h2 id="termination">Termination</h2>
         <p>
-          Either party may terminate the service agreement with 30 days written notice. Upon termination:
+          Either Party May Terminate The Service Agreement With 30 Days Written Notice. Upon Termination:
         </p>
         <ul>
-          <li>We will complete any in-progress monthly close already underway.</li>
-          <li>All outstanding fees become immediately due.</li>
-          <li>We will provide data export within 14 business days of termination.</li>
-          <li>Access to the platform and dashboards will cease at end of the billing period.</li>
+          <li>We Will Complete Any In-Progress Monthly Close Already Underway.</li>
+          <li>All Outstanding Fees Become Immediately Due.</li>
+          <li>We Will Provide Data Export Within 14 Business Days Of Termination.</li>
+          <li>Access To The Platform And Dashboards Will Cease At End Of The Billing Period.</li>
         </ul>
         <p>
-          We may suspend or terminate services immediately for non-payment, violation of these Terms,
-          or illegal activity.
+          We May Suspend Or Terminate Services Immediately For Non-Payment, Violation Of These Terms,
+          Or Illegal Activity.
         </p>
       </section>
 
       <section>
         <h2 id="governing-law">Governing Law</h2>
         <p>
-          These Terms are governed by the laws of the State of Delaware, United States, without
-          regard to conflict of law principles. Any disputes shall be resolved through binding
-          arbitration in New York, NY, under the rules of the American Arbitration Association.
+          These Terms Are Governed By The Laws Of The State Of Delaware, United States, Without
+          Regard To Conflict Of Law Principles. Any Disputes Shall Be Resolved Through Binding
+          Arbitration In New York, NY, Under The Rules Of The American Arbitration Association.
         </p>
       </section>
 
       <section>
         <h2 id="contact-terms">Contact</h2>
         <p>
-          For questions about these Terms, contact us:
+          For Questions About These Terms, Contact Us:
         </p>
         <ul>
-          <li>Email: legal@finofii.com</li>
+          <li>Email: Legal@finofii.com</li>
           <li>Address: Finofii Edge LLC, 123 Finance Street, Suite 400, New York, NY 10001</li>
         </ul>
       </section>

@@ -6,7 +6,7 @@ import { Section } from '@/components/design-system/Section';
 export function generateMetadata(): Metadata {
   return generateMetadataFromSEO({
     title: 'Legal – Finofii Edge',
-    description: 'Access our Privacy Policy, Terms of Service, Data Processing Agreement and Sub-Processor list.',
+    description: 'Access Our Privacy Policy, Terms Of Service, Data Processing Agreement And Sub-Processor List.',
     path: '/legal',
   });
 }
@@ -14,22 +14,22 @@ export function generateMetadata(): Metadata {
 const legalPages = [
   {
     title: 'Privacy Policy',
-    description: 'How we collect, use and protect your personal information and business data.',
+    description: 'How We Collect, Use And Protect Your Personal Information And Business Data.',
     href: '/legal/privacy',
   },
   {
-    title: 'Terms of Service',
-    description: 'Terms and conditions governing your use of Finofii Edge services.',
+    title: 'Terms Of Service',
+    description: 'Terms And Conditions Governing Your Use Of Finofii Edge Services.',
     href: '/legal/terms',
   },
   {
     title: 'Data Processing Agreement',
-    description: 'Our data processing responsibilities and commitments for handling your business data.',
+    description: 'Our Data Processing Responsibilities And Commitments For Handling Your Business Data.',
     href: '/legal/dpa',
   },
   {
     title: 'Sub-Processors',
-    description: 'Complete list of third-party sub-processors used for data processing.',
+    description: 'Complete List Of Third-Party Sub-Processors Used For Data Processing.',
     href: '/legal/sub-processors',
   },
 ];
@@ -42,8 +42,8 @@ export default function LegalIndexPage() {
           Legal
         </h1>
         <p className="text-ink/70 max-w-2xl">
-          Review our legal documents covering privacy, terms of service, data processing,
-          and our list of sub-processors.
+          Review Our Legal Documents Covering Privacy, Terms Of Service, Data Processing,
+          And Our List Of Sub-Processors.
         </p>
       </header>
 

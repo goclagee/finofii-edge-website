@@ -49,20 +49,20 @@ const metrics: SummaryMetric[] = [
  */
 const painPoints = [
   {
-    title: 'Revenue reconciliation across multiple channels',
-    description: 'Shopify, Amazon, wholesale — revenue comes from everywhere. Without proper reconciliation, you are flying blind on true profitability per channel.',
+    title: 'Revenue Reconciliation Across Multiple Channels',
+    description: 'Shopify, Amazon, Wholesale — Revenue Comes From Everywhere. Without Proper Reconciliation, You Are Flying Blind On True Profitability Per Channel.',
   },
   {
-    title: 'Ad spend tracking and ROAS attribution',
-    description: 'Meta, Google, TikTok budgets add up fast. Knowing your actual return on ad spend requires clean financials that tie marketing cost to revenue.',
+    title: 'Ad Spend Tracking And ROAS Attribution',
+    description: 'Meta, Google, TikTok Budgets Add Up Fast. Knowing Your Actual Return On Ad Spend Requires Clean Financials That Tie Marketing Cost To Revenue.',
   },
   {
-    title: 'Inventory and COGS complexity',
-    description: 'Managing SKU-level cost of goods, freight and landed cost calculations manually leads to inaccurate margins and tax surprises.',
+    title: 'Inventory And COGS Complexity',
+    description: 'Managing SKU-Level Cost Of Goods, Freight And Landed Cost Calculations Manually Leads To Inaccurate Margins And Tax Surprises.',
   },
   {
-    title: 'Sales tax compliance across states',
-    description: 'Nexus obligations grow with every state you ship to. One missed filing means penalties that eat into already-thin margins.',
+    title: 'Sales Tax Compliance Across States',
+    description: 'Nexus Obligations Grow With Every State You Ship To. One Missed Filing Means Penalties That Eat Into Already-Thin Margins.',
   },
 ];
 
@@ -71,8 +71,8 @@ const painPoints = [
  */
 const caseStudy = {
   industry: 'DTC',
-  headline: 'How a $3M skincare brand cut close time by 70%',
-  excerpt: 'A fast-growing DTC skincare brand was spending 3 weeks on monthly close with an offshore team. After switching to Finofii Edge, they achieved a 5-day close with real-time margin visibility across all sales channels.',
+  headline: 'How A $3M Skincare Brand Cut Close Time By 70%',
+  excerpt: 'A Fast-Growing DTC Skincare Brand Was Spending 3 Weeks On Monthly Close With An Offshore Team. After Switching To Finofii Edge, They Achieved A 5-Day Close With Real-Time Margin Visibility Across All Sales Channels.',
   metrics: [
     { label: 'Close Time', before: '21 days', after: '5 days' },
     { label: 'Revenue Accuracy', before: '89%', after: '99.8%' },
@@ -90,7 +90,7 @@ export function DTCContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={100}>
             <AnimatedHeadline
-              text="Financial clarity for DTC brands that scale fast"
+              text="Financial Clarity For DTC Brands That Scale Fast"
               as="h1"
               animation="fade-up"
               className="text-4xl md:text-5xl font-bold font-display text-ink"
@@ -98,9 +98,9 @@ export function DTCContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Multi-channel revenue, complex COGS and aggressive ad budgets demand
-              precision bookkeeping. We give DTC founders the financial visibility
-              they need to scale profitably.
+              Multi-Channel Revenue, Complex COGS And Aggressive Ad Budgets Demand
+              Precision Bookkeeping. We Give DTC Founders The Financial Visibility
+              They Need To Scale Profitably.
             </p>
           </ScrollReveal>
         </div>
@@ -141,7 +141,7 @@ export function DTCContent() {
         <div className="max-w-4xl mx-auto">
           <ScrollReveal animation="fade-up">
             <h2 className="text-2xl md:text-3xl font-bold font-display text-ink text-center mb-10">
-              Key Metrics We Track for DTC
+              Key Metrics We Track For DTC
             </h2>
           </ScrollReveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -159,8 +159,8 @@ export function DTCContent() {
         <div className="max-w-4xl mx-auto">
           <ScrollReveal animation="fade-up">
             <ChartContainer
-              title="Revenue vs. Ad Spend"
-              description="6-month trend showing revenue growth against advertising investment for a DTC brand."
+              title="Revenue Vs. Ad Spend"
+              description="6-Month Trend Showing Revenue Growth Against Advertising Investment For A DTC Brand."
               data={revenueData}
               accessibleTableData={revenueData.map((d) => ({
                 Month: d.label as string,
@@ -205,7 +205,7 @@ export function DTCContent() {
                 ))}
               </div>
               <Button variant="ghost" size="sm" href="/case-studies">
-                Read full case study →
+                Read Full Case Study →
               </Button>
             </Card>
           </ScrollReveal>
@@ -214,8 +214,8 @@ export function DTCContent() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Ready to see your true DTC margins?"
-        description="Get a free audit of your e-commerce financials. We'll map your revenue channels, identify margin leaks and show you the path to a 5-day close."
+        headline="Ready To See Your True DTC Margins?"
+        description="Get A Free Audit Of Your E-Commerce Financials. We'll Map Your Revenue Channels, Identify Margin Leaks And Show You The Path To A 5-Day Close."
         buttonHref="/book?industry=dtc"
       />
     </>

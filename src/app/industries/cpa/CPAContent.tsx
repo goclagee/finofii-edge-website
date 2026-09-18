@@ -49,20 +49,20 @@ const metrics: SummaryMetric[] = [
  */
 const painPoints = [
   {
-    title: 'Seasonal capacity constraints during tax season',
-    description: 'Tax season creates unsustainable workloads. You need to serve more clients without burning out your team or compromising quality.',
+    title: 'Seasonal Capacity Constraints During Tax Season',
+    description: 'Tax Season Creates Unsustainable Workloads. You Need To Serve More Clients Without Burning Out Your Team Or Compromising Quality.',
   },
   {
-    title: 'Back-office bookkeeping eating into advisory time',
-    description: 'Hours spent on client write-up work and bank recs are hours not spent on higher-value advisory services that grow your practice.',
+    title: 'Back-Office Bookkeeping Eating Into Advisory Time',
+    description: 'Hours Spent On Client Write-Up Work And Bank Recs Are Hours Not Spent On Higher-Value Advisory Services That Grow Your Practice.',
   },
   {
-    title: 'Inconsistent quality across outsourced providers',
-    description: 'Offshore teams deliver inconsistent work that requires heavy review. Rework costs eat into the savings you expected from outsourcing.',
+    title: 'Inconsistent Quality Across Outsourced Providers',
+    description: 'Offshore Teams Deliver Inconsistent Work That Requires Heavy Review. Rework Costs Eat Into The Savings You Expected From Outsourcing.',
   },
   {
-    title: 'Scaling the practice without proportional headcount',
-    description: 'Adding clients used to mean adding staff. Modern firms need leverage — more clients per partner without sacrificing service quality.',
+    title: 'Scaling The Practice Without Proportional Headcount',
+    description: 'Adding Clients Used To Mean Adding Staff. Modern Firms Need Leverage — More Clients Per Partner Without Sacrificing Service Quality.',
   },
 ];
 
@@ -71,8 +71,8 @@ const painPoints = [
  */
 const caseStudy = {
   industry: 'CPA',
-  headline: 'Regional CPA firm adds 45% more clients without new hires',
-  excerpt: 'A 12-partner regional CPA firm outsourced all client write-up and monthly bookkeeping to Finofii Edge. Their staff shifted to advisory work, and the firm onboarded 45% more clients in one year without a single new hire.',
+  headline: 'Regional CPA Firm Adds 45% More Clients Without New Hires',
+  excerpt: 'A 12-Partner Regional CPA Firm Outsourced All Client Write-Up And Monthly Bookkeeping To Finofii Edge. Their Staff Shifted To Advisory Work, And The Firm Onboarded 45% More Clients In One Year Without A Single New Hire.',
   metrics: [
     { label: 'Client Capacity', before: '220 clients', after: '320 clients' },
     { label: 'Advisory Revenue', before: '18%', after: '41%' },
@@ -90,7 +90,7 @@ export function CPAContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={100}>
             <AnimatedHeadline
-              text="Scale your practice without scaling headcount"
+              text="Scale Your Practice Without Scaling Headcount"
               as="h1"
               animation="fade-up"
               className="text-4xl md:text-5xl font-bold font-display text-ink"
@@ -98,9 +98,9 @@ export function CPAContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Outsource write-up work to a team that meets your standards. Free your
-              staff for advisory services and take on more clients without the
-              hiring headaches.
+              Outsource Write-Up Work To A Team That Meets Your Standards. Free Your
+              Staff For Advisory Services And Take On More Clients Without The
+              Hiring Headaches.
             </p>
           </ScrollReveal>
         </div>
@@ -141,7 +141,7 @@ export function CPAContent() {
         <div className="max-w-4xl mx-auto">
           <ScrollReveal animation="fade-up">
             <h2 className="text-2xl md:text-3xl font-bold font-display text-ink text-center mb-10">
-              Key Metrics We Track for CPA Firms
+              Key Metrics We Track For CPA Firms
             </h2>
           </ScrollReveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -159,8 +159,8 @@ export function CPAContent() {
         <div className="max-w-4xl mx-auto">
           <ScrollReveal animation="fade-up">
             <ChartContainer
-              title="Billable Hours vs. Capacity"
-              description="Monthly billable hours against total team capacity for a CPA firm."
+              title="Billable Hours Vs. Capacity"
+              description="Monthly Billable Hours Against Total Team Capacity For A CPA Firm."
               data={capacityData}
               accessibleTableData={capacityData.map((d) => ({
                 Month: d.label as string,
@@ -205,7 +205,7 @@ export function CPAContent() {
                 ))}
               </div>
               <Button variant="ghost" size="sm" href="/case-studies">
-                Read full case study →
+                Read Full Case Study →
               </Button>
             </Card>
           </ScrollReveal>
@@ -214,8 +214,8 @@ export function CPAContent() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Ready to grow your practice?"
-        description="Get a free assessment of your back-office operations. We'll show you how to free up partner time and add clients without adding headcount."
+        headline="Ready To Grow Your Practice?"
+        description="Get A Free Assessment Of Your Back-Office Operations. We'll Show You How To Free Up Partner Time And Add Clients Without Adding Headcount."
         buttonHref="/book?industry=cpa"
       />
     </>

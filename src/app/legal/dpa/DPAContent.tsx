@@ -8,8 +8,8 @@ const tocItems: TOCItem[] = [
   { id: 'dpa-scope', label: 'Scope & Purpose' },
   { id: 'definitions', label: 'Definitions' },
   { id: 'processing-details', label: 'Processing Details' },
-  { id: 'obligations-processor', label: 'Obligations of Processor' },
-  { id: 'obligations-controller', label: 'Obligations of Controller' },
+  { id: 'obligations-processor', label: 'Obligations Of Processor' },
+  { id: 'obligations-controller', label: 'Obligations Of Controller' },
   { id: 'sub-processing', label: 'Sub-Processing' },
   { id: 'data-transfers', label: 'International Data Transfers' },
   { id: 'security-obligations', label: 'Security Obligations' },
@@ -29,31 +29,31 @@ export function DPAContent() {
       <section>
         <h2 id="dpa-scope">Scope &amp; Purpose</h2>
         <p>
-          This Data Processing Agreement (&ldquo;DPA&rdquo;) supplements and forms part of the Terms of Service
-          between Finofii Edge LLC (&ldquo;Processor&rdquo;) and the Client (&ldquo;Controller&rdquo;).
-          It describes the terms under which the Processor processes Personal Data on behalf of the Controller.
+          This Data Processing Agreement (&ldquo;DPA&rdquo;) Supplements And Forms Part Of The Terms Of Service
+          Between Finofii Edge LLC (&ldquo;Processor&rdquo;) And The Client (&ldquo;Controller&rdquo;).
+          It Describes The Terms Under Which The Processor Processes Personal Data On Behalf Of The Controller.
         </p>
         <p>
-          This DPA applies to all processing of Personal Data conducted by the Processor in connection
-          with providing accounting, bookkeeping, virtual CFO and compliance services.
+          This DPA Applies To All Processing Of Personal Data Conducted By The Processor In Connection
+          With Providing Accounting, Bookkeeping, Virtual CFO And Compliance Services.
         </p>
       </section>
 
       <section>
         <h2 id="definitions">Definitions</h2>
         <ul>
-          <li><strong>Personal Data:</strong> Any information relating to an identified or identifiable natural person.</li>
-          <li><strong>Processing:</strong> Any operation performed on Personal Data, including collection, storage, use and deletion.</li>
-          <li><strong>Controller:</strong> The Client who determines the purposes and means of processing Personal Data.</li>
-          <li><strong>Processor:</strong> Finofii Edge LLC, which processes Personal Data on behalf of the Controller.</li>
-          <li><strong>Sub-Processor:</strong> A third party engaged by the Processor to process Personal Data.</li>
-          <li><strong>Data Subject:</strong> The natural person whose Personal Data is processed.</li>
+          <li><strong>Personal Data:</strong> Any Information Relating To An Identified Or Identifiable Natural Person.</li>
+          <li><strong>Processing:</strong> Any Operation Performed On Personal Data, Including Collection, Storage, Use And Deletion.</li>
+          <li><strong>Controller:</strong> The Client Who Determines The Purposes And Means Of Processing Personal Data.</li>
+          <li><strong>Processor:</strong> Finofii Edge LLC, Which Processes Personal Data On Behalf Of The Controller.</li>
+          <li><strong>Sub-Processor:</strong> A Third Party Engaged By The Processor To Process Personal Data.</li>
+          <li><strong>Data Subject:</strong> The Natural Person Whose Personal Data Is Processed.</li>
         </ul>
       </section>
 
       <section>
         <h2 id="processing-details">Processing Details</h2>
-        <p>The Processor shall process Personal Data as follows:</p>
+        <p>The Processor Shall Process Personal Data As Follows:</p>
         <table>
           <thead>
             <tr>
@@ -64,136 +64,136 @@ export function DPAContent() {
           <tbody>
             <tr>
               <td>Subject Matter</td>
-              <td>Provision of accounting, bookkeeping and advisory services</td>
+              <td>Provision Of Accounting, Bookkeeping And Advisory Services</td>
             </tr>
             <tr>
               <td>Duration</td>
-              <td>Duration of the service agreement plus retention period</td>
+              <td>Duration Of The Service Agreement Plus Retention Period</td>
             </tr>
             <tr>
               <td>Nature &amp; Purpose</td>
-              <td>Financial record processing, report generation, compliance filing</td>
+              <td>Financial Record Processing, Report Generation, Compliance Filing</td>
             </tr>
             <tr>
-              <td>Types of Data</td>
-              <td>Financial transactions, account details, business entity data, contact information</td>
+              <td>Types Of Data</td>
+              <td>Financial Transactions, Account Details, Business Entity Data, Contact Information</td>
             </tr>
             <tr>
-              <td>Categories of Data Subjects</td>
-              <td>Client employees, contractors, vendors and customers whose data appears in financial records</td>
+              <td>Categories Of Data Subjects</td>
+              <td>Client Employees, Contractors, Vendors And Customers Whose Data Appears In Financial Records</td>
             </tr>
           </tbody>
         </table>
       </section>
 
       <section>
-        <h2 id="obligations-processor">Obligations of Processor</h2>
-        <p>The Processor shall:</p>
+        <h2 id="obligations-processor">Obligations Of Processor</h2>
+        <p>The Processor Shall:</p>
         <ol>
-          <li>Process Personal Data only on documented instructions from the Controller.</li>
-          <li>Ensure that personnel authorized to process Personal Data are bound by confidentiality obligations.</li>
-          <li>Implement appropriate technical and organizational security measures.</li>
-          <li>Engage Sub-Processors only with prior written consent of the Controller.</li>
-          <li>Assist the Controller in responding to Data Subject requests.</li>
-          <li>Delete or return all Personal Data upon termination of services, at the Controller&apos;s choice.</li>
-          <li>Make available to the Controller all information necessary to demonstrate compliance.</li>
+          <li>Process Personal Data Only On Documented Instructions From The Controller.</li>
+          <li>Ensure That Personnel Authorized To Process Personal Data Are Bound By Confidentiality Obligations.</li>
+          <li>Implement Appropriate Technical And Organizational Security Measures.</li>
+          <li>Engage Sub-Processors Only With Prior Written Consent Of The Controller.</li>
+          <li>Assist The Controller In Responding To Data Subject Requests.</li>
+          <li>Delete Or Return All Personal Data Upon Termination Of Services, At The Controller&apos;s Choice.</li>
+          <li>Make Available To The Controller All Information Necessary To Demonstrate Compliance.</li>
         </ol>
       </section>
 
       <section>
-        <h2 id="obligations-controller">Obligations of Controller</h2>
-        <p>The Controller shall:</p>
+        <h2 id="obligations-controller">Obligations Of Controller</h2>
+        <p>The Controller Shall:</p>
         <ol>
-          <li>Ensure a lawful basis for all processing instructions provided to the Processor.</li>
-          <li>Provide clear and documented processing instructions.</li>
-          <li>Notify the Processor of any changes to processing requirements.</li>
-          <li>Ensure compliance with applicable data protection laws.</li>
+          <li>Ensure A Lawful Basis For All Processing Instructions Provided To The Processor.</li>
+          <li>Provide Clear And Documented Processing Instructions.</li>
+          <li>Notify The Processor Of Any Changes To Processing Requirements.</li>
+          <li>Ensure Compliance With Applicable Data Protection Laws.</li>
         </ol>
       </section>
 
       <section>
         <h2 id="sub-processing">Sub-Processing</h2>
         <p>
-          The Processor maintains an up-to-date list of Sub-Processors on our{' '}
-          <a href="/legal/sub-processors">Sub-Processors page</a>. The Controller will be notified
-          at least 30 days before any new Sub-Processor is engaged.
+          The Processor Maintains An Up-To-Date List Of Sub-Processors On Our{' '}
+          <a href="/legal/sub-processors">Sub-Processors Page</a>. The Controller Will Be Notified
+          At Least 30 Days Before Any New Sub-Processor Is Engaged.
         </p>
         <p>
-          The Controller may object to a new Sub-Processor within 14 days of notification. If no
-          alternative can be agreed upon, either party may terminate the affected services.
+          The Controller May Object To A New Sub-Processor Within 14 Days Of Notification. If No
+          Alternative Can Be Agreed Upon, Either Party May Terminate The Affected Services.
         </p>
       </section>
 
       <section>
         <h2 id="data-transfers">International Data Transfers</h2>
         <p>
-          The Processor shall not transfer Personal Data outside the United States unless:
+          The Processor Shall Not Transfer Personal Data Outside The United States Unless:
         </p>
         <ul>
-          <li>The transfer is to a country with an adequate level of data protection.</li>
-          <li>Appropriate safeguards are in place (Standard Contractual Clauses or equivalent).</li>
-          <li>The Controller has provided prior written authorization.</li>
+          <li>The Transfer Is To A Country With An Adequate Level Of Data Protection.</li>
+          <li>Appropriate Safeguards Are In Place (Standard Contractual Clauses Or Equivalent).</li>
+          <li>The Controller Has Provided Prior Written Authorization.</li>
         </ul>
       </section>
 
       <section>
         <h2 id="security-obligations">Security Obligations</h2>
         <p>
-          The Processor shall implement and maintain security measures including:
+          The Processor Shall Implement And Maintain Security Measures Including:
         </p>
         <ul>
-          <li>Encryption of Personal Data at rest (AES-256) and in transit (TLS 1.3).</li>
-          <li>Access controls with multi-factor authentication and role-based permissions.</li>
-          <li>Regular vulnerability assessments and penetration testing.</li>
-          <li>Employee security training and background checks.</li>
-          <li>SOC 2 Type II certification maintained annually.</li>
+          <li>Encryption Of Personal Data At Rest (AES-256) And In Transit (TLS 1.3).</li>
+          <li>Access Controls With Multi-Factor Authentication And Role-Based Permissions.</li>
+          <li>Regular Vulnerability Assessments And Penetration Testing.</li>
+          <li>Employee Security Training And Background Checks.</li>
+          <li>SOC 2 Type II Certification Maintained Annually.</li>
         </ul>
       </section>
 
       <section>
         <h2 id="breach-notification">Breach Notification</h2>
         <p>
-          In the event of a Personal Data breach, the Processor shall:
+          In The Event Of A Personal Data Breach, The Processor Shall:
         </p>
         <ol>
-          <li>Notify the Controller without undue delay and within 72 hours of becoming aware of the breach.</li>
-          <li>Provide details including nature of breach, categories of data affected, approximate number of data subjects and remediation steps.</li>
-          <li>Cooperate with the Controller in investigating and mitigating the breach.</li>
-          <li>Document all breaches including those that do not require notification.</li>
+          <li>Notify The Controller Without Undue Delay And Within 72 Hours Of Becoming Aware Of The Breach.</li>
+          <li>Provide Details Including Nature Of Breach, Categories Of Data Affected, Approximate Number Of Data Subjects And Remediation Steps.</li>
+          <li>Cooperate With The Controller In Investigating And Mitigating The Breach.</li>
+          <li>Document All Breaches Including Those That Do Not Require Notification.</li>
         </ol>
       </section>
 
       <section>
         <h2 id="data-subject-rights">Data Subject Rights</h2>
         <p>
-          The Processor shall assist the Controller in fulfilling Data Subject requests including
-          access, rectification, erasure, portability and objection. The Processor shall respond
-          to Controller assistance requests within 5 business days.
+          The Processor Shall Assist The Controller In Fulfilling Data Subject Requests Including
+          Access, Rectification, Erasure, Portability And Objection. The Processor Shall Respond
+          To Controller Assistance Requests Within 5 Business Days.
         </p>
       </section>
 
       <section>
         <h2 id="audit-rights">Audit Rights</h2>
         <p>
-          The Controller may audit the Processor&apos;s compliance with this DPA once per calendar year
-          with 30 days advance written notice. Audits shall be conducted during normal business hours
-          and shall not unreasonably interfere with the Processor&apos;s operations.
+          The Controller May Audit The Processor&apos;s Compliance With This DPA Once Per Calendar Year
+          With 30 Days Advance Written Notice. Audits Shall Be Conducted During Normal Business Hours
+          And Shall Not Unreasonably Interfere With The Processor&apos;s Operations.
         </p>
         <p>
-          The Processor shall make available SOC 2 Type II reports and other relevant compliance
-          documentation as an alternative to on-site audits.
+          The Processor Shall Make Available SOC 2 Type II Reports And Other Relevant Compliance
+          Documentation As An Alternative To On-Site Audits.
         </p>
       </section>
 
       <section>
         <h2 id="dpa-termination">Term &amp; Termination</h2>
         <p>
-          This DPA remains in effect for the duration of the service agreement. Upon termination:
+          This DPA Remains In Effect For The Duration Of The Service Agreement. Upon Termination:
         </p>
         <ul>
-          <li>The Processor shall, at the Controller&apos;s choice, return or delete all Personal Data within 30 days.</li>
-          <li>The Processor may retain copies required by applicable law, subject to continued confidentiality.</li>
-          <li>Obligations under this DPA survive termination to the extent necessary for ongoing data protection.</li>
+          <li>The Processor Shall, At The Controller&apos;s Choice, Return Or Delete All Personal Data Within 30 Days.</li>
+          <li>The Processor May Retain Copies Required By Applicable Law, Subject To Continued Confidentiality.</li>
+          <li>Obligations Under This DPA Survive Termination To The Extent Necessary For Ongoing Data Protection.</li>
         </ul>
       </section>
     </LegalPageLayout>

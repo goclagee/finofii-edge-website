@@ -13,7 +13,7 @@ const tocItems: TOCItem[] = [
   { id: 'security-measures', label: 'Security Measures' },
   { id: 'your-rights', label: 'Your Rights' },
   { id: 'cookies', label: 'Cookies & Tracking' },
-  { id: 'changes', label: 'Changes to This Policy' },
+  { id: 'changes', label: 'Changes To This Policy' },
   { id: 'contact', label: 'Contact Us' },
 ];
 
@@ -27,61 +27,61 @@ export function PrivacyContent() {
       <section>
         <h2 id="introduction">Introduction</h2>
         <p>
-          Finofii Edge (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting the privacy
-          of our clients, website visitors and users of our accounting and bookkeeping services.
-          This Privacy Policy describes how we collect, use, store and share personal information
-          when you interact with our website, services and communications.
+          Finofii Edge (&ldquo;We,&rdquo; &ldquo;Our,&rdquo; Or &ldquo;Us&rdquo;) Is Committed To Protecting The Privacy
+          Of Our Clients, Website Visitors And Users Of Our Accounting And Bookkeeping Services.
+          This Privacy Policy Describes How We Collect, Use, Store And Share Personal Information
+          When You Interact With Our Website, Services And Communications.
         </p>
         <p>
-          By using our services or browsing our website at finofii.com, you agree to the practices
-          described in this policy. If you do not agree, please discontinue use of our services.
+          By Using Our Services Or Browsing Our Website At Finofii.com, You Agree To The Practices
+          Described In This Policy. If You Do Not Agree, Please Discontinue Use Of Our Services.
         </p>
       </section>
 
       <section>
         <h2 id="information-we-collect">Information We Collect</h2>
-        <p>We collect information in the following categories:</p>
+        <p>We Collect Information In The Following Categories:</p>
         <ul>
-          <li><strong>Account Information:</strong> Name, email address, company name, entity type and timezone when you create an account or submit our intake form.</li>
-          <li><strong>Financial Data:</strong> Transaction records, bank statements, revenue figures and other accounting data you provide for our bookkeeping services.</li>
-          <li><strong>Usage Data:</strong> Pages visited, features used, browser type, device information and IP address collected automatically through our website.</li>
-          <li><strong>Communication Data:</strong> Emails, chat messages and scheduling information from interactions with our team.</li>
-          <li><strong>Payment Information:</strong> Billing details processed through our secure payment provider (we do not store full card numbers).</li>
+          <li><strong>Account Information:</strong> Name, Email Address, Company Name, Entity Type And Timezone When You Create An Account Or Submit Our Intake Form.</li>
+          <li><strong>Financial Data:</strong> Transaction Records, Bank Statements, Revenue Figures And Other Accounting Data You Provide For Our Bookkeeping Services.</li>
+          <li><strong>Usage Data:</strong> Pages Visited, Features Used, Browser Type, Device Information And IP Address Collected Automatically Through Our Website.</li>
+          <li><strong>Communication Data:</strong> Emails, Chat Messages And Scheduling Information From Interactions With Our Team.</li>
+          <li><strong>Payment Information:</strong> Billing Details Processed Through Our Secure Payment Provider (We Do Not Store Full Card Numbers).</li>
         </ul>
       </section>
 
       <section>
         <h2 id="how-we-use-information">How We Use Information</h2>
-        <p>We use your personal information for the following purposes:</p>
+        <p>We Use Your Personal Information For The Following Purposes:</p>
         <ol>
-          <li>Providing and improving our accounting, bookkeeping and advisory services.</li>
-          <li>Processing and managing your service subscription and billing.</li>
-          <li>Communicating about your account, service updates and scheduling.</li>
-          <li>Generating financial reports, dashboards and compliance filings on your behalf.</li>
-          <li>Analyzing usage patterns to improve our website and service delivery.</li>
-          <li>Meeting our legal and regulatory obligations.</li>
+          <li>Providing And Improving Our Accounting, Bookkeeping And Advisory Services.</li>
+          <li>Processing And Managing Your Service Subscription And Billing.</li>
+          <li>Communicating About Your Account, Service Updates And Scheduling.</li>
+          <li>Generating Financial Reports, Dashboards And Compliance Filings On Your Behalf.</li>
+          <li>Analyzing Usage Patterns To Improve Our Website And Service Delivery.</li>
+          <li>Meeting Our Legal And Regulatory Obligations.</li>
         </ol>
       </section>
 
       <section>
         <h2 id="data-sharing">Data Sharing &amp; Disclosure</h2>
         <p>
-          We do not sell your personal information. We may share data with third parties only in
-          the following circumstances:
+          We Do Not Sell Your Personal Information. We May Share Data With Third Parties Only In
+          The Following Circumstances:
         </p>
         <ul>
-          <li><strong>Service Providers:</strong> Sub-processors who assist in delivering our services (see our Sub-Processors page for the full list).</li>
-          <li><strong>Legal Requirements:</strong> When required by law, regulation or legal process.</li>
-          <li><strong>Business Transfers:</strong> In connection with a merger, acquisition or sale of assets.</li>
-          <li><strong>With Your Consent:</strong> When you explicitly authorize sharing with a specific third party.</li>
+          <li><strong>Service Providers:</strong> Sub-Processors Who Assist In Delivering Our Services (See Our Sub-Processors Page For The Full List).</li>
+          <li><strong>Legal Requirements:</strong> When Required By Law, Regulation Or Legal Process.</li>
+          <li><strong>Business Transfers:</strong> In Connection With A Merger, Acquisition Or Sale Of Assets.</li>
+          <li><strong>With Your Consent:</strong> When You Explicitly Authorize Sharing With A Specific Third Party.</li>
         </ul>
       </section>
 
       <section>
         <h2 id="data-retention">Data Retention</h2>
         <p>
-          We retain your personal information for as long as necessary to provide our services
-          and comply with our legal obligations. Specifically:
+          We Retain Your Personal Information For As Long As Necessary To Provide Our Services
+          And Comply With Our Legal Obligations. Specifically:
         </p>
         <table>
           <thead>
@@ -92,20 +92,20 @@ export function PrivacyContent() {
           </thead>
           <tbody>
             <tr>
-              <td>Account information</td>
-              <td>Duration of service + 3 years</td>
+              <td>Account Information</td>
+              <td>Duration Of Service + 3 Years</td>
             </tr>
             <tr>
-              <td>Financial records</td>
-              <td>7 years (IRS requirement)</td>
+              <td>Financial Records</td>
+              <td>7 Years (IRS Requirement)</td>
             </tr>
             <tr>
-              <td>Usage analytics</td>
-              <td>26 months</td>
+              <td>Usage Analytics</td>
+              <td>26 Months</td>
             </tr>
             <tr>
-              <td>Communication logs</td>
-              <td>Duration of service + 1 year</td>
+              <td>Communication Logs</td>
+              <td>Duration Of Service + 1 Year</td>
             </tr>
           </tbody>
         </table>
@@ -114,68 +114,68 @@ export function PrivacyContent() {
       <section>
         <h2 id="security-measures">Security Measures</h2>
         <p>
-          We implement industry-standard security measures to protect your information, including:
+          We Implement Industry-Standard Security Measures To Protect Your Information, Including:
         </p>
         <ul>
-          <li>SOC 2 Type II certified infrastructure and processes.</li>
-          <li>AES-256 encryption for data at rest and TLS 1.3 for data in transit.</li>
-          <li>Role-based access controls with multi-factor authentication.</li>
-          <li>Regular security audits and penetration testing.</li>
-          <li>Automated monitoring and incident response procedures.</li>
+          <li>SOC 2 Type II Certified Infrastructure And Processes.</li>
+          <li>AES-256 Encryption For Data At Rest And TLS 1.3 For Data In Transit.</li>
+          <li>Role-Based Access Controls With Multi-Factor Authentication.</li>
+          <li>Regular Security Audits And Penetration Testing.</li>
+          <li>Automated Monitoring And Incident Response Procedures.</li>
         </ul>
       </section>
 
       <section>
         <h2 id="your-rights">Your Rights</h2>
         <p>
-          Depending on your jurisdiction, you may have the following rights regarding your personal data:
+          Depending On Your Jurisdiction, You May Have The Following Rights Regarding Your Personal Data:
         </p>
         <ul>
-          <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
-          <li><strong>Correction:</strong> Request correction of inaccurate or incomplete data.</li>
-          <li><strong>Deletion:</strong> Request deletion of your data (subject to legal retention requirements).</li>
-          <li><strong>Portability:</strong> Request your data in a structured, machine-readable format.</li>
-          <li><strong>Restriction:</strong> Request restriction of processing in certain circumstances.</li>
-          <li><strong>Objection:</strong> Object to processing based on legitimate interests.</li>
+          <li><strong>Access:</strong> Request A Copy Of The Personal Data We Hold About You.</li>
+          <li><strong>Correction:</strong> Request Correction Of Inaccurate Or Incomplete Data.</li>
+          <li><strong>Deletion:</strong> Request Deletion Of Your Data (Subject To Legal Retention Requirements).</li>
+          <li><strong>Portability:</strong> Request Your Data In A Structured, Machine-Readable Format.</li>
+          <li><strong>Restriction:</strong> Request Restriction Of Processing In Certain Circumstances.</li>
+          <li><strong>Objection:</strong> Object To Processing Based On Legitimate Interests.</li>
         </ul>
         <p>
-          To exercise any of these rights, contact us at privacy@finofii.com.
+          To Exercise Any Of These Rights, Contact Us At Privacy@finofii.com.
         </p>
       </section>
 
       <section>
         <h2 id="cookies">Cookies &amp; Tracking</h2>
         <p>
-          We use cookies and similar technologies to improve your browsing experience, analyze
-          site traffic and understand usage patterns. The types of cookies we use include:
+          We Use Cookies And Similar Technologies To Improve Your Browsing Experience, Analyze
+          Site Traffic And Understand Usage Patterns. The Types Of Cookies We Use Include:
         </p>
         <ul>
-          <li><strong>Essential Cookies:</strong> Required for basic site functionality (session management, security).</li>
-          <li><strong>Analytics Cookies:</strong> Help us understand how visitors use our site (Vercel Analytics, GA4).</li>
-          <li><strong>Preference Cookies:</strong> Remember your settings and preferences across visits.</li>
+          <li><strong>Essential Cookies:</strong> Required For Basic Site Functionality (Session Management, Security).</li>
+          <li><strong>Analytics Cookies:</strong> Help Us Understand How Visitors Use Our Site (Vercel Analytics, GA4).</li>
+          <li><strong>Preference Cookies:</strong> Remember Your Settings And Preferences Across Visits.</li>
         </ul>
         <p>
-          You can manage cookie preferences through your browser settings. Disabling certain
-          cookies may affect site functionality.
+          You Can Manage Cookie Preferences Through Your Browser Settings. Disabling Certain
+          Cookies May Affect Site Functionality.
         </p>
       </section>
 
       <section>
-        <h2 id="changes">Changes to This Policy</h2>
+        <h2 id="changes">Changes To This Policy</h2>
         <p>
-          We may update this Privacy Policy periodically. We will notify you of material changes
-          by updating the &ldquo;Last Updated&rdquo; date at the top of this page. For significant
-          changes, we may also notify you via email.
+          We May Update This Privacy Policy Periodically. We Will Notify You Of Material Changes
+          By Updating The &ldquo;Last Updated&rdquo; Date At The Top Of This Page. For Significant
+          Changes, We May Also Notify You Via Email.
         </p>
       </section>
 
       <section>
         <h2 id="contact">Contact Us</h2>
         <p>
-          If you have questions about this Privacy Policy or our data practices, please contact us:
+          If You Have Questions About This Privacy Policy Or Our Data Practices, Please Contact Us:
         </p>
         <ul>
-          <li>Email: privacy@finofii.com</li>
+          <li>Email: Privacy@finofii.com</li>
           <li>Address: Finofii Edge, 123 Finance Street, Suite 400, New York, NY 10001</li>
         </ul>
       </section>

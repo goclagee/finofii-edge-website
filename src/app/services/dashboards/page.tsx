@@ -5,7 +5,7 @@ import { DashboardsContent } from './DashboardsContent';
 const seo = generatePageSEO({
   title: 'Visual MIS & Dashboards – Finofii Edge',
   description:
-    'Custom financial dashboards and report catalogues delivered within 5 business days of month-end.',
+    'Custom Financial Dashboards And Report Catalogues Delivered Within 5 Business Days Of Month-End.',
   path: '/services/dashboards',
 });
 

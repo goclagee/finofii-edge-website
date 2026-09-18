@@ -5,7 +5,7 @@ import { BookkeepingContent } from './BookkeepingContent';
 const seo = generatePageSEO({
   title: 'Bookkeeping & Accounting – Finofii Edge',
   description:
-    'Monthly bookkeeping, reconciliation and accounting services with integrations for QuickBooks, Xero, Ramp, Brex, Mercury and Stripe.',
+    'Monthly Bookkeeping, Reconciliation And Accounting Services With Integrations For QuickBooks, Xero, Ramp, Brex, Mercury And Stripe.',
   path: '/services/bookkeeping',
 });
 

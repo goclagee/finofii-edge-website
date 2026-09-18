@@ -19,22 +19,22 @@ const onboardingPhases: TimelinePhase[] = [
     items: [
       {
         id: 'p1-d1',
-        label: 'Kickoff call to understand your business model, tools and reporting needs',
+        label: 'Kickoff Call To Understand Your Business Model, Tools And Reporting Needs',
         type: 'deliverable',
       },
       {
         id: 'p1-d2',
-        label: 'Customized onboarding plan with milestones and deadlines',
+        label: 'Customized Onboarding Plan With Milestones And Deadlines',
         type: 'deliverable',
       },
       {
         id: 'p1-r1',
-        label: 'Grant read-only access to bank accounts, credit cards and payment processors',
+        label: 'Grant Read-Only Access To Bank Accounts, Credit Cards And Payment Processors',
         type: 'responsibility',
       },
       {
         id: 'p1-r2',
-        label: 'Share login credentials for QuickBooks, Xero or existing accounting platform',
+        label: 'Share Login Credentials For QuickBooks, Xero Or Existing Accounting Platform',
         type: 'responsibility',
       },
     ],
@@ -46,22 +46,22 @@ const onboardingPhases: TimelinePhase[] = [
     items: [
       {
         id: 'p2-d1',
-        label: 'Audit of last 3 months of transactions and chart of accounts',
+        label: 'Audit Of Last 3 Months Of Transactions And Chart Of Accounts',
         type: 'deliverable',
       },
       {
         id: 'p2-d2',
-        label: 'Configure integrations (bank feeds, Stripe, Ramp, payroll)',
+        label: 'Configure Integrations (Bank Feeds, Stripe, Ramp, Payroll)',
         type: 'deliverable',
       },
       {
         id: 'p2-d3',
-        label: 'Deliver findings report with identified discrepancies',
+        label: 'Deliver Findings Report With Identified Discrepancies',
         type: 'deliverable',
       },
       {
         id: 'p2-r1',
-        label: 'Respond to clarification questions about historical entries',
+        label: 'Respond To Clarification Questions About Historical Entries',
         type: 'responsibility',
       },
     ],
@@ -73,22 +73,22 @@ const onboardingPhases: TimelinePhase[] = [
     items: [
       {
         id: 'p3-d1',
-        label: 'Establish categorization rules, recurring entries and approval workflows',
+        label: 'Establish Categorization Rules, Recurring Entries And Approval Workflows',
         type: 'deliverable',
       },
       {
         id: 'p3-d2',
-        label: 'Complete first monthly close with full reconciliation',
+        label: 'Complete First Monthly Close With Full Reconciliation',
         type: 'deliverable',
       },
       {
         id: 'p3-r1',
-        label: 'Review and approve the proposed chart of accounts structure',
+        label: 'Review And Approve The Proposed Chart Of Accounts Structure',
         type: 'responsibility',
       },
       {
         id: 'p3-r2',
-        label: 'Approve first-month financial statements',
+        label: 'Approve First-Month Financial Statements',
         type: 'responsibility',
       },
     ],
@@ -100,22 +100,22 @@ const onboardingPhases: TimelinePhase[] = [
     items: [
       {
         id: 'p4-d1',
-        label: 'Custom financial dashboard configured with your KPIs and metrics',
+        label: 'Custom Financial Dashboard Configured With Your KPIs And Metrics',
         type: 'deliverable',
       },
       {
         id: 'p4-d2',
-        label: 'Documented SOPs for ongoing monthly close process',
+        label: 'Documented SOPs For Ongoing Monthly Close Process',
         type: 'deliverable',
       },
       {
         id: 'p4-d3',
-        label: 'Dedicated Slack channel and ongoing support schedule established',
+        label: 'Dedicated Slack Channel And Ongoing Support Schedule Established',
         type: 'deliverable',
       },
       {
         id: 'p4-r1',
-        label: 'Confirm dashboard metrics and reporting preferences',
+        label: 'Confirm Dashboard Metrics And Reporting Preferences',
         type: 'responsibility',
       },
     ],
@@ -138,9 +138,9 @@ export function HowItWorksContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              From signup to full financial visibility in just 14 days. Our structured
-              onboarding process ensures a smooth transition with zero disruption to
-              your business operations.
+              From Signup To Full Financial Visibility In Just 14 Days. Our Structured
+              Onboarding Process Ensures A Smooth Transition With Zero Disruption To
+              Your Business Operations.
             </p>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={300}>
@@ -176,8 +176,8 @@ export function HowItWorksContent() {
               Your 14-Day Onboarding Journey
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              Each phase has clear deliverables from our team and simple responsibilities
-              on your end. We keep the process collaborative and transparent.
+              Each Phase Has Clear Deliverables From Our Team And Simple Responsibilities
+              On Your End. We Keep The Process Collaborative And Transparent.
             </p>
           </ScrollReveal>
 
@@ -222,8 +222,8 @@ export function HowItWorksContent() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Ready to get started?"
-        description="Book a free audit call and we'll walk you through the entire onboarding process. In just 14 days, you'll have complete financial visibility."
+        headline="Ready To Get Started?"
+        description="Book A Free Audit Call And We'll Walk You Through The Entire Onboarding Process. In Just 14 Days, You'll Have Complete Financial Visibility."
       />
     </>
   );

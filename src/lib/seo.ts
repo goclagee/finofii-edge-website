@@ -3,8 +3,8 @@ import type { PageSEO } from '@/types/seo';
 
 export const SITE_NAME = 'Finofii Edge';
 export const SITE_URL = 'https://finofii.com';
-const DEFAULT_TITLE = 'Finofii Edge – Accounting & Bookkeeping for Growing Businesses';
-const DEFAULT_DESCRIPTION = 'US-focused accounting, bookkeeping and Virtual CFO Services for DTC brands, agencies, SaaS startups and CPA firms.';
+const DEFAULT_TITLE = 'Finofii Edge – Accounting & Bookkeeping For Growing Businesses';
+const DEFAULT_DESCRIPTION = 'US-Focused Accounting, Bookkeeping And Virtual CFO Services For DTC Brands, Agencies, SaaS Startups And CPA Firms.';
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.png`;
 
 /**
@@ -124,91 +124,91 @@ export const PUBLIC_ROUTES = [
  */
 export const PAGE_SEO_DATA: Record<string, { title: string; description: string }> = {
   '/': {
-    title: 'Finofii Edge – Accounting for Modern Businesses',
-    description: 'Premium accounting, bookkeeping and Virtual CFO Services for DTC brands, agencies, SaaS startups and CPA firms.',
+    title: 'Finofii Edge – Accounting For Modern Businesses',
+    description: 'Premium Accounting, Bookkeeping And Virtual CFO Services For DTC Brands, Agencies, SaaS Startups And CPA Firms.',
   },
   '/services': {
     title: 'Our Services – Finofii Edge',
-    description: 'Bookkeeping, visual dashboards, virtual CFO advisory and entity compliance services tailored for growing businesses.',
+    description: 'Bookkeeping, Visual Dashboards, Virtual CFO Advisory And Entity Compliance Services Tailored For Growing Businesses.',
   },
   '/services/bookkeeping': {
     title: 'Bookkeeping & Accounting – Finofii Edge',
-    description: 'Monthly bookkeeping, reconciliation and accounting services with integrations for QuickBooks, Xero, Ramp and more.',
+    description: 'Monthly Bookkeeping, Reconciliation And Accounting Services With Integrations For QuickBooks, Xero, Ramp And More.',
   },
   '/services/dashboards': {
     title: 'Visual MIS & Dashboards – Finofii Edge',
-    description: 'Custom financial dashboards and report catalogues delivered within 5 business days of month-end.',
+    description: 'Custom Financial Dashboards And Report Catalogues Delivered Within 5 Business Days Of Month-End.',
   },
   '/services/cfo': {
     title: 'Virtual CFO & Advisory – Finofii Edge',
-    description: 'Strategic financial guidance, cash flow forecasting and advisory services for scaling businesses.',
+    description: 'Strategic Financial Guidance, Cash Flow Forecasting And Advisory Services For Scaling Businesses.',
   },
   '/services/entity': {
     title: 'Entity & Compliance – Finofii Edge',
-    description: 'Entity formation, state filings and ongoing compliance management across multiple jurisdictions.',
+    description: 'Entity Formation, State Filings And Ongoing Compliance Management Across Multiple Jurisdictions.',
   },
   '/pricing': {
     title: 'Pricing Plans – Finofii Edge',
-    description: 'Transparent pricing tiers for Essentials, Growth and Scale plans. Find the right fit for your business.',
+    description: 'Transparent Pricing Tiers For Essentials, Growth And Scale Plans. Find The Right Fit For Your Business.',
   },
   '/dashboard': {
     title: 'Sample Dashboard – Finofii Edge',
-    description: 'Explore interactive financial dashboards with live charts, month toggles and industry presets.',
+    description: 'Explore Interactive Financial Dashboards With Live Charts, Month Toggles And Industry Presets.',
   },
   '/security': {
     title: 'Security & Compliance – Finofii Edge',
-    description: 'SOC 2 certified security controls, data handling policies and sub-processor transparency.',
+    description: 'SOC 2 Certified Security Controls, Data Handling Policies And Sub-Processor Transparency.',
   },
   '/book': {
-    title: 'Book a Free Audit – Finofii Edge',
-    description: 'Schedule your free financial audit consultation. Quick intake form and calendar booking in minutes.',
+    title: 'Book A Free Audit – Finofii Edge',
+    description: 'Schedule Your Free Financial Audit Consultation. Quick Intake Form And Calendar Booking In Minutes.',
   },
   '/legal/privacy': {
     title: 'Privacy Policy – Finofii Edge',
-    description: 'How Finofii Edge collects, uses and protects your personal information and business data.',
+    description: 'How Finofii Edge Collects, Uses And Protects Your Personal Information And Business Data.',
   },
   '/legal/terms': {
-    title: 'Terms of Service – Finofii Edge',
-    description: 'Terms and conditions governing your use of Finofii Edge accounting and advisory services.',
+    title: 'Terms Of Service – Finofii Edge',
+    description: 'Terms And Conditions Governing Your Use Of Finofii Edge Accounting And Advisory Services.',
   },
   '/legal/dpa': {
     title: 'Data Processing Agreement – Finofii Edge',
-    description: 'Our data processing agreement outlining responsibilities for handling your business data.',
+    description: 'Our Data Processing Agreement Outlining Responsibilities For Handling Your Business Data.',
   },
   '/legal/sub-processors': {
     title: 'Sub-Processors – Finofii Edge',
-    description: 'Complete list of third-party sub-processors used by Finofii Edge for data processing.',
+    description: 'Complete List Of Third-Party Sub-Processors Used By Finofii Edge For Data Processing.',
   },
   '/industries/dtc': {
-    title: 'Accounting for DTC Brands – Finofii Edge',
-    description: 'Specialized bookkeeping and financial services for direct-to-consumer e-commerce brands.',
+    title: 'Accounting For DTC Brands – Finofii Edge',
+    description: 'Specialized Bookkeeping And Financial Services For Direct-To-Consumer E-Commerce Brands.',
   },
   '/industries/agencies': {
-    title: 'Accounting for Agencies – Finofii Edge',
-    description: 'Financial management tailored for creative and digital agencies with project-based revenue.',
+    title: 'Accounting For Agencies – Finofii Edge',
+    description: 'Financial Management Tailored For Creative And Digital Agencies With Project-Based Revenue.',
   },
   '/industries/saas': {
-    title: 'Accounting for SaaS Startups – Finofii Edge',
-    description: 'Revenue recognition, MRR tracking and compliance services for SaaS companies.',
+    title: 'Accounting For SaaS Startups – Finofii Edge',
+    description: 'Revenue Recognition, MRR Tracking And Compliance Services For SaaS Companies.',
   },
   '/industries/cpa': {
-    title: 'Services for CPA Firms – Finofii Edge',
-    description: 'Outsourced bookkeeping and back-office support designed for CPA firms scaling their practice.',
+    title: 'Services For CPA Firms – Finofii Edge',
+    description: 'Outsourced Bookkeeping And Back-Office Support Designed For CPA Firms Scaling Their Practice.',
   },
   '/how-it-works': {
     title: 'How It Works – Finofii Edge',
-    description: 'Our 14-day onboarding process: from signup to full financial visibility in two weeks.',
+    description: 'Our 14-Day Onboarding Process: From Signup To Full Financial Visibility In Two Weeks.',
   },
   '/case-studies': {
     title: 'Case Studies – Finofii Edge',
-    description: 'Real results from real businesses. Before-and-after metrics from our accounting clients.',
+    description: 'Real Results From Real Businesses. Before-And-After Metrics From Our Accounting Clients.',
   },
   '/about': {
     title: 'About Us & Team – Finofii Edge',
-    description: 'Meet the team behind Finofii Edge. Our story, values and commitment to your financial clarity.',
+    description: 'Meet The Team Behind Finofii Edge. Our Story, Values And Commitment To Your Financial Clarity.',
   },
   '/resources': {
     title: 'Resources & Blog – Finofii Edge',
-    description: 'Guides, blog posts, templates and a tax calendar to help you stay on top of your finances.',
+    description: 'Guides, Blog Posts, Templates And A Tax Calendar To Help You Stay On Top Of Your Finances.',
   },
 };

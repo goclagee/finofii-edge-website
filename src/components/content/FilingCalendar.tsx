@@ -190,7 +190,7 @@ export function FilingCalendar({
                   </ul>
                 ) : (
                   <p className="text-sm text-ink/50 italic">
-                    No filing deadlines for {MONTH_NAMES[month]}.
+                    No Filing Deadlines For {MONTH_NAMES[month]}.
                   </p>
                 )}
               </div>

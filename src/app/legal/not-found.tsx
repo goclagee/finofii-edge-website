@@ -31,8 +31,8 @@ export default function LegalNotFound() {
           Page Unavailable
         </h1>
         <p className="text-ink/70 mb-8">
-          The legal page you&apos;re looking for is not currently available. It may have been moved
-          or is not yet published.
+          The Legal Page You&apos;re Looking For Is Not Currently Available. It May Have Been Moved
+          Or Is Not Yet Published.
         </p>
 
         <Link
@@ -53,7 +53,7 @@ export default function LegalNotFound() {
               d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
             />
           </svg>
-          Back to Legal Index
+          Back To Legal Index
         </Link>
       </div>
     </Section>

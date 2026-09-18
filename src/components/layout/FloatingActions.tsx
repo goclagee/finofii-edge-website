@@ -28,7 +28,7 @@ export function FloatingActions() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat with us on WhatsApp"
-        title="Chat on WhatsApp"
+        title="Chat On WhatsApp"
         className="group flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/20 transition-transform duration-150 hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#25D366]"
       >
         <svg
@@ -46,7 +46,7 @@ export function FloatingActions() {
       <Link
         href="/book"
         aria-label="Book a free consultation"
-        title="Book a free consultation"
+        title="Book A Free Consultation"
         className="group flex h-14 w-14 items-center justify-center rounded-full bg-accent text-white shadow-lg shadow-black/20 transition-transform duration-150 hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
       >
         <svg

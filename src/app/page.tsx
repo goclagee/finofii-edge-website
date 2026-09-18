@@ -26,9 +26,9 @@ const FinalCTASection = dynamic(
 
 export function generateMetadata(): Metadata {
   const seo = generatePageSEO({
-    title: 'Finofii Edge – Accounting & Bookkeeping for Growing Businesses',
+    title: 'Finofii Edge – Accounting & Bookkeeping For Growing Businesses',
     description:
-      'US-focused accounting, bookkeeping and Virtual CFO Services for DTC brands, agencies, SaaS startups and CPA firms.',
+      'US-Focused Accounting, Bookkeeping And Virtual CFO Services For DTC Brands, Agencies, SaaS Startups And CPA Firms.',
     path: '/',
   });
 

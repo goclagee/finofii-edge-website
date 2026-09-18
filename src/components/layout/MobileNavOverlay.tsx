@@ -107,7 +107,7 @@ export function MobileNavOverlay({
             className="w-full"
             onClick={onClose}
           >
-            Book a Free Audit
+            Book A Free Audit
           </Button>
         </div>
       </nav>

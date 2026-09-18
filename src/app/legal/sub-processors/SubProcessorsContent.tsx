@@ -24,21 +24,21 @@ export function SubProcessorsContent() {
       <section>
         <h2 id="overview">Overview</h2>
         <p>
-          Finofii Edge uses select third-party sub-processors to deliver our accounting, bookkeeping,
-          and advisory services. Each sub-processor has been evaluated for security, privacy compliance,
-          and data handling practices before engagement.
+          Finofii Edge Uses Select Third-Party Sub-Processors To Deliver Our Accounting, Bookkeeping,
+          And Advisory Services. Each Sub-Processor Has Been Evaluated For Security, Privacy Compliance,
+          And Data Handling Practices Before Engagement.
         </p>
         <p>
-          This page lists all current sub-processors, their purposes and data processing locations.
-          We update this page whenever a sub-processor is added or removed.
+          This Page Lists All Current Sub-Processors, Their Purposes And Data Processing Locations.
+          We Update This Page Whenever A Sub-Processor Is Added Or Removed.
         </p>
       </section>
 
       <section>
         <h2 id="current-sub-processors">Current Sub-Processors</h2>
         <p>
-          The following table lists all third-party sub-processors currently engaged by Finofii Edge
-          to process client data:
+          The Following Table Lists All Third-Party Sub-Processors Currently Engaged By Finofii Edge
+          To Process Client Data:
         </p>
         <table>
           <thead>
@@ -51,52 +51,52 @@ export function SubProcessorsContent() {
           <tbody>
             <tr>
               <td>Amazon Web Services (AWS)</td>
-              <td>Cloud infrastructure and data hosting</td>
-              <td>United States (us-east-1)</td>
+              <td>Cloud Infrastructure And Data Hosting</td>
+              <td>United States (Us-East-1)</td>
             </tr>
             <tr>
               <td>Vercel</td>
-              <td>Website hosting and edge delivery</td>
+              <td>Website Hosting And Edge Delivery</td>
               <td>United States</td>
             </tr>
             <tr>
               <td>QuickBooks Online (Intuit)</td>
-              <td>Accounting platform integration</td>
+              <td>Accounting Platform Integration</td>
               <td>United States</td>
             </tr>
             <tr>
               <td>Xero</td>
-              <td>Accounting platform integration</td>
+              <td>Accounting Platform Integration</td>
               <td>United States</td>
             </tr>
             <tr>
               <td>HubSpot</td>
-              <td>CRM and client relationship management</td>
+              <td>CRM And Client Relationship Management</td>
               <td>United States</td>
             </tr>
             <tr>
               <td>Cal.com</td>
-              <td>Appointment scheduling</td>
+              <td>Appointment Scheduling</td>
               <td>United States, EU</td>
             </tr>
             <tr>
               <td>Stripe</td>
-              <td>Payment processing</td>
+              <td>Payment Processing</td>
               <td>United States</td>
             </tr>
             <tr>
               <td>Slack</td>
-              <td>Internal team communication and notifications</td>
+              <td>Internal Team Communication And Notifications</td>
               <td>United States</td>
             </tr>
             <tr>
               <td>Google Workspace</td>
-              <td>Email, documents and collaboration</td>
+              <td>Email, Documents And Collaboration</td>
               <td>United States</td>
             </tr>
             <tr>
               <td>Datadog</td>
-              <td>Application monitoring and logging</td>
+              <td>Application Monitoring And Logging</td>
               <td>United States</td>
             </tr>
           </tbody>
@@ -106,65 +106,65 @@ export function SubProcessorsContent() {
       <section>
         <h2 id="infrastructure-providers">Infrastructure Providers</h2>
         <p>
-          Our core infrastructure is hosted on AWS and Vercel, providing enterprise-grade security,
-          redundancy and compliance certifications including SOC 2 Type II and ISO 27001.
+          Our Core Infrastructure Is Hosted On AWS And Vercel, Providing Enterprise-Grade Security,
+          Redundancy And Compliance Certifications Including SOC 2 Type II And ISO 27001.
         </p>
         <ul>
-          <li><strong>AWS:</strong> Primary data storage, compute and backup infrastructure with encryption at rest and in transit.</li>
-          <li><strong>Vercel:</strong> Website and application delivery with edge caching for optimal performance.</li>
+          <li><strong>AWS:</strong> Primary Data Storage, Compute And Backup Infrastructure With Encryption At Rest And In Transit.</li>
+          <li><strong>Vercel:</strong> Website And Application Delivery With Edge Caching For Optimal Performance.</li>
         </ul>
       </section>
 
       <section>
         <h2 id="service-tools">Service &amp; Tooling</h2>
         <p>
-          The following tools are used in the delivery of our accounting and advisory services:
+          The Following Tools Are Used In The Delivery Of Our Accounting And Advisory Services:
         </p>
         <ul>
-          <li><strong>QuickBooks Online / Xero:</strong> Client accounting platform access for bookkeeping and reconciliation.</li>
-          <li><strong>Ramp / Brex / Mercury:</strong> Corporate card and banking integrations for transaction import.</li>
-          <li><strong>Stripe:</strong> Secure payment processing for service billing.</li>
-          <li><strong>HubSpot:</strong> Client onboarding, communication tracking and service management.</li>
+          <li><strong>QuickBooks Online / Xero:</strong> Client Accounting Platform Access For Bookkeeping And Reconciliation.</li>
+          <li><strong>Ramp / Brex / Mercury:</strong> Corporate Card And Banking Integrations For Transaction Import.</li>
+          <li><strong>Stripe:</strong> Secure Payment Processing For Service Billing.</li>
+          <li><strong>HubSpot:</strong> Client Onboarding, Communication Tracking And Service Management.</li>
         </ul>
       </section>
 
       <section>
         <h2 id="communication-providers">Communication Providers</h2>
         <p>
-          Internal and client communications use the following sub-processors:
+          Internal And Client Communications Use The Following Sub-Processors:
         </p>
         <ul>
-          <li><strong>Slack:</strong> Internal team coordination and automated service notifications.</li>
-          <li><strong>Google Workspace:</strong> Client email communication and document sharing.</li>
-          <li><strong>Cal.com:</strong> Meeting scheduling and calendar management for client consultations.</li>
+          <li><strong>Slack:</strong> Internal Team Coordination And Automated Service Notifications.</li>
+          <li><strong>Google Workspace:</strong> Client Email Communication And Document Sharing.</li>
+          <li><strong>Cal.com:</strong> Meeting Scheduling And Calendar Management For Client Consultations.</li>
         </ul>
       </section>
 
       <section>
         <h2 id="change-notification">Change Notification Process</h2>
         <p>
-          We will notify clients at least 30 days before engaging a new sub-processor. Notifications
-          are sent via email to the account&apos;s primary contact address and updated on this page.
+          We Will Notify Clients At Least 30 Days Before Engaging A New Sub-Processor. Notifications
+          Are Sent Via Email To The Account&apos;s Primary Contact Address And Updated On This Page.
         </p>
         <p>
-          Clients can subscribe to sub-processor update notifications by contacting privacy@finofii.com.
+          Clients Can Subscribe To Sub-Processor Update Notifications By Contacting Privacy@finofii.com.
         </p>
       </section>
 
       <section>
         <h2 id="objection-process">Objection Process</h2>
         <p>
-          If you object to a new sub-processor, you must notify us in writing within 14 days of
-          receiving the change notification. We will work with you to:
+          If You Object To A New Sub-Processor, You Must Notify Us In Writing Within 14 Days Of
+          Receiving The Change Notification. We Will Work With You To:
         </p>
         <ol>
-          <li>Explain the necessity of the sub-processor and data handling practices.</li>
-          <li>Explore alternative sub-processors that may address your concerns.</li>
-          <li>Offer additional contractual safeguards where feasible.</li>
-          <li>If no resolution is possible, allow termination of the affected services without penalty.</li>
+          <li>Explain The Necessity Of The Sub-Processor And Data Handling Practices.</li>
+          <li>Explore Alternative Sub-Processors That May Address Your Concerns.</li>
+          <li>Offer Additional Contractual Safeguards Where Feasible.</li>
+          <li>If No Resolution Is Possible, Allow Termination Of The Affected Services Without Penalty.</li>
         </ol>
         <p>
-          Objections should be sent to: <a href="mailto:legal@finofii.com">legal@finofii.com</a>
+          Objections Should Be Sent To: <a href="mailto:legal@finofii.com">legal@finofii.com</a>
         </p>
       </section>
     </LegalPageLayout>

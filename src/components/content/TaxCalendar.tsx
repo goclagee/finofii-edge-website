@@ -263,7 +263,7 @@ export function TaxCalendar({
         ) : (
           <div className="text-center py-8">
             <p className="text-sm text-ink/50 italic m-0">
-              No filing deadlines for {MONTH_NAMES[activeMonth]}.
+              No Filing Deadlines For {MONTH_NAMES[activeMonth]}.
             </p>
           </div>
         )}

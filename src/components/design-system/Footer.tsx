@@ -15,14 +15,14 @@ const sitemapLinks = [
   { label: 'Case Studies', href: '/case-studies' },
   { label: 'About', href: '/about' },
   { label: 'Resources', href: '/resources' },
-  { label: 'Book a Free Audit', href: '/book' },
+  { label: 'Book A Free Audit', href: '/book' },
 ];
 
 const legalLinks = [
   { label: 'Privacy Policy', href: '/legal/privacy' },
-  { label: 'Terms of Service', href: '/legal/terms' },
+  { label: 'Terms Of Service', href: '/legal/terms' },
   { label: 'DPA', href: '/legal/dpa' },
-  { label: 'Sub-processors', href: '/legal/sub-processors' },
+  { label: 'Sub-Processors', href: '/legal/sub-processors' },
 ];
 
 /**
@@ -50,7 +50,7 @@ export function Footer({ year }: FooterProps) {
               />
             </Link>
             <p className="text-paper/70 text-sm mb-6">
-              Premium accounting &amp; bookkeeping for modern businesses.
+              Premium Accounting &amp; Bookkeeping For Modern Businesses.
             </p>
 
             {/* Newsletter signup form */}
@@ -101,10 +101,10 @@ export function Footer({ year }: FooterProps) {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-paper/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-paper/50">
-            &copy; {currentYear} Finofii Edge. All rights reserved.
+            &copy; {currentYear} Finofii Edge. All Rights Reserved.
           </p>
           <p className="text-sm text-paper/50">
-            Built with precision for modern businesses.
+            Built With Precision For Modern Businesses.
           </p>
         </div>
       </div>

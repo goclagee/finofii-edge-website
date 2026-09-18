@@ -25,7 +25,7 @@ export function FinalCTASection() {
 
       <Section className="relative z-10 text-center">
         <AnimatedHeadline
-          text="We are Ready to close your books on time, every time?"
+          text="We Are Ready To Close Your Books On Time, Every Time?"
           as="h2"
           animation="fade-up"
           className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-paper leading-tight max-w-3xl mx-auto"
@@ -33,21 +33,21 @@ export function FinalCTASection() {
 
         <ScrollReveal animation="fade-up" delay={200}>
           <p className="mt-6 text-lg text-paper/70 max-w-xl mx-auto">
-            Join 500+ businesses that trust Finofii Edge for Accounting, Bookkeeping and Strategic financial advisory.
+            Join 500+ Businesses That Trust Finofii Edge For Accounting, Bookkeeping And Strategic Financial Advisory.
           </p>
         </ScrollReveal>
 
         <ScrollReveal animation="fade-up" delay={400}>
           <div className="mt-10">
             <Button variant="accent" size="lg" href="/book" magnetic>
-              Book a Free Audit
+              Book A Free Audit
             </Button>
           </div>
         </ScrollReveal>
 
         <ScrollReveal animation="fade-in" delay={600}>
           <p className="mt-6 text-sm text-paper/50">
-            No commitment. 30-minute strategy call with a senior advisor.
+            No Commitment. 30-Minute Strategy Call With A Senior Advisor.
           </p>
         </ScrollReveal>
       </Section>

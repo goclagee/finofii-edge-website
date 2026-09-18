@@ -70,7 +70,7 @@ describe('Navbar', () => {
 
   it('renders CTA button linking to /book', () => {
     render(<Navbar />);
-    const ctaElements = screen.getAllByText('Book a Free Audit');
+    const ctaElements = screen.getAllByText('Book A Free Audit');
     expect(ctaElements.length).toBeGreaterThanOrEqual(1);
     const link = ctaElements[0].closest('a');
     expect(link!.getAttribute('href')).toBe('/book');
@@ -142,7 +142,7 @@ describe('MobileNavOverlay', () => {
     render(
       <MobileNavOverlay isOpen={true} onClose={vi.fn()} links={defaultLinks} />
     );
-    expect(screen.getByText('Book a Free Audit')).toBeDefined();
+    expect(screen.getByText('Book A Free Audit')).toBeDefined();
   });
 
   it('has aria-hidden=false when open and aria-hidden=true when closed', () => {
@@ -364,7 +364,7 @@ describe('NewsletterSignup', () => {
     fireEvent.click(screen.getByLabelText('Subscribe to newsletter'));
 
     await waitFor(() => {
-      expect(screen.getByText(/Thanks for subscribing/)).toBeDefined();
+      expect(screen.getByText(/Thanks For Subscribing/)).toBeDefined();
     });
   });
 
@@ -504,7 +504,7 @@ describe('Keyboard Navigation', () => {
   it('focus indicators exist on interactive elements (focus-visible classes)', () => {
     render(<Navbar />);
     // Use getAllByText since CTA appears in both desktop and mobile nav
-    const ctaElements = screen.getAllByText('Book a Free Audit');
+    const ctaElements = screen.getAllByText('Book A Free Audit');
     const cta = ctaElements[0].closest('a');
     expect(cta!.className).toContain('focus-visible:ring-2');
   });
@@ -523,7 +523,7 @@ describe('Footer', () => {
       'Case Studies',
       'About',
       'Resources',
-      'Book a Free Audit',
+      'Book A Free Audit',
     ];
     for (const label of expectedLinks) {
       expect(screen.getByText(label)).toBeDefined();
@@ -532,7 +532,7 @@ describe('Footer', () => {
 
   it('renders legal links', () => {
     render(<Footer />);
-    const legalLinks = ['Privacy Policy', 'Terms of Service', 'DPA', 'Sub-processors'];
+    const legalLinks = ['Privacy Policy', 'Terms Of Service', 'DPA', 'Sub-Processors'];
     for (const label of legalLinks) {
       expect(screen.getByText(label)).toBeDefined();
     }

@@ -88,14 +88,14 @@ export default function CaseStudiesClient() {
       <Section padding="lg" ariaLabel="Case Studies">
         <ScrollReveal animation="fade-up">
           <AnimatedHeadline
-            text="Real Results from Real Businesses"
+            text="Real Results From Real Businesses"
             as="h1"
             animation="fade-up"
           />
           <p className="mt-4 text-lg text-ink/70 max-w-2xl">
-            See how we&apos;ve helped DTC brands, agencies, SaaS startups and CPA
-            firms transform their financial operations with concrete,
-            measurable outcomes.
+            See How We&apos;ve Helped DTC Brands, Agencies, SaaS Startups And CPA
+            Firms Transform Their Financial Operations With Concrete,
+            Measurable Outcomes.
           </p>
         </ScrollReveal>
       </Section>
@@ -163,11 +163,11 @@ function EmptyFilterState({ onReset }: { onReset: () => void }) {
         />
       </svg>
       <h3 className="text-lg font-semibold text-ink mb-2">
-        No matching case studies
+        No Matching Case Studies
       </h3>
       <p className="text-ink/60 mb-6 max-w-sm">
-        No case studies match the selected filters. Try adjusting your selection
-        or reset all filters.
+        No Case Studies Match The Selected Filters. Try Adjusting Your Selection
+        Or Reset All Filters.
       </p>
       <button
         type="button"

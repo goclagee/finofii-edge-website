@@ -47,7 +47,7 @@ const ENTITY_TYPE_OPTIONS: { value: EntityType; label: string }[] = [
 ];
 
 const REVENUE_BAND_OPTIONS: { value: RevenueBand; label: string }[] = [
-  { value: 'pre_revenue', label: 'Pre-revenue' },
+  { value: 'pre_revenue', label: 'Pre-Revenue' },
   { value: '0_100k', label: '$0 – $100K' },
   { value: '100k_500k', label: '$100K – $500K' },
   { value: '500k_1m', label: '$500K – $1M' },
@@ -339,7 +339,7 @@ function ProgressBar({
     <div className="mb-8">
       <div className="flex justify-between items-center mb-2">
         <span className="text-sm font-medium text-ink/70">
-          Step {currentStep} of {totalSteps}
+          Step {currentStep} Of {totalSteps}
         </span>
         <span className="text-sm text-ink/50">{Math.round(progress)}%</span>
       </div>
@@ -411,10 +411,10 @@ function StepEntityType({
   return (
     <div>
       <h3 className="text-lg font-semibold text-ink mb-1">
-        What type of entity is your business?
+        What Type Of Entity Is Your Business?
       </h3>
       <p className="text-sm text-ink/60 mb-4">
-        Select the entity structure that best describes your business.
+        Select The Entity Structure That Best Describes Your Business.
       </p>
       <CardSelector
         options={ENTITY_TYPE_OPTIONS}
@@ -443,10 +443,10 @@ function StepRevenueBand({
   return (
     <div>
       <h3 className="text-lg font-semibold text-ink mb-1">
-        What is your annual revenue band?
+        What Is Your Annual Revenue Band?
       </h3>
       <p className="text-sm text-ink/60 mb-4">
-        This helps us recommend the right service tier.
+        This Helps Us Recommend The Right Service Tier.
       </p>
       <CardSelector
         options={REVENUE_BAND_OPTIONS}
@@ -475,10 +475,10 @@ function StepAccountingTool({
   return (
     <div>
       <h3 className="text-lg font-semibold text-ink mb-1">
-        What accounting tool do you currently use?
+        What Accounting Tool Do You Currently Use?
       </h3>
       <p className="text-sm text-ink/60 mb-4">
-        We integrate with most major accounting platforms.
+        We Integrate With Most Major Accounting Platforms.
       </p>
       <CardSelector
         options={ACCOUNTING_TOOL_OPTIONS}
@@ -507,10 +507,10 @@ function StepTimezone({
   return (
     <div>
       <h3 className="text-lg font-semibold text-ink mb-1">
-        What is your timezone?
+        What Is Your Timezone?
       </h3>
       <p className="text-sm text-ink/60 mb-4">
-        We&apos;ll schedule communications and deliverables around your hours.
+        We&apos;ll Schedule Communications And Deliverables Around Your Hours.
       </p>
       <FormField
         label="Timezone"
@@ -530,7 +530,7 @@ function StepTimezone({
             error ? 'border-flag' : 'border-ink/20 focus:border-accent',
           ].join(' ')}
         >
-          <option value="">Select your timezone</option>
+          <option value="">Select Your Timezone</option>
           {TIMEZONE_OPTIONS.map((tz) => (
             <option key={tz} value={tz}>
               {tz.replace(/_/g, ' ').replace('America/', '')}
@@ -558,10 +558,10 @@ function StepContact({
   return (
     <div>
       <h3 className="text-lg font-semibold text-ink mb-1">
-        Almost there! How can we reach you?
+        Almost There! How Can We Reach You?
       </h3>
       <p className="text-sm text-ink/60 mb-4">
-        Enter your email and we&apos;ll be in touch within 24 hours.
+        Enter Your Email And We&apos;ll Be In Touch Within 24 Hours.
       </p>
       <div className="space-y-4">
         <FormField
@@ -575,11 +575,11 @@ function StepContact({
           validationState={errors.email ? 'error' : 'default'}
         />
         <FormField
-          label="Company name"
+          label="Company Name"
           type="text"
           value={companyName}
           onChange={(e) => onCompanyChange(e.target.value)}
-          placeholder="Your company (optional)"
+          placeholder="Your Company (Optional)"
           error={errors.companyName}
           validationState={errors.companyName ? 'error' : 'default'}
         />

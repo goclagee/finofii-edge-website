@@ -15,119 +15,119 @@ const filingDeadlines: FilingDeadline[] = [
     month: 1,
     name: 'Annual Report Filing (DE)',
     dueDate: '01/31',
-    description: 'Delaware annual report and franchise tax due for all entities incorporated in Delaware.',
+    description: 'Delaware Annual Report And Franchise Tax Due For All Entities Incorporated In Delaware.',
     entityTypes: ['llc', 'ccorp', 'scorp'],
   },
   {
     month: 1,
     name: 'Beneficial Ownership Report (BOI)',
     dueDate: '01/01',
-    description: 'New FinCEN Beneficial Ownership Information report due for newly formed entities.',
+    description: 'New FinCEN Beneficial Ownership Information Report Due For Newly Formed Entities.',
     entityTypes: ['llc', 'ccorp', 'scorp', 'partnership'],
   },
   {
     month: 3,
     name: 'S-Corp Election (Form 2553)',
     dueDate: '03/15',
-    description: 'Deadline to file Form 2553 for S-Corp election for the current tax year.',
+    description: 'Deadline To File Form 2553 For S-Corp Election For The Current Tax Year.',
     entityTypes: ['scorp'],
   },
   {
     month: 3,
     name: 'Partnership Return (Form 1065)',
     dueDate: '03/15',
-    description: 'Partnership and multi-member LLC tax return filing deadline.',
+    description: 'Partnership And Multi-Member LLC Tax Return Filing Deadline.',
     entityTypes: ['partnership', 'llc'],
   },
   {
     month: 3,
     name: 'S-Corp Return (Form 1120-S)',
     dueDate: '03/15',
-    description: 'S-Corporation income tax return filing deadline.',
+    description: 'S-Corporation Income Tax Return Filing Deadline.',
     entityTypes: ['scorp'],
   },
   {
     month: 4,
     name: 'C-Corp Return (Form 1120)',
     dueDate: '04/15',
-    description: 'C-Corporation income tax return filing deadline.',
+    description: 'C-Corporation Income Tax Return Filing Deadline.',
     entityTypes: ['ccorp'],
   },
   {
     month: 4,
     name: 'Individual / Sole Prop Return',
     dueDate: '04/15',
-    description: 'Individual income tax return deadline including sole proprietors (Schedule C).',
+    description: 'Individual Income Tax Return Deadline Including Sole Proprietors (Schedule C).',
     entityTypes: ['sole_prop'],
   },
   {
     month: 4,
     name: 'Q1 Estimated Tax Payment',
     dueDate: '04/15',
-    description: 'First quarter estimated tax payment due for all pass-through entity owners.',
+    description: 'First Quarter Estimated Tax Payment Due For All Pass-Through Entity Owners.',
     entityTypes: ['llc', 'scorp', 'partnership', 'sole_prop'],
   },
   {
     month: 5,
     name: 'Annual Statement Filing (CA)',
     dueDate: '05/15',
-    description: 'California Statement of Information due for LLCs formed or registered in California.',
+    description: 'California Statement Of Information Due For LLCs Formed Or Registered In California.',
     entityTypes: ['llc'],
   },
   {
     month: 6,
     name: 'Q2 Estimated Tax Payment',
     dueDate: '06/15',
-    description: 'Second quarter estimated tax payment due for all pass-through entity owners.',
+    description: 'Second Quarter Estimated Tax Payment Due For All Pass-Through Entity Owners.',
     entityTypes: ['llc', 'scorp', 'partnership', 'sole_prop'],
   },
   {
     month: 7,
     name: 'Delaware Annual Franchise Tax (C-Corp)',
     dueDate: '07/01',
-    description: 'Delaware franchise tax payment due for C-Corporations using the authorized shares method.',
+    description: 'Delaware Franchise Tax Payment Due For C-Corporations Using The Authorized Shares Method.',
     entityTypes: ['ccorp'],
   },
   {
     month: 9,
     name: 'Q3 Estimated Tax Payment',
     dueDate: '09/15',
-    description: 'Third quarter estimated tax payment due for all pass-through entity owners.',
+    description: 'Third Quarter Estimated Tax Payment Due For All Pass-Through Entity Owners.',
     entityTypes: ['llc', 'scorp', 'partnership', 'sole_prop'],
   },
   {
     month: 9,
     name: 'Extended Partnership/S-Corp Return',
     dueDate: '09/15',
-    description: 'Extended deadline for partnership (1065) and S-Corp (1120-S) returns.',
+    description: 'Extended Deadline For Partnership (1065) And S-Corp (1120-S) Returns.',
     entityTypes: ['partnership', 'scorp'],
   },
   {
     month: 10,
     name: 'Extended C-Corp Return',
     dueDate: '10/15',
-    description: 'Extended deadline for C-Corporation (1120) tax return filing.',
+    description: 'Extended Deadline For C-Corporation (1120) Tax Return Filing.',
     entityTypes: ['ccorp'],
   },
   {
     month: 10,
     name: 'Extended Individual Return',
     dueDate: '10/15',
-    description: 'Extended deadline for individual and sole proprietor tax return filing.',
+    description: 'Extended Deadline For Individual And Sole Proprietor Tax Return Filing.',
     entityTypes: ['sole_prop'],
   },
   {
     month: 12,
     name: 'Year-End Compliance Review',
     dueDate: '12/31',
-    description: 'Annual review of corporate minutes, operating agreements and compliance documentation.',
+    description: 'Annual Review Of Corporate Minutes, Operating Agreements And Compliance Documentation.',
     entityTypes: ['llc', 'ccorp', 'scorp', 'partnership'],
   },
   {
     month: 1,
     name: 'Q4 Estimated Tax Payment',
     dueDate: '01/15',
-    description: 'Fourth quarter estimated tax payment due for all pass-through entity owners.',
+    description: 'Fourth Quarter Estimated Tax Payment Due For All Pass-Through Entity Owners.',
     entityTypes: ['llc', 'scorp', 'partnership', 'sole_prop'],
   },
 ];
@@ -159,32 +159,32 @@ const jurisdictions: JurisdictionEntry[] = [
 const serviceScope = [
   {
     title: 'Entity Formation',
-    description: 'LLC, S-Corp, C-Corp and partnership formation in any US state with operating agreements and EIN registration.',
+    description: 'LLC, S-Corp, C-Corp And Partnership Formation In Any US State With Operating Agreements And EIN Registration.',
     icon: 'building',
   },
   {
     title: 'Registered Agent Services',
-    description: 'Nationwide registered agent coverage ensuring you never miss a legal notice or state correspondence.',
+    description: 'Nationwide Registered Agent Coverage Ensuring You Never Miss A Legal Notice Or State Correspondence.',
     icon: 'shield',
   },
   {
     title: 'State Compliance Filings',
-    description: 'Annual reports, franchise tax filings and statements of information filed on time, every time.',
+    description: 'Annual Reports, Franchise Tax Filings And Statements Of Information Filed On Time, Every Time.',
     icon: 'document',
   },
   {
     title: 'Foreign Qualification',
-    description: 'Register your entity to do business in additional states with proper authority and compliance.',
+    description: 'Register Your Entity To Do Business In Additional States With Proper Authority And Compliance.',
     icon: 'globe',
   },
   {
     title: 'Corporate Governance',
-    description: 'Maintain corporate minutes, resolutions and operating agreement amendments per state requirements.',
+    description: 'Maintain Corporate Minutes, Resolutions And Operating Agreement Amendments Per State Requirements.',
     icon: 'clipboard',
   },
   {
     title: 'Dissolution & Conversion',
-    description: 'Properly dissolve entities or convert between entity types while maintaining compliance.',
+    description: 'Properly Dissolve Entities Or Convert Between Entity Types While Maintaining Compliance.',
     icon: 'switch',
   },
 ];
@@ -258,9 +258,9 @@ export function EntityContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              From entity formation to ongoing state filings, we handle the full lifecycle of
-              business compliance. Stay structured, stay compliant and never miss a deadline
-              across any jurisdiction.
+              From Entity Formation To Ongoing State Filings, We Handle The Full Lifecycle Of
+              Business Compliance. Stay Structured, Stay Compliant And Never Miss A Deadline
+              Across Any Jurisdiction.
             </p>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={300}>
@@ -275,7 +275,7 @@ export function EntityContent() {
                 <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                Never Miss a Filing
+                Never Miss A Filing
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -296,7 +296,7 @@ export function EntityContent() {
               What We Handle
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              Comprehensive entity and compliance services for every stage of your business.
+              Comprehensive Entity And Compliance Services For Every Stage Of Your Business.
             </p>
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -333,7 +333,7 @@ export function EntityContent() {
               Jurisdiction Coverage
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              We serve businesses across key US states with formation, compliance and registered agent services.
+              We Serve Businesses Across Key US States With Formation, Compliance And Registered Agent Services.
             </p>
           </ScrollReveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -383,8 +383,8 @@ export function EntityContent() {
               Filing Calendar
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              Click any month to view filing deadlines and compliance obligations. We track
-              and file everything on your behalf.
+              Click Any Month To View Filing Deadlines And Compliance Obligations. We Track
+              And File Everything On Your Behalf.
             </p>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={100}>
@@ -396,7 +396,7 @@ export function EntityContent() {
       {/* CTA Section */}
       <CtaSection
         headline="Stay Compliant, Stay Protected"
-        description="Get a free compliance audit. We'll review your entity structure, identify gaps in your filings and build a plan to keep you on track across every jurisdiction."
+        description="Get A Free Compliance Audit. We'll Review Your Entity Structure, Identify Gaps In Your Filings And Build A Plan To Keep You On Track Across Every Jurisdiction."
         buttonText="Book a Free Compliance Audit"
         buttonHref="/book?service=entity"
       />

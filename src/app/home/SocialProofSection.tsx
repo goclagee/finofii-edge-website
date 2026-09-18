@@ -23,7 +23,7 @@ const metrics = [
 const testimonials = [
   {
     quote:
-      'Finofii Edge transformed our financial visibility. We went from scrambling at month-end to having real-time dashboards within 2 weeks.',
+      'Finofii Edge Transformed Our Financial Visibility. We Went From Scrambling At Month-End To Having Real-Time Dashboards Within 2 Weeks.',
     author: 'Sarah Chen',
     role: 'CEO',
     company: 'Bloom Commerce',
@@ -31,7 +31,7 @@ const testimonials = [
   },
   {
     quote:
-      'Their Virtual CFO Services helped us identify $200K in tax savings we were leaving on the table. Worth every penny.',
+      'Their Virtual CFO Services Helped Us Identify $200K In Tax Savings We Were Leaving On The Table. Worth Every Penny.',
     author: 'Marcus Rodriguez',
     role: 'Founder',
     company: 'NexGen SaaS',
@@ -39,7 +39,7 @@ const testimonials = [
   },
   {
     quote:
-      'The best part is the proactive communication. I never have to chase my accountant for updates anymore.',
+      'The Best Part Is The Proactive Communication. I Never Have To Chase My Accountant For Updates Anymore.',
     author: 'Emma Williams',
     role: 'COO',
     company: 'Velocity Agency',
@@ -57,7 +57,7 @@ export function SocialProofSection() {
       {/* Client logos */}
       <ScrollReveal animation="fade-in">
         <p className="text-center text-sm font-medium text-ink/50 uppercase tracking-wider mb-8">
-          Trusted by leading brands and agencies
+          Trusted By Leading Brands And Agencies
         </p>
         <div
           className="flex flex-wrap items-center justify-center gap-8 md:gap-12 mb-16"

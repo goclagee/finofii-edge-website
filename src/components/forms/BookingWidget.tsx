@@ -283,8 +283,8 @@ export function BookingWidget({
           Scheduling Temporarily Unavailable
         </h3>
         <p className="text-sm text-ink/60 mb-4">
-          Our calendar system is currently unavailable. Please reach out
-          directly to schedule your free audit.
+          Our Calendar System Is Currently Unavailable. Please Reach Out
+          Directly To Schedule Your Free Audit.
         </p>
         <a
           href={`mailto:${fallbackContactMethod}`}
@@ -351,7 +351,7 @@ export function BookingWidget({
           </p>
         </div>
         <p className="mt-4 text-sm text-ink/60">
-          You&apos;ll receive a calendar invite shortly.
+          You&apos;ll Receive A Calendar Invite Shortly.
         </p>
       </div>
     );
@@ -380,7 +380,7 @@ export function BookingWidget({
             aria-label="Select timezone"
             className="w-full rounded-[14px] border border-ink/20 bg-paper text-ink px-4 py-3 text-base transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus:border-accent"
           >
-            <option value="">Select your timezone</option>
+            <option value="">Select Your Timezone</option>
             {TIMEZONE_OPTIONS.map((tz) => (
               <option key={tz} value={tz}>
                 {tz.replace(/_/g, ' ').replace('America/', '').replace('Pacific/', '')}
@@ -392,7 +392,7 @@ export function BookingWidget({
 
       {/* Date Selection */}
       <div className="mb-6">
-        <p className="text-sm font-medium text-ink mb-2">Select a date</p>
+        <p className="text-sm font-medium text-ink mb-2">Select A Date</p>
         <div
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2"
           role="radiogroup"
@@ -427,7 +427,7 @@ export function BookingWidget({
       {selectedDate && (
         <div className="mb-6">
           <p className="text-sm font-medium text-ink mb-2">
-            Available {_slotDuration}-minute slots
+            Available {_slotDuration}-Minute Slots
           </p>
 
           {isLoading ? (
@@ -454,7 +454,7 @@ export function BookingWidget({
                 />
               </svg>
               <span className="ml-2 text-sm text-ink/60">
-                Loading available times...
+                Loading Available Times...
               </span>
             </div>
           ) : slots.length > 0 ? (
@@ -489,7 +489,7 @@ export function BookingWidget({
             </div>
           ) : (
             <p className="text-sm text-ink/60 py-4 text-center">
-              No available slots for this date. Please try another day.
+              No Available Slots For This Date. Please Try Another Day.
             </p>
           )}
         </div>

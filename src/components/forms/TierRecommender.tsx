@@ -24,15 +24,15 @@ const ENTITY_TYPE_OPTIONS: { value: EntityType; label: string }[] = [
 ];
 
 const TRANSACTION_VOLUME_OPTIONS: { value: TransactionVolume; label: string }[] = [
-  { value: 'under_50', label: 'Under 50/month' },
-  { value: '50_200', label: '50 – 200/month' },
-  { value: '200_500', label: '200 – 500/month' },
-  { value: '500_1000', label: '500 – 1,000/month' },
-  { value: 'over_1000', label: 'Over 1,000/month' },
+  { value: 'under_50', label: 'Under 50/Month' },
+  { value: '50_200', label: '50 – 200/Month' },
+  { value: '200_500', label: '200 – 500/Month' },
+  { value: '500_1000', label: '500 – 1,000/Month' },
+  { value: 'over_1000', label: 'Over 1,000/Month' },
 ];
 
 const REVENUE_BAND_OPTIONS: { value: RevenueBand; label: string }[] = [
-  { value: 'pre_revenue', label: 'Pre-revenue' },
+  { value: 'pre_revenue', label: 'Pre-Revenue' },
   { value: '0_100k', label: '$0 – $100K' },
   { value: '100k_500k', label: '$100K – $500K' },
   { value: '500k_1m', label: '$500K – $1M' },
@@ -43,15 +43,15 @@ const REVENUE_BAND_OPTIONS: { value: RevenueBand; label: string }[] = [
 const TIER_DETAILS: Record<PricingTier, { name: string; description: string }> = {
   essentials: {
     name: 'Essentials',
-    description: 'Core bookkeeping and compliance for early-stage businesses.',
+    description: 'Core Bookkeeping And Compliance For Early-Stage Businesses.',
   },
   growth: {
     name: 'Growth',
-    description: 'Full-service accounting with dashboards and advisory check-ins.',
+    description: 'Full-Service Accounting With Dashboards And Advisory Check-Ins.',
   },
   scale: {
     name: 'Scale',
-    description: 'Enterprise-grade CFO services, custom reporting and strategic planning.',
+    description: 'Enterprise-Grade CFO Services, Custom Reporting And Strategic Planning.',
   },
 };
 
@@ -112,13 +112,13 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
         Find Your Ideal Plan
       </h3>
       <p className="text-sm text-ink/60 mb-6">
-        Answer three questions and we&apos;ll recommend the right tier for your business.
+        Answer Three Questions And We&apos;ll Recommend The Right Tier For Your Business.
       </p>
 
       <div className="space-y-5">
         {/* Entity Type Select */}
         <FormField
-          label="Entity type"
+          label="Entity Type"
           required
           error={errors.entityType}
           validationState={errors.entityType ? 'error' : 'default'}
@@ -146,7 +146,7 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
                 : 'border-ink/20 focus:border-accent',
             ].join(' ')}
           >
-            <option value="">Select entity type</option>
+            <option value="">Select Entity Type</option>
             {ENTITY_TYPE_OPTIONS.map((opt) => (
               <option key={opt.value} value={opt.value}>
                 {opt.label}
@@ -157,7 +157,7 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
 
         {/* Transaction Volume Select */}
         <FormField
-          label="Monthly transaction volume"
+          label="Monthly Transaction Volume"
           required
           error={errors.transactionVolume}
           validationState={errors.transactionVolume ? 'error' : 'default'}
@@ -185,7 +185,7 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
                 : 'border-ink/20 focus:border-accent',
             ].join(' ')}
           >
-            <option value="">Select transaction volume</option>
+            <option value="">Select Transaction Volume</option>
             {TRANSACTION_VOLUME_OPTIONS.map((opt) => (
               <option key={opt.value} value={opt.value}>
                 {opt.label}
@@ -196,7 +196,7 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
 
         {/* Revenue Band Select */}
         <FormField
-          label="Annual revenue band"
+          label="Annual Revenue Band"
           required
           error={errors.revenueBand}
           validationState={errors.revenueBand ? 'error' : 'default'}
@@ -224,7 +224,7 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
                 : 'border-ink/20 focus:border-accent',
             ].join(' ')}
           >
-            <option value="">Select revenue band</option>
+            <option value="">Select Revenue Band</option>
             {REVENUE_BAND_OPTIONS.map((opt) => (
               <option key={opt.value} value={opt.value}>
                 {opt.label}
@@ -259,7 +259,7 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
               ✓
             </span>
             <h4 className="text-lg font-semibold text-ink">
-              We recommend{' '}
+              We Recommend{' '}
               <span className="text-accent">
                 {TIER_DETAILS[recommendedTier].name}
               </span>
@@ -275,7 +275,7 @@ export function TierRecommender({ onRecommendation }: TierRecommenderProps) {
               href="/book"
               ariaLabel={`Book a free audit with ${TIER_DETAILS[recommendedTier].name} plan`}
             >
-              Book a Free Audit
+              Book A Free Audit
             </Button>
             <Button
               variant="ghost"

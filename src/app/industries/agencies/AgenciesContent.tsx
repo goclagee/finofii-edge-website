@@ -48,20 +48,20 @@ const metrics: SummaryMetric[] = [
  */
 const painPoints = [
   {
-    title: 'Project-based revenue recognition complexity',
-    description: 'Retainers, milestones and time-and-materials billing create a tangled revenue picture. Recognizing revenue correctly across dozens of active projects is a nightmare.',
+    title: 'Project-Based Revenue Recognition Complexity',
+    description: 'Retainers, Milestones And Time-And-Materials Billing Create A Tangled Revenue Picture. Recognizing Revenue Correctly Across Dozens Of Active Projects Is A Nightmare.',
   },
   {
-    title: 'Tracking profitability per client and project',
-    description: 'Without proper cost allocation across team hours, contractors and overhead, you cannot tell which clients are profitable and which are draining resources.',
+    title: 'Tracking Profitability Per Client And Project',
+    description: 'Without Proper Cost Allocation Across Team Hours, Contractors And Overhead, You Cannot Tell Which Clients Are Profitable And Which Are Draining Resources.',
   },
   {
-    title: 'Cash flow gaps from extended payment terms',
-    description: 'Net-30 or Net-60 client terms combined with biweekly payroll creates cash crunches. Forecasting working capital needs requires real-time AR visibility.',
+    title: 'Cash Flow Gaps From Extended Payment Terms',
+    description: 'Net-30 Or Net-60 Client Terms Combined With Biweekly Payroll Creates Cash Crunches. Forecasting Working Capital Needs Requires Real-Time AR Visibility.',
   },
   {
-    title: 'Contractor vs. employee classification risks',
-    description: 'Agencies rely heavily on freelancers. Misclassification risks IRS penalties and back-taxes that can cripple a growing shop.',
+    title: 'Contractor Vs. Employee Classification Risks',
+    description: 'Agencies Rely Heavily On Freelancers. Misclassification Risks IRS Penalties And Back-Taxes That Can Cripple A Growing Shop.',
   },
 ];
 
@@ -71,7 +71,7 @@ const painPoints = [
 const caseStudy = {
   industry: 'Agency',
   headline: 'Digital agency uncovers $180K in hidden project losses',
-  excerpt: 'A 40-person digital agency discovered they were losing money on 3 of their top 10 clients. After implementing Finofii Edge project-level P&L tracking, they renegotiated scopes and improved blended margins by 11 points.',
+  excerpt: 'A 40-Person Digital Agency Discovered They Were Losing Money On 3 Of Their Top 10 Clients. After Implementing Finofii Edge Project-Level P&L Tracking, They Renegotiated Scopes And Improved Blended Margins By 11 Points.',
   metrics: [
     { label: 'Blended Margin', before: '27%', after: '38%' },
     { label: 'AR Days Outstanding', before: '52 days', after: '28 days' },
@@ -89,7 +89,7 @@ export function AgenciesContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={100}>
             <AnimatedHeadline
-              text="Know exactly which clients make you money"
+              text="Know Exactly Which Clients Make You Money"
               as="h1"
               animation="fade-up"
               className="text-4xl md:text-5xl font-bold font-display text-ink"
@@ -97,9 +97,9 @@ export function AgenciesContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Project-based revenue, contractor costs and retainer billing create
-              financial blind spots. We give agencies project-level P&L visibility
-              so you can double down on profitable work.
+              Project-Based Revenue, Contractor Costs And Retainer Billing Create
+              Financial Blind Spots. We Give Agencies Project-Level P&L Visibility
+              So You Can Double Down On Profitable Work.
             </p>
           </ScrollReveal>
         </div>
@@ -140,7 +140,7 @@ export function AgenciesContent() {
         <div className="max-w-4xl mx-auto">
           <ScrollReveal animation="fade-up">
             <h2 className="text-2xl md:text-3xl font-bold font-display text-ink text-center mb-10">
-              Key Metrics We Track for Agencies
+              Key Metrics We Track For Agencies
             </h2>
           </ScrollReveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -159,7 +159,7 @@ export function AgenciesContent() {
           <ScrollReveal animation="fade-up">
             <ChartContainer
               title="Project Profitability"
-              description="Revenue vs. cost breakdown by project for a digital agency."
+              description="Revenue Vs. Cost Breakdown By Project For A Digital Agency."
               data={projectProfitabilityData}
               accessibleTableData={projectProfitabilityData.map((d) => ({
                 Project: d.label as string,
@@ -204,7 +204,7 @@ export function AgenciesContent() {
                 ))}
               </div>
               <Button variant="ghost" size="sm" href="/case-studies">
-                Read full case study →
+                Read Full Case Study →
               </Button>
             </Card>
           </ScrollReveal>
@@ -213,8 +213,8 @@ export function AgenciesContent() {
 
       {/* CTA Section */}
       <CtaSection
-        headline="Ready to see your true project margins?"
-        description="Get a free audit of your agency financials. We'll show you exactly which clients are profitable and where cash flow gaps are hiding."
+        headline="Ready To See Your True Project Margins?"
+        description="Get A Free Audit Of Your Agency Financials. We'll Show You Exactly Which Clients Are Profitable And Where Cash Flow Gaps Are Hiding."
         buttonHref="/book?industry=agency"
       />
     </>

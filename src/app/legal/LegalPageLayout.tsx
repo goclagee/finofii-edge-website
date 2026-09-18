@@ -36,7 +36,7 @@ export function LegalPageLayout({
           {title}
         </h1>
         <p className="text-sm text-ink/60">
-          Last updated: <time>{lastUpdated}</time>
+          Last Updated: <time>{lastUpdated}</time>
         </p>
       </header>
 

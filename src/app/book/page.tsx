@@ -15,15 +15,15 @@ export default function BookPage() {
         <div className="text-center mb-12">
           <ScrollReveal animation="fade-up">
             <AnimatedHeadline
-              text="Book a Free Audit"
+              text="Book A Free Audit"
               as="h1"
               animation="fade-up"
             />
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-4 text-lg text-ink/70 max-w-2xl mx-auto">
-              Pick a time that works for you. We&apos;ll review your books and
-              deliver insights within 48 hours.
+              Pick A Time That Works For You. We&apos;ll Review Your Books And
+              Deliver Insights Within 48 Hours.
             </p>
           </ScrollReveal>
         </div>
