@@ -199,7 +199,7 @@ export function CFOContent() {
   return (
     <>
       {/* Scope Section */}
-      <Section padding="lg" ariaLabel="Virtual CFO service scope">
+      <Section padding="lg" ariaLabel="Virtual CFO Services scope">
         <div className="max-w-3xl mx-auto text-center">
           <ScrollReveal animation="fade-up">
             <AnimatedHeadline
@@ -344,7 +344,7 @@ export function CFOContent() {
               Ideal Client Profile
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              Our Virtual CFO service is designed for businesses with the scale and
+              Our Virtual CFO Services are designed for businesses with the scale and
               complexity that demand strategic financial leadership.
             </p>
           </ScrollReveal>

@@ -4,7 +4,7 @@ import type { PageSEO } from '@/types/seo';
 export const SITE_NAME = 'Finofii Edge';
 export const SITE_URL = 'https://finofii.com';
 const DEFAULT_TITLE = 'Finofii Edge – Accounting & Bookkeeping for Growing Businesses';
-const DEFAULT_DESCRIPTION = 'US-focused accounting, bookkeeping, and virtual CFO services for DTC brands, agencies, SaaS startups, and CPA firms.';
+const DEFAULT_DESCRIPTION = 'US-focused accounting, bookkeeping, and Virtual CFO Services for DTC brands, agencies, SaaS startups, and CPA firms.';
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.png`;
 
 /**
@@ -125,7 +125,7 @@ export const PUBLIC_ROUTES = [
 export const PAGE_SEO_DATA: Record<string, { title: string; description: string }> = {
   '/': {
     title: 'Finofii Edge – Accounting for Modern Businesses',
-    description: 'Premium accounting, bookkeeping, and virtual CFO services for DTC brands, agencies, SaaS startups, and CPA firms.',
+    description: 'Premium accounting, bookkeeping, and Virtual CFO Services for DTC brands, agencies, SaaS startups, and CPA firms.',
   },
   '/services': {
     title: 'Our Services – Finofii Edge',

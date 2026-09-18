@@ -26,7 +26,7 @@ export function HeroSection() {
         {/* Left: Headline + CTA */}
         <div className="flex-1 text-center lg:text-left">
           <AnimatedHeadline
-            text="Premium Accounting, Bookkeeping and virtual CFO services"
+            text="Premium Accounting, Bookkeeping and Virtual CFO Services"
             as="h1"
             animation="fade-up"
             className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-paper leading-tight"

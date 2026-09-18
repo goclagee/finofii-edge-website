@@ -31,7 +31,7 @@ const testimonials = [
   },
   {
     quote:
-      'Their virtual CFO service helped us identify $200K in tax savings we were leaving on the table. Worth every penny.',
+      'Their Virtual CFO Services helped us identify $200K in tax savings we were leaving on the table. Worth every penny.',
     author: 'Marcus Rodriguez',
     role: 'Founder',
     company: 'NexGen SaaS',
