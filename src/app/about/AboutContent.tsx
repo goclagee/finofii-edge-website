@@ -14,12 +14,20 @@ import type { TeamMember } from '@/types/content';
  */
 const teamMembers: TeamMember[] = [
   {
+    id: 'team-ceo',
+    name: 'Ganesh Jha',
+    role: 'CEO - Finofiii Edge',
+    photoUrl: '/images/team/ganesh-jha.jpg',
+    linkedInUrl: 'https://in.linkedin.com/in/jha-ganesh',
+    order: 1,
+  },
+  {
     id: 'team-1',
     name: 'Vasu Grover',
     role: 'Head Of Operations - Finofiii Edge',
     photoUrl: '/images/team/vasu-grover.jpg',
     linkedInUrl: 'https://www.linkedin.com/in/vasu-grover-69a08615b',
-    order: 1,
+    order: 2,
   },
 ];
 
