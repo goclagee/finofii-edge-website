@@ -58,7 +58,7 @@ const painPoints = [
   },
   {
     title: 'Inventory and COGS complexity',
-    description: 'Managing SKU-level cost of goods, freight, and landed cost calculations manually leads to inaccurate margins and tax surprises.',
+    description: 'Managing SKU-level cost of goods, freight and landed cost calculations manually leads to inaccurate margins and tax surprises.',
   },
   {
     title: 'Sales tax compliance across states',
@@ -98,7 +98,7 @@ export function DTCContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Multi-channel revenue, complex COGS, and aggressive ad budgets demand
+              Multi-channel revenue, complex COGS and aggressive ad budgets demand
               precision bookkeeping. We give DTC founders the financial visibility
               they need to scale profitably.
             </p>
@@ -215,7 +215,7 @@ export function DTCContent() {
       {/* CTA Section */}
       <CtaSection
         headline="Ready to see your true DTC margins?"
-        description="Get a free audit of your e-commerce financials. We'll map your revenue channels, identify margin leaks, and show you the path to a 5-day close."
+        description="Get a free audit of your e-commerce financials. We'll map your revenue channels, identify margin leaks and show you the path to a 5-day close."
         buttonHref="/book?industry=dtc"
       />
     </>

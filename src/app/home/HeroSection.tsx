@@ -34,7 +34,7 @@ export function HeroSection() {
 
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg md:text-xl text-paper/70 font-interface max-w-xl mx-auto lg:mx-0">
-              Your books closed, your dashboard live, and your CFO on call — purpose-built for DTC brands, agencies, SaaS startups, and CPA firms.
+              Your books closed, your dashboard live and your CFO on call — purpose-built for DTC brands, agencies, SaaS startups and CPA firms.
             </p>
           </ScrollReveal>
 

@@ -93,7 +93,7 @@ export default function CaseStudiesClient() {
             animation="fade-up"
           />
           <p className="mt-4 text-lg text-ink/70 max-w-2xl">
-            See how we&apos;ve helped DTC brands, agencies, SaaS startups, and CPA
+            See how we&apos;ve helped DTC brands, agencies, SaaS startups and CPA
             firms transform their financial operations with concrete,
             measurable outcomes.
           </p>

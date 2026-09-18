@@ -27,7 +27,7 @@ const services: ServiceCapability[] = [
       </svg>
     ),
     scope:
-      'Full-cycle monthly bookkeeping, bank reconciliation, and month-end close delivered within 5 business days. Your books stay audit-ready year-round.',
+      'Full-cycle monthly bookkeeping, bank reconciliation and month-end close delivered within 5 business days. Your books stay audit-ready year-round.',
   },
   {
     id: 'dashboards',
@@ -40,7 +40,7 @@ const services: ServiceCapability[] = [
       </svg>
     ),
     scope:
-      'Custom financial dashboards with real-time KPIs, margin analysis, and cash-flow visualizations delivered monthly.',
+      'Custom financial dashboards with real-time KPIs, margin analysis and cash-flow visualizations delivered monthly.',
   },
   {
     id: 'cfo',
@@ -54,7 +54,7 @@ const services: ServiceCapability[] = [
       </svg>
     ),
     scope:
-      'Strategic financial guidance including budgeting, forecasting, fundraise prep, and board-ready reporting from a dedicated CFO.',
+      'Strategic financial guidance including budgeting, forecasting, fundraise prep and board-ready reporting from a dedicated CFO.',
   },
   {
     id: 'entity',
@@ -67,7 +67,7 @@ const services: ServiceCapability[] = [
       </svg>
     ),
     scope:
-      'End-to-end entity formation, registered agent services, annual compliance filings, and multi-state jurisdiction management.',
+      'End-to-end entity formation, registered agent services, annual compliance filings and multi-state jurisdiction management.',
   },
 ];
 
@@ -179,7 +179,7 @@ export function ServicesContent() {
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-4 text-lg text-ink/70 font-interface">
               Four integrated capabilities to keep your finances accurate, visible,
-              strategic, and compliant — from day-one bookkeeping to board-ready advisory.
+              strategic and compliant — from day-one bookkeeping to board-ready advisory.
             </p>
           </ScrollReveal>
         </div>

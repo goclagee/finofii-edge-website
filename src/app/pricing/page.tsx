@@ -70,7 +70,7 @@ const tiers: TierData[] = [
     name: 'Scale',
     price: '$1999',
     period: '/mo',
-    description: 'Enterprise-grade CFO services, custom reporting, and strategic planning.',
+    description: 'Enterprise-grade CFO services, custom reporting and strategic planning.',
     features: [
       { name: 'Monthly bookkeeping', included: true },
       { name: 'Bank reconciliation', included: true },
@@ -126,7 +126,7 @@ const faqItems: AccordionItem[] = [
     id: 'faq-2',
     title: 'What accounting tools do you integrate with?',
     content:
-      "We support QuickBooks Online, Xero, Ramp, Brex, Mercury, Stripe, and many more. Our team will handle the setup and ongoing reconciliation across all your connected platforms.",
+      "We support QuickBooks Online, Xero, Ramp, Brex, Mercury, Stripe and many more. Our team will handle the setup and ongoing reconciliation across all your connected platforms.",
   },
   {
     id: 'faq-3',
@@ -138,7 +138,7 @@ const faqItems: AccordionItem[] = [
     id: 'faq-4',
     title: 'How quickly can I get started?',
     content:
-      "Our onboarding process takes 14 days from sign-up to full operation. We handle all the setup, tool connections, and historical data migration during this period.",
+      "Our onboarding process takes 14 days from sign-up to full operation. We handle all the setup, tool connections and historical data migration during this period.",
   },
   {
     id: 'faq-5',

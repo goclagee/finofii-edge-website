@@ -19,7 +19,7 @@ const onboardingPhases: TimelinePhase[] = [
     items: [
       {
         id: 'p1-d1',
-        label: 'Kickoff call to understand your business model, tools, and reporting needs',
+        label: 'Kickoff call to understand your business model, tools and reporting needs',
         type: 'deliverable',
       },
       {
@@ -29,12 +29,12 @@ const onboardingPhases: TimelinePhase[] = [
       },
       {
         id: 'p1-r1',
-        label: 'Grant read-only access to bank accounts, credit cards, and payment processors',
+        label: 'Grant read-only access to bank accounts, credit cards and payment processors',
         type: 'responsibility',
       },
       {
         id: 'p1-r2',
-        label: 'Share login credentials for QuickBooks, Xero, or existing accounting platform',
+        label: 'Share login credentials for QuickBooks, Xero or existing accounting platform',
         type: 'responsibility',
       },
     ],
@@ -73,7 +73,7 @@ const onboardingPhases: TimelinePhase[] = [
     items: [
       {
         id: 'p3-d1',
-        label: 'Establish categorization rules, recurring entries, and approval workflows',
+        label: 'Establish categorization rules, recurring entries and approval workflows',
         type: 'deliverable',
       },
       {

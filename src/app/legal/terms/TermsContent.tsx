@@ -42,7 +42,7 @@ export function TermsContent() {
         <h2 id="services-description">Description of Services</h2>
         <p>
           Finofii Edge provides accounting, bookkeeping, virtual CFO advisory, entity formation,
-          compliance management, and financial dashboard services. Our offerings include:
+          compliance management and financial dashboard services. Our offerings include:
         </p>
         <ul>
           <li>Monthly bookkeeping and close services with reconciliation.</li>
@@ -52,7 +52,7 @@ export function TermsContent() {
           <li>Interactive sample dashboard access for prospective clients.</li>
         </ul>
         <p>
-          Service scope, deliverables, and cadence vary by subscription tier (Essentials, Growth, Scale)
+          Service scope, deliverables and cadence vary by subscription tier (Essentials, Growth, Scale)
           as described on our Pricing page.
         </p>
       </section>
@@ -82,7 +82,7 @@ export function TermsContent() {
         <ul>
           <li>Payment is due within 7 days of invoice date.</li>
           <li>Late payments may incur a fee of 1.5% per month on the outstanding balance.</li>
-          <li>We accept payment via ACH, wire transfer, and major credit cards.</li>
+          <li>We accept payment via ACH, wire transfer and major credit cards.</li>
           <li>Tier upgrades take effect immediately; downgrades take effect at the next billing cycle.</li>
         </ul>
         <table>
@@ -120,8 +120,8 @@ export function TermsContent() {
           upon payment. However, the following remain our intellectual property:
         </p>
         <ul>
-          <li>Our proprietary methodologies, templates, and processes.</li>
-          <li>The Finofii Edge platform, software, and interface designs.</li>
+          <li>Our proprietary methodologies, templates and processes.</li>
+          <li>The Finofii Edge platform, software and interface designs.</li>
           <li>Aggregate, anonymized insights derived from service delivery.</li>
         </ul>
         <p>
@@ -135,7 +135,7 @@ export function TermsContent() {
         <p>
           Both parties agree to maintain the confidentiality of proprietary information shared during
           the service relationship. Confidential information includes financial data, business strategies,
-          client lists, and any information marked as confidential.
+          client lists and any information marked as confidential.
         </p>
         <p>
           Confidentiality obligations survive termination of these Terms for a period of 3 years.
@@ -146,7 +146,7 @@ export function TermsContent() {
         <h2 id="limitation-liability">Limitation of Liability</h2>
         <p>
           To the maximum extent permitted by law, Finofii Edge shall not be liable for indirect,
-          incidental, consequential, or punitive damages arising from your use of our Services.
+          incidental, consequential or punitive damages arising from your use of our Services.
           Our total liability shall not exceed the fees paid by you in the 12 months preceding
           the claim.
         </p>

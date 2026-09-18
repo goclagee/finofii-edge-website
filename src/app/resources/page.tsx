@@ -42,7 +42,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'How DTC Brands Should Track Cost of Goods Sold',
     type: 'blog',
     publishDate: '2024-10-08',
-    excerpt: 'COGS tracking best practices for e-commerce brands handling inventory, shipping, and fulfillment costs.',
+    excerpt: 'COGS tracking best practices for e-commerce brands handling inventory, shipping and fulfillment costs.',
     category: 'DTC Finance',
     tags: ['dtc', 'cogs', 'inventory'],
   },
@@ -62,7 +62,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'How to Choose the Right Accounting Software in 2024',
     type: 'guide',
     publishDate: '2024-09-15',
-    excerpt: 'Compare QuickBooks, Xero, and Ramp for your business size and industry with our decision framework.',
+    excerpt: 'Compare QuickBooks, Xero and Ramp for your business size and industry with our decision framework.',
     category: 'Tools',
     tags: ['software', 'quickbooks', 'xero'],
   },
@@ -92,7 +92,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'Monthly Close Checklist Template',
     type: 'template',
     publishDate: '2024-09-01',
-    excerpt: 'Standardized checklist covering reconciliation, accruals, and review steps for a clean monthly close.',
+    excerpt: 'Standardized checklist covering reconciliation, accruals and review steps for a clean monthly close.',
     category: 'Templates',
     tags: ['checklist', 'monthly-close', 'template'],
   },
@@ -112,7 +112,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'Multi-Entity Accounting: Consolidation Made Simple',
     type: 'blog',
     publishDate: '2024-08-10',
-    excerpt: 'How to manage and consolidate financials across multiple LLCs, subsidiaries, and holding companies.',
+    excerpt: 'How to manage and consolidate financials across multiple LLCs, subsidiaries and holding companies.',
     category: 'Accounting Standards',
     tags: ['multi-entity', 'consolidation'],
   },
@@ -122,7 +122,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: 'Measuring Project Profitability for Agencies',
     type: 'guide',
     publishDate: '2024-07-01',
-    excerpt: 'Track utilization rates, project margins, and overhead allocation to understand true profitability.',
+    excerpt: 'Track utilization rates, project margins and overhead allocation to understand true profitability.',
     category: 'Agency Finance',
     tags: ['agency', 'profitability', 'utilization'],
   },
@@ -132,7 +132,7 @@ const SAMPLE_CONTENT: ContentItem[] = [
     title: '5 Bookkeeping Tasks You Should Automate Today',
     type: 'blog',
     publishDate: '2024-06-20',
-    excerpt: 'Reduce manual work and errors by automating bank feeds, categorization, invoicing, and reconciliation.',
+    excerpt: 'Reduce manual work and errors by automating bank feeds, categorization, invoicing and reconciliation.',
     category: 'Bookkeeping',
     tags: ['automation', 'efficiency'],
   },
@@ -279,7 +279,7 @@ export default function ResourcesPage() {
           animation="fade-up"
         />
         <p className="mt-4 text-lg text-ink/70 max-w-2xl mx-auto">
-          Guides, blog posts, templates, and tax deadlines to keep your business
+          Guides, blog posts, templates and tax deadlines to keep your business
           finances on track.
         </p>
       </Section>
@@ -422,7 +422,7 @@ export default function ResourcesPage() {
       {/* CTA Section */}
       <CtaSection
         headline="Need Expert Help?"
-        description="Our team can handle your bookkeeping, reporting, and compliance so you can focus on growing your business."
+        description="Our team can handle your bookkeeping, reporting and compliance so you can focus on growing your business."
       />
     </main>
   );

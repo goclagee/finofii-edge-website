@@ -120,7 +120,7 @@ const filingDeadlines: FilingDeadline[] = [
     month: 12,
     name: 'Year-End Compliance Review',
     dueDate: '12/31',
-    description: 'Annual review of corporate minutes, operating agreements, and compliance documentation.',
+    description: 'Annual review of corporate minutes, operating agreements and compliance documentation.',
     entityTypes: ['llc', 'ccorp', 'scorp', 'partnership'],
   },
   {
@@ -159,7 +159,7 @@ const jurisdictions: JurisdictionEntry[] = [
 const serviceScope = [
   {
     title: 'Entity Formation',
-    description: 'LLC, S-Corp, C-Corp, and partnership formation in any US state with operating agreements and EIN registration.',
+    description: 'LLC, S-Corp, C-Corp and partnership formation in any US state with operating agreements and EIN registration.',
     icon: 'building',
   },
   {
@@ -169,7 +169,7 @@ const serviceScope = [
   },
   {
     title: 'State Compliance Filings',
-    description: 'Annual reports, franchise tax filings, and statements of information filed on time, every time.',
+    description: 'Annual reports, franchise tax filings and statements of information filed on time, every time.',
     icon: 'document',
   },
   {
@@ -179,7 +179,7 @@ const serviceScope = [
   },
   {
     title: 'Corporate Governance',
-    description: 'Maintain corporate minutes, resolutions, and operating agreement amendments per state requirements.',
+    description: 'Maintain corporate minutes, resolutions and operating agreement amendments per state requirements.',
     icon: 'clipboard',
   },
   {
@@ -259,7 +259,7 @@ export function EntityContent() {
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
               From entity formation to ongoing state filings, we handle the full lifecycle of
-              business compliance. Stay structured, stay compliant, and never miss a deadline
+              business compliance. Stay structured, stay compliant and never miss a deadline
               across any jurisdiction.
             </p>
           </ScrollReveal>
@@ -333,7 +333,7 @@ export function EntityContent() {
               Jurisdiction Coverage
             </h2>
             <p className="text-center text-ink/60 font-interface mb-10">
-              We serve businesses across key US states with formation, compliance, and registered agent services.
+              We serve businesses across key US states with formation, compliance and registered agent services.
             </p>
           </ScrollReveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -396,7 +396,7 @@ export function EntityContent() {
       {/* CTA Section */}
       <CtaSection
         headline="Stay Compliant, Stay Protected"
-        description="Get a free compliance audit. We'll review your entity structure, identify gaps in your filings, and build a plan to keep you on track across every jurisdiction."
+        description="Get a free compliance audit. We'll review your entity structure, identify gaps in your filings and build a plan to keep you on track across every jurisdiction."
         buttonText="Book a Free Compliance Audit"
         buttonHref="/book?service=entity"
       />

@@ -28,9 +28,9 @@ export function PrivacyContent() {
         <h2 id="introduction">Introduction</h2>
         <p>
           Finofii Edge (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting the privacy
-          of our clients, website visitors, and users of our accounting and bookkeeping services.
-          This Privacy Policy describes how we collect, use, store, and share personal information
-          when you interact with our website, services, and communications.
+          of our clients, website visitors and users of our accounting and bookkeeping services.
+          This Privacy Policy describes how we collect, use, store and share personal information
+          when you interact with our website, services and communications.
         </p>
         <p>
           By using our services or browsing our website at finofii.com, you agree to the practices
@@ -42,10 +42,10 @@ export function PrivacyContent() {
         <h2 id="information-we-collect">Information We Collect</h2>
         <p>We collect information in the following categories:</p>
         <ul>
-          <li><strong>Account Information:</strong> Name, email address, company name, entity type, and timezone when you create an account or submit our intake form.</li>
-          <li><strong>Financial Data:</strong> Transaction records, bank statements, revenue figures, and other accounting data you provide for our bookkeeping services.</li>
-          <li><strong>Usage Data:</strong> Pages visited, features used, browser type, device information, and IP address collected automatically through our website.</li>
-          <li><strong>Communication Data:</strong> Emails, chat messages, and scheduling information from interactions with our team.</li>
+          <li><strong>Account Information:</strong> Name, email address, company name, entity type and timezone when you create an account or submit our intake form.</li>
+          <li><strong>Financial Data:</strong> Transaction records, bank statements, revenue figures and other accounting data you provide for our bookkeeping services.</li>
+          <li><strong>Usage Data:</strong> Pages visited, features used, browser type, device information and IP address collected automatically through our website.</li>
+          <li><strong>Communication Data:</strong> Emails, chat messages and scheduling information from interactions with our team.</li>
           <li><strong>Payment Information:</strong> Billing details processed through our secure payment provider (we do not store full card numbers).</li>
         </ul>
       </section>
@@ -54,10 +54,10 @@ export function PrivacyContent() {
         <h2 id="how-we-use-information">How We Use Information</h2>
         <p>We use your personal information for the following purposes:</p>
         <ol>
-          <li>Providing and improving our accounting, bookkeeping, and advisory services.</li>
+          <li>Providing and improving our accounting, bookkeeping and advisory services.</li>
           <li>Processing and managing your service subscription and billing.</li>
-          <li>Communicating about your account, service updates, and scheduling.</li>
-          <li>Generating financial reports, dashboards, and compliance filings on your behalf.</li>
+          <li>Communicating about your account, service updates and scheduling.</li>
+          <li>Generating financial reports, dashboards and compliance filings on your behalf.</li>
           <li>Analyzing usage patterns to improve our website and service delivery.</li>
           <li>Meeting our legal and regulatory obligations.</li>
         </ol>
@@ -71,8 +71,8 @@ export function PrivacyContent() {
         </p>
         <ul>
           <li><strong>Service Providers:</strong> Sub-processors who assist in delivering our services (see our Sub-Processors page for the full list).</li>
-          <li><strong>Legal Requirements:</strong> When required by law, regulation, or legal process.</li>
-          <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets.</li>
+          <li><strong>Legal Requirements:</strong> When required by law, regulation or legal process.</li>
+          <li><strong>Business Transfers:</strong> In connection with a merger, acquisition or sale of assets.</li>
           <li><strong>With Your Consent:</strong> When you explicitly authorize sharing with a specific third party.</li>
         </ul>
       </section>
@@ -147,7 +147,7 @@ export function PrivacyContent() {
         <h2 id="cookies">Cookies &amp; Tracking</h2>
         <p>
           We use cookies and similar technologies to improve your browsing experience, analyze
-          site traffic, and understand usage patterns. The types of cookies we use include:
+          site traffic and understand usage patterns. The types of cookies we use include:
         </p>
         <ul>
           <li><strong>Essential Cookies:</strong> Required for basic site functionality (session management, security).</li>

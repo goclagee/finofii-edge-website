@@ -4,7 +4,7 @@ import type { PageSEO } from '@/types/seo';
 export const SITE_NAME = 'Finofii Edge';
 export const SITE_URL = 'https://finofii.com';
 const DEFAULT_TITLE = 'Finofii Edge – Accounting & Bookkeeping for Growing Businesses';
-const DEFAULT_DESCRIPTION = 'US-focused accounting, bookkeeping, and Virtual CFO Services for DTC brands, agencies, SaaS startups, and CPA firms.';
+const DEFAULT_DESCRIPTION = 'US-focused accounting, bookkeeping and Virtual CFO Services for DTC brands, agencies, SaaS startups and CPA firms.';
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.png`;
 
 /**
@@ -125,15 +125,15 @@ export const PUBLIC_ROUTES = [
 export const PAGE_SEO_DATA: Record<string, { title: string; description: string }> = {
   '/': {
     title: 'Finofii Edge – Accounting for Modern Businesses',
-    description: 'Premium accounting, bookkeeping, and Virtual CFO Services for DTC brands, agencies, SaaS startups, and CPA firms.',
+    description: 'Premium accounting, bookkeeping and Virtual CFO Services for DTC brands, agencies, SaaS startups and CPA firms.',
   },
   '/services': {
     title: 'Our Services – Finofii Edge',
-    description: 'Bookkeeping, visual dashboards, virtual CFO advisory, and entity compliance services tailored for growing businesses.',
+    description: 'Bookkeeping, visual dashboards, virtual CFO advisory and entity compliance services tailored for growing businesses.',
   },
   '/services/bookkeeping': {
     title: 'Bookkeeping & Close – Finofii Edge',
-    description: 'Monthly bookkeeping, reconciliation, and close services with integrations for QuickBooks, Xero, Ramp, and more.',
+    description: 'Monthly bookkeeping, reconciliation and close services with integrations for QuickBooks, Xero, Ramp and more.',
   },
   '/services/dashboards': {
     title: 'Visual MIS & Dashboards – Finofii Edge',
@@ -141,23 +141,23 @@ export const PAGE_SEO_DATA: Record<string, { title: string; description: string 
   },
   '/services/cfo': {
     title: 'Virtual CFO & Advisory – Finofii Edge',
-    description: 'Strategic financial guidance, cash flow forecasting, and advisory services for scaling businesses.',
+    description: 'Strategic financial guidance, cash flow forecasting and advisory services for scaling businesses.',
   },
   '/services/entity': {
     title: 'Entity & Compliance – Finofii Edge',
-    description: 'Entity formation, state filings, and ongoing compliance management across multiple jurisdictions.',
+    description: 'Entity formation, state filings and ongoing compliance management across multiple jurisdictions.',
   },
   '/pricing': {
     title: 'Pricing Plans – Finofii Edge',
-    description: 'Transparent pricing tiers for Essentials, Growth, and Scale plans. Find the right fit for your business.',
+    description: 'Transparent pricing tiers for Essentials, Growth and Scale plans. Find the right fit for your business.',
   },
   '/dashboard': {
     title: 'Sample Dashboard – Finofii Edge',
-    description: 'Explore interactive financial dashboards with live charts, month toggles, and industry presets.',
+    description: 'Explore interactive financial dashboards with live charts, month toggles and industry presets.',
   },
   '/security': {
     title: 'Security & Compliance – Finofii Edge',
-    description: 'SOC 2 certified security controls, data handling policies, and sub-processor transparency.',
+    description: 'SOC 2 certified security controls, data handling policies and sub-processor transparency.',
   },
   '/book': {
     title: 'Book a Free Audit – Finofii Edge',
@@ -165,7 +165,7 @@ export const PAGE_SEO_DATA: Record<string, { title: string; description: string 
   },
   '/legal/privacy': {
     title: 'Privacy Policy – Finofii Edge',
-    description: 'How Finofii Edge collects, uses, and protects your personal information and business data.',
+    description: 'How Finofii Edge collects, uses and protects your personal information and business data.',
   },
   '/legal/terms': {
     title: 'Terms of Service – Finofii Edge',
@@ -189,7 +189,7 @@ export const PAGE_SEO_DATA: Record<string, { title: string; description: string 
   },
   '/industries/saas': {
     title: 'Accounting for SaaS Startups – Finofii Edge',
-    description: 'Revenue recognition, MRR tracking, and compliance services for SaaS companies.',
+    description: 'Revenue recognition, MRR tracking and compliance services for SaaS companies.',
   },
   '/industries/cpa': {
     title: 'Services for CPA Firms – Finofii Edge',
@@ -205,10 +205,10 @@ export const PAGE_SEO_DATA: Record<string, { title: string; description: string 
   },
   '/about': {
     title: 'About Us & Team – Finofii Edge',
-    description: 'Meet the team behind Finofii Edge. Our story, values, and commitment to your financial clarity.',
+    description: 'Meet the team behind Finofii Edge. Our story, values and commitment to your financial clarity.',
   },
   '/resources': {
     title: 'Resources & Blog – Finofii Edge',
-    description: 'Guides, blog posts, templates, and a tax calendar to help you stay on top of your finances.',
+    description: 'Guides, blog posts, templates and a tax calendar to help you stay on top of your finances.',
   },
 };

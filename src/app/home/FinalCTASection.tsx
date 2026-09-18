@@ -33,7 +33,7 @@ export function FinalCTASection() {
 
         <ScrollReveal animation="fade-up" delay={200}>
           <p className="mt-6 text-lg text-paper/70 max-w-xl mx-auto">
-            Join 500+ businesses that trust Finofii Edge for accounting, bookkeeping, and strategic financial advisory.
+            Join 500+ businesses that trust Finofii Edge for accounting, bookkeeping and strategic financial advisory.
           </p>
         </ScrollReveal>
 

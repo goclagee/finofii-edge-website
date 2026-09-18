@@ -35,7 +35,7 @@ export function DPAContent() {
         </p>
         <p>
           This DPA applies to all processing of Personal Data conducted by the Processor in connection
-          with providing accounting, bookkeeping, virtual CFO, and compliance services.
+          with providing accounting, bookkeeping, virtual CFO and compliance services.
         </p>
       </section>
 
@@ -43,7 +43,7 @@ export function DPAContent() {
         <h2 id="definitions">Definitions</h2>
         <ul>
           <li><strong>Personal Data:</strong> Any information relating to an identified or identifiable natural person.</li>
-          <li><strong>Processing:</strong> Any operation performed on Personal Data, including collection, storage, use, and deletion.</li>
+          <li><strong>Processing:</strong> Any operation performed on Personal Data, including collection, storage, use and deletion.</li>
           <li><strong>Controller:</strong> The Client who determines the purposes and means of processing Personal Data.</li>
           <li><strong>Processor:</strong> Finofii Edge LLC, which processes Personal Data on behalf of the Controller.</li>
           <li><strong>Sub-Processor:</strong> A third party engaged by the Processor to process Personal Data.</li>
@@ -64,7 +64,7 @@ export function DPAContent() {
           <tbody>
             <tr>
               <td>Subject Matter</td>
-              <td>Provision of accounting, bookkeeping, and advisory services</td>
+              <td>Provision of accounting, bookkeeping and advisory services</td>
             </tr>
             <tr>
               <td>Duration</td>
@@ -80,7 +80,7 @@ export function DPAContent() {
             </tr>
             <tr>
               <td>Categories of Data Subjects</td>
-              <td>Client employees, contractors, vendors, and customers whose data appears in financial records</td>
+              <td>Client employees, contractors, vendors and customers whose data appears in financial records</td>
             </tr>
           </tbody>
         </table>
@@ -157,7 +157,7 @@ export function DPAContent() {
         </p>
         <ol>
           <li>Notify the Controller without undue delay and within 72 hours of becoming aware of the breach.</li>
-          <li>Provide details including nature of breach, categories of data affected, approximate number of data subjects, and remediation steps.</li>
+          <li>Provide details including nature of breach, categories of data affected, approximate number of data subjects and remediation steps.</li>
           <li>Cooperate with the Controller in investigating and mitigating the breach.</li>
           <li>Document all breaches including those that do not require notification.</li>
         </ol>
@@ -167,7 +167,7 @@ export function DPAContent() {
         <h2 id="data-subject-rights">Data Subject Rights</h2>
         <p>
           The Processor shall assist the Controller in fulfilling Data Subject requests including
-          access, rectification, erasure, portability, and objection. The Processor shall respond
+          access, rectification, erasure, portability and objection. The Processor shall respond
           to Controller assistance requests within 5 business days.
         </p>
       </section>

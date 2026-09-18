@@ -51,7 +51,7 @@ const TIER_DETAILS: Record<PricingTier, { name: string; description: string }> =
   },
   scale: {
     name: 'Scale',
-    description: 'Enterprise-grade CFO services, custom reporting, and strategic planning.',
+    description: 'Enterprise-grade CFO services, custom reporting and strategic planning.',
   },
 };
 

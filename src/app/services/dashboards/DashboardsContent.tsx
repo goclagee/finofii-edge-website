@@ -26,7 +26,7 @@ const reports: ReportCard[] = [
     id: 'pnl',
     name: 'Profit & Loss Statement',
     description:
-      'Monthly income statement with revenue breakdowns, COGS, and operating expense categorization.',
+      'Monthly income statement with revenue breakdowns, COGS and operating expense categorization.',
     category: 'Financial Statements',
     categoryVariant: 'accent',
   },
@@ -34,7 +34,7 @@ const reports: ReportCard[] = [
     id: 'cashflow',
     name: 'Cash Flow Forecast',
     description:
-      '13-week rolling cash flow projection with scenario modeling for best, base, and worst cases.',
+      '13-week rolling cash flow projection with scenario modeling for best, base and worst cases.',
     category: 'Cash Management',
     categoryVariant: 'brass',
   },
@@ -50,7 +50,7 @@ const reports: ReportCard[] = [
     id: 'burn-rate',
     name: 'Burn Rate Dashboard',
     description:
-      'Monthly burn analysis with runway projection, headcount cost allocation, and trend indicators.',
+      'Monthly burn analysis with runway projection, headcount cost allocation and trend indicators.',
     category: 'Cash Management',
     categoryVariant: 'brass',
   },
@@ -66,7 +66,7 @@ const reports: ReportCard[] = [
     id: 'vendor-spend',
     name: 'Vendor Spend Summary',
     description:
-      'Top vendor analysis by category, payment terms compliance, and month-over-month variance alerts.',
+      'Top vendor analysis by category, payment terms compliance and month-over-month variance alerts.',
     category: 'Expense Management',
     categoryVariant: 'default',
   },
@@ -101,19 +101,19 @@ const screenshots: DashboardScreenshot[] = [
   {
     id: 'overview',
     src: '/images/dashboards/dashboard-overview.png',
-    alt: 'Financial dashboard overview showing monthly revenue trend line chart, expense pie chart, and key metric cards for net income, gross margin, and operating expenses',
+    alt: 'Financial dashboard overview showing monthly revenue trend line chart, expense pie chart and key metric cards for net income, gross margin and operating expenses',
     title: 'Dashboard Overview',
   },
   {
     id: 'revenue',
     src: '/images/dashboards/revenue-breakdown.png',
-    alt: 'Revenue breakdown dashboard displaying stacked bar chart of revenue by product line, customer acquisition cost trend, and lifetime value metrics per cohort',
+    alt: 'Revenue breakdown dashboard displaying stacked bar chart of revenue by product line, customer acquisition cost trend and lifetime value metrics per cohort',
     title: 'Revenue Breakdown',
   },
   {
     id: 'cashflow',
     src: '/images/dashboards/cashflow-forecast.png',
-    alt: 'Cash flow forecast dashboard with 13-week projection area chart, runway indicator gauge, and weekly burn rate comparison bars for actuals versus budget',
+    alt: 'Cash flow forecast dashboard with 13-week projection area chart, runway indicator gauge and weekly burn rate comparison bars for actuals versus budget',
     title: 'Cash Flow Forecast',
   },
 ];

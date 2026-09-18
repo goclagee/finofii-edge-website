@@ -29,7 +29,7 @@ export function SubProcessorsContent() {
           and data handling practices before engagement.
         </p>
         <p>
-          This page lists all current sub-processors, their purposes, and data processing locations.
+          This page lists all current sub-processors, their purposes and data processing locations.
           We update this page whenever a sub-processor is added or removed.
         </p>
       </section>
@@ -91,7 +91,7 @@ export function SubProcessorsContent() {
             </tr>
             <tr>
               <td>Google Workspace</td>
-              <td>Email, documents, and collaboration</td>
+              <td>Email, documents and collaboration</td>
               <td>United States</td>
             </tr>
             <tr>
@@ -107,10 +107,10 @@ export function SubProcessorsContent() {
         <h2 id="infrastructure-providers">Infrastructure Providers</h2>
         <p>
           Our core infrastructure is hosted on AWS and Vercel, providing enterprise-grade security,
-          redundancy, and compliance certifications including SOC 2 Type II and ISO 27001.
+          redundancy and compliance certifications including SOC 2 Type II and ISO 27001.
         </p>
         <ul>
-          <li><strong>AWS:</strong> Primary data storage, compute, and backup infrastructure with encryption at rest and in transit.</li>
+          <li><strong>AWS:</strong> Primary data storage, compute and backup infrastructure with encryption at rest and in transit.</li>
           <li><strong>Vercel:</strong> Website and application delivery with edge caching for optimal performance.</li>
         </ul>
       </section>
@@ -124,7 +124,7 @@ export function SubProcessorsContent() {
           <li><strong>QuickBooks Online / Xero:</strong> Client accounting platform access for bookkeeping and reconciliation.</li>
           <li><strong>Ramp / Brex / Mercury:</strong> Corporate card and banking integrations for transaction import.</li>
           <li><strong>Stripe:</strong> Secure payment processing for service billing.</li>
-          <li><strong>HubSpot:</strong> Client onboarding, communication tracking, and service management.</li>
+          <li><strong>HubSpot:</strong> Client onboarding, communication tracking and service management.</li>
         </ul>
       </section>
 

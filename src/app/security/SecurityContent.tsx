@@ -244,7 +244,7 @@ export function SecurityContent() {
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-4 text-lg text-ink/70 font-interface leading-relaxed">
               Your financial data deserves the highest level of protection. We maintain
-              rigorous security controls, transparent data handling, and vetted
+              rigorous security controls, transparent data handling and vetted
               sub-processor relationships.
             </p>
           </ScrollReveal>

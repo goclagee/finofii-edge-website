@@ -113,7 +113,7 @@ const monthlyCloseCadence: TimelinePhase[] = [
       },
       {
         id: 'p5-2',
-        label: 'Prepare income statement, balance sheet, and cash flow statement',
+        label: 'Prepare income statement, balance sheet and cash flow statement',
         type: 'deliverable',
       },
       {
@@ -176,7 +176,7 @@ const toolStack = [
   {
     id: 'xero',
     name: 'Xero',
-    tooltip: 'Native Xero integration for bank feeds, invoicing, and reporting',
+    tooltip: 'Native Xero integration for bank feeds, invoicing and reporting',
     color: '#13B5EA',
   },
   {
@@ -255,7 +255,7 @@ export function BookkeepingContent() {
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
               Full-cycle monthly bookkeeping designed for growing businesses. We handle
-              transaction categorization, reconciliation, accruals, and month-end close
+              transaction categorization, reconciliation, accruals and month-end close
               so your books are audit-ready every single month — delivered within 14
               business days of period end.
             </p>

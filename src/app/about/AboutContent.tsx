@@ -74,7 +74,7 @@ const companyMilestones: TimelinePhase[] = [
     items: [
       {
         id: 'm3-1',
-        label: 'Crossed 100 active clients across DTC, SaaS, agencies, and CPA firms',
+        label: 'Crossed 100 active clients across DTC, SaaS, agencies and CPA firms',
         type: 'milestone',
       },
       {
@@ -84,7 +84,7 @@ const companyMilestones: TimelinePhase[] = [
       },
       {
         id: 'm3-3',
-        label: 'Partnered with QuickBooks, Xero, Stripe, and Ramp for seamless integrations',
+        label: 'Partnered with QuickBooks, Xero, Stripe and Ramp for seamless integrations',
         type: 'milestone',
       },
     ],
@@ -101,7 +101,7 @@ const companyMilestones: TimelinePhase[] = [
       },
       {
         id: 'm4-2',
-        label: 'Launched Finofii Edge — next-generation platform combining automation, dashboards, and advisory',
+        label: 'Launched Finofii Edge — next-generation platform combining automation, dashboards and advisory',
         type: 'deliverable',
       },
     ],
@@ -128,21 +128,21 @@ export function AboutContent() {
               <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
                 Finofii Edge was born from a simple frustration: modern businesses deserve
                 modern accounting. Too many founders spend hours wrestling with spreadsheets,
-                chasing down receipts, and waiting weeks for reports that arrive outdated.
+                chasing down receipts and waiting weeks for reports that arrive outdated.
               </p>
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={250}>
               <p className="mt-4 text-lg text-ink/70 font-interface leading-relaxed">
                 We believe financial clarity shouldn&apos;t be a luxury. Our team combines
                 deep accounting expertise with technology-first thinking to deliver
-                real-time visibility, proactive guidance, and a white-glove experience
+                real-time visibility, proactive guidance and a white-glove experience
                 that scales with your business.
               </p>
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={350}>
               <p className="mt-4 text-base text-ink/60 font-interface leading-relaxed">
                 From day one, every engagement is built around your goals — whether
-                that&apos;s preparing for fundraising, optimizing cash flow, or simply
+                that&apos;s preparing for fundraising, optimizing cash flow or simply
                 closing the books without the headache.
               </p>
             </ScrollReveal>
@@ -176,7 +176,7 @@ export function AboutContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={150}>
             <p className="mt-4 text-lg text-ink/60 font-interface max-w-2xl mx-auto">
-              Finance professionals, data experts, and operators united by a shared
+              Finance professionals, data experts and operators united by a shared
               mission: making your numbers work for you.
             </p>
           </ScrollReveal>

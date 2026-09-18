@@ -23,7 +23,7 @@ const advisoryDeliverables = [
     ),
     title: 'Cash Flow Forecasting',
     detail:
-      'Rolling 13-week and 12-month cash flow projections updated weekly. Scenario modeling for best, base, and worst case outcomes to inform capital decisions.',
+      'Rolling 13-week and 12-month cash flow projections updated weekly. Scenario modeling for best, base and worst case outcomes to inform capital decisions.',
   },
   {
     id: 'budgeting',
@@ -49,7 +49,7 @@ const advisoryDeliverables = [
     ),
     title: 'Fundraising & Investor Readiness',
     detail:
-      'Financial model preparation, data room organization, and due diligence support. Cap table management and investor reporting packages delivered monthly.',
+      'Financial model preparation, data room organization and due diligence support. Cap table management and investor reporting packages delivered monthly.',
   },
   {
     id: 'kpi',
@@ -62,7 +62,7 @@ const advisoryDeliverables = [
     ),
     title: 'KPI Dashboards & Board Reporting',
     detail:
-      'Custom executive dashboards tracking unit economics, burn rate, LTV/CAC, and gross margin. Board-ready slide decks with financial narrative and forward guidance.',
+      'Custom executive dashboards tracking unit economics, burn rate, LTV/CAC and gross margin. Board-ready slide decks with financial narrative and forward guidance.',
   },
   {
     id: 'strategic',
@@ -75,7 +75,7 @@ const advisoryDeliverables = [
     ),
     title: 'Strategic Financial Planning',
     detail:
-      'Long-range financial planning tied to business milestones. Pricing strategy analysis, headcount planning, and expansion cost modeling for informed decision-making.',
+      'Long-range financial planning tied to business milestones. Pricing strategy analysis, headcount planning and expansion cost modeling for informed decision-making.',
   },
   {
     id: 'tax-strategy',
@@ -88,7 +88,7 @@ const advisoryDeliverables = [
     ),
     title: 'Tax Strategy & Optimization',
     detail:
-      'Proactive tax planning including R&D credits, entity structure optimization, state tax nexus analysis, and estimated tax payment scheduling to minimize liability.',
+      'Proactive tax planning including R&D credits, entity structure optimization, state tax nexus analysis and estimated tax payment scheduling to minimize liability.',
   },
   {
     id: 'ma-support',
@@ -101,7 +101,7 @@ const advisoryDeliverables = [
     ),
     title: 'M&A and Exit Planning',
     detail:
-      'Financial due diligence support for acquisitions, quality of earnings analysis, and exit readiness assessments including valuation benchmarking and deal structure advisory.',
+      'Financial due diligence support for acquisitions, quality of earnings analysis and exit readiness assessments including valuation benchmarking and deal structure advisory.',
   },
   {
     id: 'systems',
@@ -114,7 +114,7 @@ const advisoryDeliverables = [
     ),
     title: 'Financial Systems & Process Design',
     detail:
-      'Design and implementation of financial workflows, approval hierarchies, and reporting automation. ERP and tool stack optimization for operational efficiency.',
+      'Design and implementation of financial workflows, approval hierarchies and reporting automation. ERP and tool stack optimization for operational efficiency.',
   },
 ];
 
@@ -127,7 +127,7 @@ const meetingCadence = [
     frequency: 'Weekly',
     format: '30-minute video call',
     description:
-      'Ideal for high-growth companies navigating fundraising, rapid hiring, or market expansion. Real-time guidance on financial decisions as they arise.',
+      'Ideal for high-growth companies navigating fundraising, rapid hiring or market expansion. Real-time guidance on financial decisions as they arise.',
     includes: [
       'Cash flow review and weekly burn update',
       'Action item follow-up from prior week',
@@ -176,7 +176,7 @@ const idealClientProfile = [
     id: 'complexity',
     label: 'Financial Complexity',
     value: 'Multi-entity or Multi-product',
-    description: 'Organizations with intercompany transactions, multiple revenue streams, or multi-state presence.',
+    description: 'Organizations with intercompany transactions, multiple revenue streams or multi-state presence.',
   },
 ];
 
@@ -213,7 +213,7 @@ export function CFOContent() {
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
               Strategic financial leadership without the full-time overhead. Our Virtual
               CFO service delivers executive-level guidance on cash flow, fundraising,
-              tax strategy, and growth planning — tailored to your stage and goals.
+              tax strategy and growth planning — tailored to your stage and goals.
             </p>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={300}>

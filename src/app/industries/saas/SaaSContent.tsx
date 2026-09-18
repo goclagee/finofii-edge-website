@@ -50,7 +50,7 @@ const metrics: SummaryMetric[] = [
 const painPoints = [
   {
     title: 'Revenue recognition under ASC 606',
-    description: 'Annual contracts, usage-based billing, and multi-element arrangements require careful revenue recognition that most basic bookkeeping misses entirely.',
+    description: 'Annual contracts, usage-based billing and multi-element arrangements require careful revenue recognition that most basic bookkeeping misses entirely.',
   },
   {
     title: 'Deferred revenue and contract liability tracking',
@@ -58,7 +58,7 @@ const painPoints = [
   },
   {
     title: 'SaaS metrics for investor reporting',
-    description: 'VCs expect MRR, ARR, NRR, CAC payback, and LTV/CAC ratios. These require clean financial data tied to subscription analytics — not spreadsheet estimates.',
+    description: 'VCs expect MRR, ARR, NRR, CAC payback and LTV/CAC ratios. These require clean financial data tied to subscription analytics — not spreadsheet estimates.',
   },
   {
     title: 'R&D capitalization and tax credits',
@@ -98,7 +98,7 @@ export function SaaSContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Revenue recognition, deferred revenue, and SaaS metrics are table stakes
+              Revenue recognition, deferred revenue and SaaS metrics are table stakes
               for fundraising. We deliver audit-ready books and investor reporting
               packages that close rounds faster.
             </p>
@@ -215,7 +215,7 @@ export function SaaSContent() {
       {/* CTA Section */}
       <CtaSection
         headline="Ready for investor-grade financials?"
-        description="Get a free audit of your SaaS financials. We'll review your revenue recognition, identify unclaimed R&D credits, and get your books VC-ready."
+        description="Get a free audit of your SaaS financials. We'll review your revenue recognition, identify unclaimed R&D credits and get your books VC-ready."
         buttonHref="/book?industry=saas"
       />
     </>

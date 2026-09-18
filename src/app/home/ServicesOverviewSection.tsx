@@ -10,7 +10,7 @@ const services = [
   {
     title: 'Bookkeeping & Close',
     description:
-      'Monthly books closed by Day 5. Categorization, reconciliation, and reporting on autopilot.',
+      'Monthly books closed by Day 5. Categorization, reconciliation and reporting on autopilot.',
     href: '/services/bookkeeping',
     icon: (
       <svg className="w-8 h-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
@@ -32,7 +32,7 @@ const services = [
   {
     title: 'Virtual CFO & Advisory',
     description:
-      'Strategic financial guidance from experienced CFOs. Forecasting, fundraising support, and board-ready reports.',
+      'Strategic financial guidance from experienced CFOs. Forecasting, fundraising support and board-ready reports.',
     href: '/services/cfo',
     icon: (
       <svg className="w-8 h-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
@@ -43,7 +43,7 @@ const services = [
   {
     title: 'Entity & Compliance',
     description:
-      'Entity formation, registered agent services, annual filings, and state compliance — handled end to end.',
+      'Entity formation, registered agent services, annual filings and state compliance — handled end to end.',
     href: '/services/entity',
     icon: (
       <svg className="w-8 h-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">

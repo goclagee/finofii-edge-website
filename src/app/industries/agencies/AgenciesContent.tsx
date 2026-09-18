@@ -49,11 +49,11 @@ const metrics: SummaryMetric[] = [
 const painPoints = [
   {
     title: 'Project-based revenue recognition complexity',
-    description: 'Retainers, milestones, and time-and-materials billing create a tangled revenue picture. Recognizing revenue correctly across dozens of active projects is a nightmare.',
+    description: 'Retainers, milestones and time-and-materials billing create a tangled revenue picture. Recognizing revenue correctly across dozens of active projects is a nightmare.',
   },
   {
     title: 'Tracking profitability per client and project',
-    description: 'Without proper cost allocation across team hours, contractors, and overhead, you cannot tell which clients are profitable and which are draining resources.',
+    description: 'Without proper cost allocation across team hours, contractors and overhead, you cannot tell which clients are profitable and which are draining resources.',
   },
   {
     title: 'Cash flow gaps from extended payment terms',
@@ -97,7 +97,7 @@ export function AgenciesContent() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-              Project-based revenue, contractor costs, and retainer billing create
+              Project-based revenue, contractor costs and retainer billing create
               financial blind spots. We give agencies project-level P&L visibility
               so you can double down on profitable work.
             </p>

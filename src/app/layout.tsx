@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: '%s',
   },
   description:
-    'Premium accounting, bookkeeping, and financial advisory services for DTC brands, agencies, SaaS startups, and CPA firms.',
+    'Premium accounting, bookkeeping and financial advisory services for DTC brands, agencies, SaaS startups and CPA firms.',
   metadataBase: new URL('https://finofii.com'),
 };
 
