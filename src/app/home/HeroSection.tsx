@@ -26,7 +26,7 @@ export function HeroSection() {
         {/* Left: Headline + CTA */}
         <div className="flex-1 text-center lg:text-left">
           <AnimatedHeadline
-            text="Your books closed. Your dashboard live. Your CFO on call."
+            text="Premium Accounting, Bookkeeping and virtual CFO services"
             as="h1"
             animation="fade-up"
             className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-paper leading-tight"
@@ -34,7 +34,7 @@ export function HeroSection() {
 
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="mt-6 text-lg md:text-xl text-paper/70 font-interface max-w-xl mx-auto lg:mx-0">
-              Premium accounting, bookkeeping, and virtual CFO services purpose-built for DTC brands, agencies, SaaS startups, and CPA firms.
+              Your books closed, your dashboard live, and your CFO on call — purpose-built for DTC brands, agencies, SaaS startups, and CPA firms.
             </p>
           </ScrollReveal>
 
