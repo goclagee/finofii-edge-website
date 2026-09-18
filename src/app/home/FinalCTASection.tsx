@@ -25,7 +25,7 @@ export function FinalCTASection() {
 
       <Section className="relative z-10 text-center">
         <AnimatedHeadline
-          text="We Are Ready To Close Your Books On Time, Every Time?"
+          text="We Are Ready To Close Your Books On Time, Every Time."
           as="h2"
           animation="fade-up"
           className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-paper leading-tight max-w-3xl mx-auto"
@@ -33,7 +33,7 @@ export function FinalCTASection() {
 
         <ScrollReveal animation="fade-up" delay={200}>
           <p className="mt-6 text-lg text-paper/70 max-w-xl mx-auto">
-            Join 500+ Businesses That Trust Finofii Edge For Accounting, Bookkeeping And Strategic Financial Advisory.
+            Join 500+ Businesses That Trust Finofiii Edge For Accounting, Bookkeeping And Strategic Financial Advisory.
           </p>
         </ScrollReveal>
 

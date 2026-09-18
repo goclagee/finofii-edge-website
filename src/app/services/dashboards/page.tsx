@@ -3,7 +3,7 @@ import { generatePageSEO } from '@/lib/seo';
 import { DashboardsContent } from './DashboardsContent';
 
 const seo = generatePageSEO({
-  title: 'Visual MIS & Dashboards – Finofii Edge',
+  title: 'Visual MIS & Dashboards – Finofiii Edge',
   description:
     'Custom Financial Dashboards And Report Catalogues Delivered Within 5 Business Days Of Month-End.',
   path: '/services/dashboards',

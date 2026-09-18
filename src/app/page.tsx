@@ -26,7 +26,7 @@ const FinalCTASection = dynamic(
 
 export function generateMetadata(): Metadata {
   const seo = generatePageSEO({
-    title: 'Finofii Edge – Accounting & Bookkeeping For Growing Businesses',
+    title: 'Finofiii Edge – Accounting & Bookkeeping For Growing Businesses',
     description:
       'US-Focused Accounting, Bookkeeping And Virtual CFO Services For DTC Brands, Agencies, SaaS Startups And CPA Firms.',
     path: '/',

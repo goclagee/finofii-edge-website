@@ -1,5 +1,5 @@
 /**
- * Finofii Edge Design Tokens
+ * Finofiii Edge Design Tokens
  *
  * Single source of truth for color palette, typography, spacing, layout,
  * and border radius values used across the application.

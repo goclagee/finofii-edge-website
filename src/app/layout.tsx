@@ -29,7 +29,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Finofii Edge — Accounting & Bookkeeping For Modern Businesses',
+    default: 'Finofiii Edge — Accounting & Bookkeeping For Modern Businesses',
     template: '%s',
   },
   description:

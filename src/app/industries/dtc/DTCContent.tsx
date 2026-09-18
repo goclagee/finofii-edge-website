@@ -72,7 +72,7 @@ const painPoints = [
 const caseStudy = {
   industry: 'DTC',
   headline: 'How A $3M Skincare Brand Cut Close Time By 70%',
-  excerpt: 'A Fast-Growing DTC Skincare Brand Was Spending 3 Weeks On Monthly Close With An Offshore Team. After Switching To Finofii Edge, They Achieved A 5-Day Close With Real-Time Margin Visibility Across All Sales Channels.',
+  excerpt: 'A Fast-Growing DTC Skincare Brand Was Spending 3 Weeks On Monthly Close With An Offshore Team. After Switching To Finofiii Edge, They Achieved A 5-Day Close With Real-Time Margin Visibility Across All Sales Channels.',
   metrics: [
     { label: 'Close Time', before: '21 days', after: '5 days' },
     { label: 'Revenue Accuracy', before: '89%', after: '99.8%' },

@@ -159,12 +159,12 @@ describe('generateMetadataFromSEO', () => {
 
   it('produces a valid Metadata object with title and description', () => {
     const result = generateMetadataFromSEO({
-      title: 'Test Page – Finofii Edge',
+      title: 'Test Page – Finofiii Edge',
       description: 'A test page description.',
       path: '/test',
     });
 
-    expect(result.title).toBe('Test Page – Finofii Edge');
+    expect(result.title).toBe('Test Page – Finofiii Edge');
     expect(result.description).toBe('A test page description.');
   });
 
@@ -179,7 +179,7 @@ describe('generateMetadataFromSEO', () => {
     expect((result.openGraph as any).title).toBe('OG Test');
     expect((result.openGraph as any).description).toBe('OG description.');
     expect((result.openGraph as any).url).toContain('/og-test');
-    expect((result.openGraph as any).siteName).toBe('Finofii Edge');
+    expect((result.openGraph as any).siteName).toBe('Finofiii Edge');
     expect((result.openGraph as any).images).toHaveLength(1);
   });
 

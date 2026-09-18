@@ -27,9 +27,9 @@ export function TermsContent() {
       <section>
         <h2 id="acceptance">Acceptance Of Terms</h2>
         <p>
-          By Accessing Or Using Finofii Edge Services (&ldquo;Services&rdquo;), You Agree To Be Bound
+          By Accessing Or Using Finofiii Edge Services (&ldquo;Services&rdquo;), You Agree To Be Bound
           By These Terms Of Service (&ldquo;Terms&rdquo;). These Terms Constitute A Legally Binding
-          Agreement Between You And Finofii Edge LLC (&ldquo;Company&rdquo;). If You Do Not Agree
+          Agreement Between You And Finofiii Edge LLC (&ldquo;Company&rdquo;). If You Do Not Agree
           To These Terms, You Must Not Use Our Services.
         </p>
         <p>
@@ -41,7 +41,7 @@ export function TermsContent() {
       <section>
         <h2 id="services-description">Description Of Services</h2>
         <p>
-          Finofii Edge Provides Accounting, Bookkeeping, Virtual CFO Advisory, Entity Formation,
+          Finofiii Edge Provides Accounting, Bookkeeping, Virtual CFO Advisory, Entity Formation,
           Compliance Management And Financial Dashboard Services. Our Offerings Include:
         </p>
         <ul>
@@ -121,7 +121,7 @@ export function TermsContent() {
         </p>
         <ul>
           <li>Our Proprietary Methodologies, Templates And Processes.</li>
-          <li>The Finofii Edge Platform, Software And Interface Designs.</li>
+          <li>The Finofiii Edge Platform, Software And Interface Designs.</li>
           <li>Aggregate, Anonymized Insights Derived From Service Delivery.</li>
         </ul>
         <p>
@@ -145,7 +145,7 @@ export function TermsContent() {
       <section>
         <h2 id="limitation-liability">Limitation Of Liability</h2>
         <p>
-          To The Maximum Extent Permitted By Law, Finofii Edge Shall Not Be Liable For Indirect,
+          To The Maximum Extent Permitted By Law, Finofiii Edge Shall Not Be Liable For Indirect,
           Incidental, Consequential Or Punitive Damages Arising From Your Use Of Our Services.
           Our Total Liability Shall Not Exceed The Fees Paid By You In The 12 Months Preceding
           The Claim.
@@ -189,7 +189,7 @@ export function TermsContent() {
         </p>
         <ul>
           <li>Email: Legal@finofii.com</li>
-          <li>Address: Finofii Edge LLC, 123 Finance Street, Suite 400, New York, NY 10001</li>
+          <li>Address: Finofiii Edge LLC, 123 Finance Street, Suite 400, New York, NY 10001</li>
         </ul>
       </section>
     </LegalPageLayout>

@@ -3,7 +3,7 @@ import { generatePageSEO } from '@/lib/seo';
 import { BookkeepingContent } from './BookkeepingContent';
 
 const seo = generatePageSEO({
-  title: 'Bookkeeping & Accounting – Finofii Edge',
+  title: 'Bookkeeping & Accounting – Finofiii Edge',
   description:
     'Monthly Bookkeeping, Reconciliation And Accounting Services With Integrations For QuickBooks, Xero, Ramp, Brex, Mercury And Stripe.',
   path: '/services/bookkeeping',

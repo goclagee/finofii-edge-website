@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import type { PageSEO } from '@/types/seo';
 
-export const SITE_NAME = 'Finofii Edge';
+export const SITE_NAME = 'Finofiii Edge';
 export const SITE_URL = 'https://finofii.com';
-const DEFAULT_TITLE = 'Finofii Edge – Accounting & Bookkeeping For Growing Businesses';
+const DEFAULT_TITLE = 'Finofiii Edge – Accounting & Bookkeeping For Growing Businesses';
 const DEFAULT_DESCRIPTION = 'US-Focused Accounting, Bookkeeping And Virtual CFO Services For DTC Brands, Agencies, SaaS Startups And CPA Firms.';
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.png`;
 
@@ -91,7 +91,7 @@ export function generateMetadataFromSEO(input: {
 }
 
 /**
- * All public page routes for the Finofii Edge website (16 pages).
+ * All public page routes for the Finofiii Edge website (16 pages).
  */
 export const PUBLIC_ROUTES = [
   '/',
@@ -124,91 +124,91 @@ export const PUBLIC_ROUTES = [
  */
 export const PAGE_SEO_DATA: Record<string, { title: string; description: string }> = {
   '/': {
-    title: 'Finofii Edge – Accounting For Modern Businesses',
+    title: 'Finofiii Edge – Accounting For Modern Businesses',
     description: 'Premium Accounting, Bookkeeping And Virtual CFO Services For DTC Brands, Agencies, SaaS Startups And CPA Firms.',
   },
   '/services': {
-    title: 'Our Services – Finofii Edge',
+    title: 'Our Services – Finofiii Edge',
     description: 'Bookkeeping, Visual Dashboards, Virtual CFO Advisory And Entity Compliance Services Tailored For Growing Businesses.',
   },
   '/services/bookkeeping': {
-    title: 'Bookkeeping & Accounting – Finofii Edge',
+    title: 'Bookkeeping & Accounting – Finofiii Edge',
     description: 'Monthly Bookkeeping, Reconciliation And Accounting Services With Integrations For QuickBooks, Xero, Ramp And More.',
   },
   '/services/dashboards': {
-    title: 'Visual MIS & Dashboards – Finofii Edge',
+    title: 'Visual MIS & Dashboards – Finofiii Edge',
     description: 'Custom Financial Dashboards And Report Catalogues Delivered Within 5 Business Days Of Month-End.',
   },
   '/services/cfo': {
-    title: 'Virtual CFO & Advisory – Finofii Edge',
+    title: 'Virtual CFO & Advisory – Finofiii Edge',
     description: 'Strategic Financial Guidance, Cash Flow Forecasting And Advisory Services For Scaling Businesses.',
   },
   '/services/entity': {
-    title: 'Entity & Compliance – Finofii Edge',
+    title: 'Entity & Compliance – Finofiii Edge',
     description: 'Entity Formation, State Filings And Ongoing Compliance Management Across Multiple Jurisdictions.',
   },
   '/pricing': {
-    title: 'Pricing Plans – Finofii Edge',
+    title: 'Pricing Plans – Finofiii Edge',
     description: 'Transparent Pricing Tiers For Essentials, Growth And Scale Plans. Find The Right Fit For Your Business.',
   },
   '/dashboard': {
-    title: 'Sample Dashboard – Finofii Edge',
+    title: 'Sample Dashboard – Finofiii Edge',
     description: 'Explore Interactive Financial Dashboards With Live Charts, Month Toggles And Industry Presets.',
   },
   '/security': {
-    title: 'Security & Compliance – Finofii Edge',
+    title: 'Security & Compliance – Finofiii Edge',
     description: 'SOC 2 Certified Security Controls, Data Handling Policies And Sub-Processor Transparency.',
   },
   '/book': {
-    title: 'Book A Free Audit – Finofii Edge',
+    title: 'Book A Free Audit – Finofiii Edge',
     description: 'Schedule Your Free Financial Audit Consultation. Quick Intake Form And Calendar Booking In Minutes.',
   },
   '/legal/privacy': {
-    title: 'Privacy Policy – Finofii Edge',
-    description: 'How Finofii Edge Collects, Uses And Protects Your Personal Information And Business Data.',
+    title: 'Privacy Policy – Finofiii Edge',
+    description: 'How Finofiii Edge Collects, Uses And Protects Your Personal Information And Business Data.',
   },
   '/legal/terms': {
-    title: 'Terms Of Service – Finofii Edge',
-    description: 'Terms And Conditions Governing Your Use Of Finofii Edge Accounting And Advisory Services.',
+    title: 'Terms Of Service – Finofiii Edge',
+    description: 'Terms And Conditions Governing Your Use Of Finofiii Edge Accounting And Advisory Services.',
   },
   '/legal/dpa': {
-    title: 'Data Processing Agreement – Finofii Edge',
+    title: 'Data Processing Agreement – Finofiii Edge',
     description: 'Our Data Processing Agreement Outlining Responsibilities For Handling Your Business Data.',
   },
   '/legal/sub-processors': {
-    title: 'Sub-Processors – Finofii Edge',
-    description: 'Complete List Of Third-Party Sub-Processors Used By Finofii Edge For Data Processing.',
+    title: 'Sub-Processors – Finofiii Edge',
+    description: 'Complete List Of Third-Party Sub-Processors Used By Finofiii Edge For Data Processing.',
   },
   '/industries/dtc': {
-    title: 'Accounting For DTC Brands – Finofii Edge',
+    title: 'Accounting For DTC Brands – Finofiii Edge',
     description: 'Specialized Bookkeeping And Financial Services For Direct-To-Consumer E-Commerce Brands.',
   },
   '/industries/agencies': {
-    title: 'Accounting For Agencies – Finofii Edge',
+    title: 'Accounting For Agencies – Finofiii Edge',
     description: 'Financial Management Tailored For Creative And Digital Agencies With Project-Based Revenue.',
   },
   '/industries/saas': {
-    title: 'Accounting For SaaS Startups – Finofii Edge',
+    title: 'Accounting For SaaS Startups – Finofiii Edge',
     description: 'Revenue Recognition, MRR Tracking And Compliance Services For SaaS Companies.',
   },
   '/industries/cpa': {
-    title: 'Services For CPA Firms – Finofii Edge',
+    title: 'Services For CPA Firms – Finofiii Edge',
     description: 'Outsourced Bookkeeping And Back-Office Support Designed For CPA Firms Scaling Their Practice.',
   },
   '/how-it-works': {
-    title: 'How It Works – Finofii Edge',
+    title: 'How It Works – Finofiii Edge',
     description: 'Our 14-Day Onboarding Process: From Signup To Full Financial Visibility In Two Weeks.',
   },
   '/case-studies': {
-    title: 'Case Studies – Finofii Edge',
+    title: 'Case Studies – Finofiii Edge',
     description: 'Real Results From Real Businesses. Before-And-After Metrics From Our Accounting Clients.',
   },
   '/about': {
-    title: 'About Us & Team – Finofii Edge',
-    description: 'Meet The Team Behind Finofii Edge. Our Story, Values And Commitment To Your Financial Clarity.',
+    title: 'About Us & Team – Finofiii Edge',
+    description: 'Meet The Team Behind Finofiii Edge. Our Story, Values And Commitment To Your Financial Clarity.',
   },
   '/resources': {
-    title: 'Resources & Blog – Finofii Edge',
+    title: 'Resources & Blog – Finofiii Edge',
     description: 'Guides, Blog Posts, Templates And A Tax Calendar To Help You Stay On Top Of Your Finances.',
   },
 };

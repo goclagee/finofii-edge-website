@@ -7,7 +7,7 @@ export const revalidate = 60;
 
 export function generateMetadata(): Metadata {
   const seo = generatePageSEO({
-    title: 'Sample Dashboard – Finofii Edge',
+    title: 'Sample Dashboard – Finofiii Edge',
     description:
       'Explore Interactive Financial Dashboards With Live Charts, Month Toggles And Industry Presets.',
     path: '/dashboard',

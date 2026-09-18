@@ -5,7 +5,7 @@ import { Section } from '@/components/design-system/Section';
 
 export function generateMetadata(): Metadata {
   return generateMetadataFromSEO({
-    title: 'Legal – Finofii Edge',
+    title: 'Legal – Finofiii Edge',
     description: 'Access Our Privacy Policy, Terms Of Service, Data Processing Agreement And Sub-Processor List.',
     path: '/legal',
   });
@@ -19,7 +19,7 @@ const legalPages = [
   },
   {
     title: 'Terms Of Service',
-    description: 'Terms And Conditions Governing Your Use Of Finofii Edge Services.',
+    description: 'Terms And Conditions Governing Your Use Of Finofiii Edge Services.',
     href: '/legal/terms',
   },
   {

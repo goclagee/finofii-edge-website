@@ -72,7 +72,7 @@ const painPoints = [
 const caseStudy = {
   industry: 'SaaS',
   headline: 'Series A Startup Saves $340K In R&D Tax Credits',
-  excerpt: 'A B2B SaaS Company At $1.5M ARR Had Never Claimed R&D Credits. Finofii Edge Implemented Proper Cost Capitalization And Retroactively Filed For Three Years Of Credits, Funding An Entire Engineering Hire.',
+  excerpt: 'A B2B SaaS Company At $1.5M ARR Had Never Claimed R&D Credits. Finofiii Edge Implemented Proper Cost Capitalization And Retroactively Filed For Three Years Of Credits, Funding An Entire Engineering Hire.',
   metrics: [
     { label: 'R&D Credits Recovered', before: '$0', after: '$340K' },
     { label: 'Investor-Ready Close', before: '35 days', after: '7 days' },

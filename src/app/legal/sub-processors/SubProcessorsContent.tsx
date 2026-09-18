@@ -24,7 +24,7 @@ export function SubProcessorsContent() {
       <section>
         <h2 id="overview">Overview</h2>
         <p>
-          Finofii Edge Uses Select Third-Party Sub-Processors To Deliver Our Accounting, Bookkeeping,
+          Finofiii Edge Uses Select Third-Party Sub-Processors To Deliver Our Accounting, Bookkeeping,
           And Advisory Services. Each Sub-Processor Has Been Evaluated For Security, Privacy Compliance,
           And Data Handling Practices Before Engagement.
         </p>
@@ -37,7 +37,7 @@ export function SubProcessorsContent() {
       <section>
         <h2 id="current-sub-processors">Current Sub-Processors</h2>
         <p>
-          The Following Table Lists All Third-Party Sub-Processors Currently Engaged By Finofii Edge
+          The Following Table Lists All Third-Party Sub-Processors Currently Engaged By Finofiii Edge
           To Process Client Data:
         </p>
         <table>

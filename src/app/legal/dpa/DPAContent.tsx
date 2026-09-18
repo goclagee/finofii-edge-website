@@ -30,7 +30,7 @@ export function DPAContent() {
         <h2 id="dpa-scope">Scope &amp; Purpose</h2>
         <p>
           This Data Processing Agreement (&ldquo;DPA&rdquo;) Supplements And Forms Part Of The Terms Of Service
-          Between Finofii Edge LLC (&ldquo;Processor&rdquo;) And The Client (&ldquo;Controller&rdquo;).
+          Between Finofiii Edge LLC (&ldquo;Processor&rdquo;) And The Client (&ldquo;Controller&rdquo;).
           It Describes The Terms Under Which The Processor Processes Personal Data On Behalf Of The Controller.
         </p>
         <p>
@@ -45,7 +45,7 @@ export function DPAContent() {
           <li><strong>Personal Data:</strong> Any Information Relating To An Identified Or Identifiable Natural Person.</li>
           <li><strong>Processing:</strong> Any Operation Performed On Personal Data, Including Collection, Storage, Use And Deletion.</li>
           <li><strong>Controller:</strong> The Client Who Determines The Purposes And Means Of Processing Personal Data.</li>
-          <li><strong>Processor:</strong> Finofii Edge LLC, Which Processes Personal Data On Behalf Of The Controller.</li>
+          <li><strong>Processor:</strong> Finofiii Edge LLC, Which Processes Personal Data On Behalf Of The Controller.</li>
           <li><strong>Sub-Processor:</strong> A Third Party Engaged By The Processor To Process Personal Data.</li>
           <li><strong>Data Subject:</strong> The Natural Person Whose Personal Data Is Processed.</li>
         </ul>

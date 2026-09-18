@@ -23,7 +23,7 @@ const metrics = [
 const testimonials = [
   {
     quote:
-      'Finofii Edge Transformed Our Financial Visibility. We Went From Scrambling At Month-End To Having Real-Time Dashboards Within 2 Weeks.',
+      'Finofiii Edge Transformed Our Financial Visibility. We Went From Scrambling At Month-End To Having Real-Time Dashboards Within 2 Weeks.',
     author: 'Sarah Chen',
     role: 'CEO',
     company: 'Bloom Commerce',

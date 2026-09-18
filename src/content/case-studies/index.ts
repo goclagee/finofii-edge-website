@@ -15,7 +15,7 @@ export const caseStudies: CaseStudy[] = [
     problem:
       "A Fast-Growing Skincare Brand Was Struggling With An 18-Day Monthly Close Cycle. Their In-House Bookkeeper Couldn't Keep Up With Multi-Channel Sales (Shopify, Amazon, Wholesale), Leading To Inaccurate COGS And Delayed Financial Visibility.",
     solution:
-      'Finofii Edge Automated Bank Feeds Across 4 Accounts, Built Custom Ramp Categorization Rules And Implemented A 5-Step Close Cadence Synced With Their Shopify And Amazon Settlement Cycles.',
+      'Finofiii Edge Automated Bank Feeds Across 4 Accounts, Built Custom Ramp Categorization Rules And Implemented A 5-Step Close Cadence Synced With Their Shopify And Amazon Settlement Cycles.',
     metrics: [
       {
         label: 'Monthly Close',
@@ -51,7 +51,7 @@ export const caseStudies: CaseStudy[] = [
     problem:
       'A 35-Person Creative Agency Had No Visibility Into Project-Level Profitability. They Relied On Spreadsheets That Were Always Outdated, Making It Impossible To Identify Underperforming Accounts Until Quarter-End Reviews.',
     solution:
-      'Finofii Edge Deployed A Custom MIS Dashboard Integrating Their Project Management Tool With QuickBooks. Weekly Automated Reports Break Down Revenue, Contractor Costs And Margin Per Client And Project.',
+      'Finofiii Edge Deployed A Custom MIS Dashboard Integrating Their Project Management Tool With QuickBooks. Weekly Automated Reports Break Down Revenue, Contractor Costs And Margin Per Client And Project.',
     metrics: [
       {
         label: 'Report Delivery',
@@ -80,7 +80,7 @@ export const caseStudies: CaseStudy[] = [
     problem:
       'A B2B SaaS Company Approaching Series A Had Disorganized Financials. Their MRR Calculations Were Inconsistent, Churn Metrics Were Unreliable And They Lacked The Financial Model Required By VCs For Due Diligence.',
     solution:
-      "Finofii Edge's Virtual CFO Team Rebuilt Their Revenue Recognition Model Per ASC 606, Created A 3-Statement Financial Model With SaaS-Specific KPIs And Prepared A Data Room That Passed VC Due Diligence On First Review.",
+      "Finofiii Edge's Virtual CFO Team Rebuilt Their Revenue Recognition Model Per ASC 606, Created A 3-Statement Financial Model With SaaS-Specific KPIs And Prepared A Data Room That Passed VC Due Diligence On First Review.",
     metrics: [
       {
         label: 'Fundraise Prep',
@@ -116,7 +116,7 @@ export const caseStudies: CaseStudy[] = [
     problem:
       'A Regional CPA Firm Managing 120+ Client Entities Was Missing State Filing Deadlines Regularly. Manual Tracking In Spreadsheets Led To 8 Penalty Notices In The Prior Year, Totaling Over $45,000 In Fines Passed To Clients.',
     solution:
-      "Finofii Edge Implemented An Automated Filing Calendar With 60/30/7-Day Alerts, Handled Annual Report Filings Across 12 States And Provided A Real-Time Compliance Status Dashboard For The Firm's Partners.",
+      "Finofiii Edge Implemented An Automated Filing Calendar With 60/30/7-Day Alerts, Handled Annual Report Filings Across 12 States And Provided A Real-Time Compliance Status Dashboard For The Firm's Partners.",
     metrics: [
       {
         label: 'Filing Penalties',
@@ -145,7 +145,7 @@ export const caseStudies: CaseStudy[] = [
     problem:
       'A DTC Supplements Company With $4M Revenue Had No Clear View Of True Product-Level Margins. Shipping Cost Allocation, Return Processing Fees And Influencer Commissions Were Lumped Into A Single "Marketing" Category.',
     solution:
-      'Finofii Edge Built A Multi-Layer Margin Dashboard That Allocated Costs Per SKU Across Fulfillment, Returns, Ad Spend And Affiliate Commissions. Monthly Variance Reports Flagged Margin-Eroding Products Automatically.',
+      'Finofiii Edge Built A Multi-Layer Margin Dashboard That Allocated Costs Per SKU Across Fulfillment, Returns, Ad Spend And Affiliate Commissions. Monthly Variance Reports Flagged Margin-Eroding Products Automatically.',
     metrics: [
       {
         label: 'Margin Visibility',
@@ -174,7 +174,7 @@ export const caseStudies: CaseStudy[] = [
     problem:
       'A Performance Marketing Agency Scaling Rapidly Found Their Single Ops Manager Overwhelmed With Invoicing, Contractor Payments And Reconciliation Across 10 Client Retainers. Adding Clients Meant Adding Headcount.',
     solution:
-      'Finofii Edge Took Over All Transactional Bookkeeping With Automated Invoice Matching, Contractor 1099 Tracking And Weekly Cash Position Reports. The Ops Manager Shifted To Strategic Work While The Agency Quadrupled Its Client Count.',
+      'Finofiii Edge Took Over All Transactional Bookkeeping With Automated Invoice Matching, Contractor 1099 Tracking And Weekly Cash Position Reports. The Ops Manager Shifted To Strategic Work While The Agency Quadrupled Its Client Count.',
     metrics: [
       {
         label: 'Client Capacity',

@@ -48,10 +48,10 @@ export function MobileNavOverlay({
     >
       {/* Header with close button */}
       <div className="container-content flex items-center justify-between h-18">
-        <Link href="/" aria-label="Finofii Edge home (menu)" onClick={onClose}>
+        <Link href="/" aria-label="Finofiii Edge home (menu)" onClick={onClose}>
           <Image
             src="/images/logos/finofii-edge-navy.svg"
-            alt="Finofii Edge"
+            alt="Finofiii Edge"
             width={140}
             height={40}
             unoptimized

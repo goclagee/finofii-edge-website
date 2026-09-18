@@ -89,11 +89,11 @@ export function Navbar({ links = defaultLinks, compact = false, scrollProgress =
           <Link
             href="/"
             className="flex items-center shrink-0"
-            aria-label="Finofii Edge home"
+            aria-label="Finofiii Edge home"
           >
             <Image
               src="/images/logos/finofii-edge-navy.svg"
-              alt="Finofii Edge"
+              alt="Finofiii Edge"
               width={140}
               height={40}
               priority

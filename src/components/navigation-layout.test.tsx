@@ -84,7 +84,7 @@ describe('Navbar', () => {
 
   it('renders logo with link to home', () => {
     render(<Navbar />);
-    const homeLink = screen.getByLabelText('Finofii Edge home');
+    const homeLink = screen.getByLabelText('Finofiii Edge home');
     expect(homeLink.getAttribute('href')).toBe('/');
   });
 
@@ -546,7 +546,7 @@ describe('Footer', () => {
 
   it('renders copyright with correct year', () => {
     render(<Footer year={2025} />);
-    expect(screen.getByText(/© 2025 Finofii Edge/)).toBeDefined();
+    expect(screen.getByText(/© 2025 Finofiii Edge/)).toBeDefined();
   });
 
   it('has role="contentinfo" on footer element', () => {

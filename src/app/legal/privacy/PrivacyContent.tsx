@@ -27,7 +27,7 @@ export function PrivacyContent() {
       <section>
         <h2 id="introduction">Introduction</h2>
         <p>
-          Finofii Edge (&ldquo;We,&rdquo; &ldquo;Our,&rdquo; Or &ldquo;Us&rdquo;) Is Committed To Protecting The Privacy
+          Finofiii Edge (&ldquo;We,&rdquo; &ldquo;Our,&rdquo; Or &ldquo;Us&rdquo;) Is Committed To Protecting The Privacy
           Of Our Clients, Website Visitors And Users Of Our Accounting And Bookkeeping Services.
           This Privacy Policy Describes How We Collect, Use, Store And Share Personal Information
           When You Interact With Our Website, Services And Communications.
@@ -176,7 +176,7 @@ export function PrivacyContent() {
         </p>
         <ul>
           <li>Email: Privacy@finofii.com</li>
-          <li>Address: Finofii Edge, 123 Finance Street, Suite 400, New York, NY 10001</li>
+          <li>Address: Finofiii Edge, 123 Finance Street, Suite 400, New York, NY 10001</li>
         </ul>
       </section>
     </LegalPageLayout>

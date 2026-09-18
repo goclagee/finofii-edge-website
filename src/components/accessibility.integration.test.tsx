@@ -189,7 +189,7 @@ describe('Keyboard-Only Navigation', () => {
       );
 
       // First element should be logo link
-      expect(tabbable[0].getAttribute('aria-label')).toBe('Finofii Edge home');
+      expect(tabbable[0].getAttribute('aria-label')).toBe('Finofiii Edge home');
 
       // Nav links should follow
       const navLinks = tabbable.slice(1, 8);
@@ -537,10 +537,10 @@ describe('Reduced-Motion Disables Animations', () => {
   it('AnimatedHeadline renders text without animation when reduced motion is enabled', async () => {
     const { AnimatedHeadline } = await import('./design-system/AnimatedHeadline');
 
-    render(<AnimatedHeadline text="Welcome to Finofii" animation="fade-up" />);
+    render(<AnimatedHeadline text="Welcome to Finofiii" animation="fade-up" />);
 
     const heading = screen.getByRole('heading');
-    expect(heading.textContent).toBe('Welcome to Finofii');
+    expect(heading.textContent).toBe('Welcome to Finofiii');
     // Should not have animation-related classes
     expect(heading.className).not.toContain('animate-');
   });

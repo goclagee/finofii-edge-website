@@ -109,7 +109,7 @@ const companyMilestones: TimelinePhase[] = [
       },
       {
         id: 'm4-2',
-        label: 'Launched Finofii Edge — Next-Generation Platform Combining Automation, Dashboards And Advisory',
+        label: 'Launched Finofiii Edge — Next-Generation Platform Combining Automation, Dashboards And Advisory',
         type: 'deliverable',
       },
     ],
@@ -120,7 +120,7 @@ export function AboutContent() {
   return (
     <>
       {/* Company Narrative Section */}
-      <Section padding="lg" ariaLabel="About Finofii Edge">
+      <Section padding="lg" ariaLabel="About Finofiii Edge">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text content */}
           <div>
@@ -134,7 +134,7 @@ export function AboutContent() {
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={150}>
               <p className="mt-6 text-lg text-ink/70 font-interface leading-relaxed">
-                Finofii Edge Was Born From A Simple Frustration: Modern Businesses Deserve
+                Finofiii Edge Was Born From A Simple Frustration: Modern Businesses Deserve
                 Modern Accounting. Too Many Founders Spend Hours Wrestling With Spreadsheets,
                 Chasing Down Receipts And Waiting Weeks For Reports That Arrive Outdated.
               </p>
@@ -161,7 +161,7 @@ export function AboutContent() {
             <div className="relative rounded-[14px] overflow-hidden shadow-lg">
               <img
                 src="/images/about-team.png"
-                alt="The Finofii Edge team collaborating on financial strategies"
+                alt="The Finofiii Edge team collaborating on financial strategies"
                 className="w-full h-auto object-cover aspect-[4/3]"
                 loading="lazy"
               />
@@ -235,7 +235,7 @@ export function AboutContent() {
       {/* CTA Section */}
       <CtaSection
         headline="Let's Build Your Financial Future"
-        description="Ready To Experience Accounting That Moves At The Speed Of Your Business? Book A Free Audit Call And See How Finofii Edge Can Help."
+        description="Ready To Experience Accounting That Moves At The Speed Of Your Business? Book A Free Audit Call And See How Finofiii Edge Can Help."
       />
     </>
   );

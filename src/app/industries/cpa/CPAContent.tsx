@@ -72,7 +72,7 @@ const painPoints = [
 const caseStudy = {
   industry: 'CPA',
   headline: 'Regional CPA Firm Adds 45% More Clients Without New Hires',
-  excerpt: 'A 12-Partner Regional CPA Firm Outsourced All Client Write-Up And Monthly Bookkeeping To Finofii Edge. Their Staff Shifted To Advisory Work, And The Firm Onboarded 45% More Clients In One Year Without A Single New Hire.',
+  excerpt: 'A 12-Partner Regional CPA Firm Outsourced All Client Write-Up And Monthly Bookkeeping To Finofiii Edge. Their Staff Shifted To Advisory Work, And The Firm Onboarded 45% More Clients In One Year Without A Single New Hire.',
   metrics: [
     { label: 'Client Capacity', before: '220 clients', after: '320 clients' },
     { label: 'Advisory Revenue', before: '18%', after: '41%' },

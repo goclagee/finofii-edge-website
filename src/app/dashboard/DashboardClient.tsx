@@ -82,7 +82,7 @@ function DashboardContent() {
         />
         <p className="mt-4 text-lg text-ink/70 max-w-2xl mx-auto">
           Explore Live Financial Data Across Industries. Toggle Months And Presets
-          To See How Finofii Edge Delivers Clarity To Your Numbers.
+          To See How Finofiii Edge Delivers Clarity To Your Numbers.
         </p>
       </Section>
 

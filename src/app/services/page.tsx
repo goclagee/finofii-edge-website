@@ -3,7 +3,7 @@ import { generatePageSEO } from '@/lib/seo';
 import { ServicesContent } from './ServicesContent';
 
 const seo = generatePageSEO({
-  title: 'Services — Finofii Edge',
+  title: 'Services — Finofiii Edge',
   description:
     'Explore Our Four Core Capabilities: Bookkeeping & Accounting, Visual MIS & Dashboards, Virtual CFO & Advisory And Entity & Compliance.',
   path: '/services',

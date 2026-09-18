@@ -5,7 +5,7 @@ import { EntityContent } from './EntityContent';
 const pageData = PAGE_SEO_DATA['/services/entity'];
 
 const seo = generatePageSEO({
-  title: pageData?.title ?? 'Entity & Compliance – Finofii Edge',
+  title: pageData?.title ?? 'Entity & Compliance – Finofiii Edge',
   description:
     pageData?.description ??
     'Entity formation, state filings and ongoing compliance management across multiple jurisdictions.',

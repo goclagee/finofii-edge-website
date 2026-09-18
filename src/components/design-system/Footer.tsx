@@ -39,10 +39,10 @@ export function Footer({ year }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12">
           {/* Brand & Newsletter */}
           <div className="lg:col-span-4">
-            <Link href="/" className="inline-block mb-4" aria-label="Finofii Edge home">
+            <Link href="/" className="inline-block mb-4" aria-label="Finofiii Edge home">
               <Image
                 src="/images/logos/finofii-edge-white.svg"
-                alt="Finofii Edge"
+                alt="Finofiii Edge"
                 width={160}
                 height={46}
                 unoptimized
@@ -101,7 +101,7 @@ export function Footer({ year }: FooterProps) {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-paper/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-paper/50">
-            &copy; {currentYear} Finofii Edge. All Rights Reserved.
+            &copy; {currentYear} Finofiii Edge. All Rights Reserved.
           </p>
           <p className="text-sm text-paper/50">
             Built With Precision For Modern Businesses.

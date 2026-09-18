@@ -71,7 +71,7 @@ const painPoints = [
 const caseStudy = {
   industry: 'Agency',
   headline: 'Digital agency uncovers $180K in hidden project losses',
-  excerpt: 'A 40-Person Digital Agency Discovered They Were Losing Money On 3 Of Their Top 10 Clients. After Implementing Finofii Edge Project-Level P&L Tracking, They Renegotiated Scopes And Improved Blended Margins By 11 Points.',
+  excerpt: 'A 40-Person Digital Agency Discovered They Were Losing Money On 3 Of Their Top 10 Clients. After Implementing Finofiii Edge Project-Level P&L Tracking, They Renegotiated Scopes And Improved Blended Margins By 11 Points.',
   metrics: [
     { label: 'Blended Margin', before: '27%', after: '38%' },
     { label: 'AR Days Outstanding', before: '52 days', after: '28 days' },

@@ -13,7 +13,7 @@ import Link from 'next/link';
  */
 
 const WHATSAPP_NUMBER = '919779246979'; // +91 97792 46979
-const WHATSAPP_MESSAGE = "Hi! I'd like to know more about Finofii Edge.";
+const WHATSAPP_MESSAGE = "Hi! I'd like to know more about Finofiii Edge.";
 
 export function FloatingActions() {
   const whatsappHref = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Legal – Finofii Edge',
+  title: 'Legal – Finofiii Edge',
   description: 'Legal Documents Including Privacy Policy, Terms Of Service, Data Processing Agreement And Sub-Processors.',
 };
 
