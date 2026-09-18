@@ -190,7 +190,7 @@ export function AboutContent() {
           </ScrollReveal>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap items-stretch justify-center gap-6">
           {teamMembers
             .sort((a, b) => a.order - b.order)
             .map((member, index) => (
@@ -198,8 +198,9 @@ export function AboutContent() {
                 key={member.id}
                 animation="fade-up"
                 delay={index * 100}
+                className="w-full sm:w-64"
               >
-                <TeamMemberCard member={member} className="w-full sm:w-64" />
+                <TeamMemberCard member={member} className="w-full h-full" />
               </ScrollReveal>
             ))}
         </div>

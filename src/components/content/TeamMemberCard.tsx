@@ -61,7 +61,7 @@ export function TeamMemberCard({
 
   return (
     <div
-      className={`group relative rounded-[14px] overflow-hidden bg-paper border border-ink/10 transition-shadow duration-300 hover:shadow-lg focus-within:shadow-lg ${className}`}
+      className={`group relative flex flex-col h-full rounded-[14px] overflow-hidden bg-paper border border-ink/10 transition-shadow duration-300 hover:shadow-lg focus-within:shadow-lg ${className}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onFocus={handleFocus}
@@ -110,7 +110,7 @@ export function TeamMemberCard({
       </div>
 
       {/* Name and Role */}
-      <div className="p-4">
+      <div className="p-4 flex-1">
         <div className="flex items-start justify-between gap-2">
           <div>
             <h3 className="text-base font-semibold text-ink m-0">
