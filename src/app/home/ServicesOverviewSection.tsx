@@ -8,7 +8,7 @@ import { StaggeredList } from '@/components/animations/StaggeredList';
 
 const services = [
   {
-    title: 'Bookkeeping & Close',
+    title: 'Bookkeeping & Accounting',
     description:
       'Monthly books closed by Day 5. Categorization, reconciliation and reporting on autopilot.',
     href: '/services/bookkeeping',

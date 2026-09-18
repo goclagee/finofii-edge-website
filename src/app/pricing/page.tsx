@@ -96,7 +96,7 @@ interface ComparisonFeature {
 }
 
 const comparisonFeatures: ComparisonFeature[] = [
-  { name: 'Monthly bookkeeping & close', essentials: true, growth: true, scale: true },
+  { name: 'Monthly bookkeeping & accounting', essentials: true, growth: true, scale: true },
   { name: 'Bank & credit card reconciliation', essentials: true, growth: true, scale: true },
   { name: 'Monthly P&L, Balance Sheet, Cash Flow', essentials: true, growth: true, scale: true },
   { name: 'Accounts payable & receivable', essentials: true, growth: true, scale: true },

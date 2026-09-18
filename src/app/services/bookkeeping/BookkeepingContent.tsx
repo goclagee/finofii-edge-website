@@ -148,7 +148,7 @@ const monthlyCloseCadence: TimelinePhase[] = [
 ];
 
 /**
- * Service deliverables for the Bookkeeping & Close service.
+ * Service deliverables for the Bookkeeping & Accounting service.
  */
 const deliverables = [
   'Full-cycle monthly bookkeeping and reconciliation',
@@ -246,7 +246,7 @@ export function BookkeepingContent() {
         <div className="max-w-3xl mx-auto text-center">
           <ScrollReveal animation="fade-up">
             <AnimatedHeadline
-              text="Bookkeeping & Close"
+              text="Bookkeeping & Accounting"
               as="h1"
               animation="fade-up"
               className="text-4xl md:text-5xl font-bold font-display text-ink"

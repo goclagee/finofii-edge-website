@@ -132,8 +132,8 @@ export const PAGE_SEO_DATA: Record<string, { title: string; description: string 
     description: 'Bookkeeping, visual dashboards, virtual CFO advisory and entity compliance services tailored for growing businesses.',
   },
   '/services/bookkeeping': {
-    title: 'Bookkeeping & Close – Finofii Edge',
-    description: 'Monthly bookkeeping, reconciliation and close services with integrations for QuickBooks, Xero, Ramp and more.',
+    title: 'Bookkeeping & Accounting – Finofii Edge',
+    description: 'Monthly bookkeeping, reconciliation and accounting services with integrations for QuickBooks, Xero, Ramp and more.',
   },
   '/services/dashboards': {
     title: 'Visual MIS & Dashboards – Finofii Edge',

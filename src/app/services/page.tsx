@@ -5,7 +5,7 @@ import { ServicesContent } from './ServicesContent';
 const seo = generatePageSEO({
   title: 'Services — Finofii Edge',
   description:
-    'Explore our four core capabilities: Bookkeeping & Close, Visual MIS & Dashboards, Virtual CFO & Advisory and Entity & Compliance.',
+    'Explore our four core capabilities: Bookkeeping & Accounting, Visual MIS & Dashboards, Virtual CFO & Advisory and Entity & Compliance.',
   path: '/services',
 });
 

@@ -17,7 +17,7 @@ interface ServiceCapability {
 const services: ServiceCapability[] = [
   {
     id: 'bookkeeping',
-    title: 'Bookkeeping & Close',
+    title: 'Bookkeeping & Accounting',
     href: '/services/bookkeeping',
     icon: (
       <svg className="w-10 h-10" viewBox="0 0 40 40" fill="none" aria-hidden="true">

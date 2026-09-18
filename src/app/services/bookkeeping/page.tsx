@@ -3,9 +3,9 @@ import { generatePageSEO } from '@/lib/seo';
 import { BookkeepingContent } from './BookkeepingContent';
 
 const seo = generatePageSEO({
-  title: 'Bookkeeping & Close – Finofii Edge',
+  title: 'Bookkeeping & Accounting – Finofii Edge',
   description:
-    'Monthly bookkeeping, reconciliation and close services with integrations for QuickBooks, Xero, Ramp, Brex, Mercury and Stripe.',
+    'Monthly bookkeeping, reconciliation and accounting services with integrations for QuickBooks, Xero, Ramp, Brex, Mercury and Stripe.',
   path: '/services/bookkeeping',
 });
 
